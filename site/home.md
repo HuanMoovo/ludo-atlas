@@ -14,6 +14,7 @@ hero:
       link: https://github.com/HuanMoovo/gamedev-atlas
 
 features:
+
   - title: 全流程覆盖
     details: 从学习、避坑、法务、上架，到设计、技术、美术、制作、运营，再到 AI 工作流与案例研究。
   - title: 链接逐条核查

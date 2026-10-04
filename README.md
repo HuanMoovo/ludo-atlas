@@ -2,6 +2,8 @@
 
 > **一个中文优先、结构化的开源游戏开发知识库。** 从学习、避坑、法务、上架，到设计、技术、美术、制作、运营与 AI 工作流：把"做游戏"拆成 **26 份文档（约 22.6 万字）**，全部外链逐条核查，可持续贡献。
 
+**📖 在线阅读：https://huanmoovo.github.io/gamedev-atlas/ （GitHub Pages，由 CI 自动部署）**
+
 [![Lint](https://github.com/HuanMoovo/gamedev-atlas/actions/workflows/lint.yml/badge.svg)](https://github.com/HuanMoovo/gamedev-atlas/actions/workflows/lint.yml)
 [![Link Check](https://github.com/HuanMoovo/gamedev-atlas/actions/workflows/links.yml/badge.svg)](https://github.com/HuanMoovo/gamedev-atlas/actions/workflows/links.yml)
 [![License: CC BY-SA 4.0 + MIT](https://img.shields.io/badge/License-CC%20BY--SA%204.0%20%2B%20MIT-blue.svg)](LICENSE)
@@ -73,7 +75,7 @@
 
 ## 仓库结构
 
-```
+```text
 docs/           手册正文（按主题分区）
 catalog/        机器可读条目（YAML + schema，单一事实来源）
 resources/      链接目录与书单
