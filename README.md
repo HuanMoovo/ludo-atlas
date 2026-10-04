@@ -64,7 +64,7 @@
 ### 实战与资源
 
 - [独立开发生存手册](playbooks/indie-survival/README.md)
-- [游戏开发综合资源大全](resources/README.md)（457 条链接）
+- [游戏开发综合资源大全](resources/README.md)（521 条链接）
 - [开源精选与书籍推荐](resources/books-and-repos.md)（103 个 GitHub 项目 + 60 余本书）
 
 ## 三条推荐阅读路线

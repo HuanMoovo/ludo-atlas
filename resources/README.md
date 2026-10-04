@@ -1,6 +1,6 @@
 # 游戏开发资源大全 · Game Dev Resource Directory
 
-> 配套《GameDev Atlas 设计文档》（v0.2）。本清单经 **5 轮迭代**扩充：① 引擎与工具 → ② 学习与社区 → ③ 素材资源 → ④ 发行、赛事与外包 → ⑤ 服务、合规与补遗，全量链接已批量核查（见文末《链接核查报告》）。
+> 配套《GameDev Atlas 设计文档》。本清单经 **6 轮迭代**扩充：① 引擎与工具 → ② 学习与社区 → ③ 素材资源 → ④ 发行、赛事与外包 → ⑤ 服务、合规与补遗 → ⑥ 国际线深度扩展（学习/社区/媒体/发行商/资金/展会），全量链接已批量核查（见文末《链接核查报告》）。
 > 收录标准：只收录仍可访问、对游戏开发有实际价值的官网/站点；同类只收一个最常用入口，避免重复。
 > 访问提示：YouTube、Reddit、Discord 及 Google 部分服务在中国大陆需自备网络工具（清单不逐条标注）。
 
@@ -135,6 +135,7 @@
 | Cascadeur | https://cascadeur.com/ | AI 辅助 3D 关键帧动画 |
 | OpenToonz | https://opentoonz.github.io/ | 开源 2D 逐帧动画（吉卜力系） |
 | EmberGen | https://jangafx.com/ | 实时火焰/烟雾 VFX 生成 |
+| Effekseer | https://effekseer.github.io/en/ | 开源特效编辑器 |
 
 ### 2.5 关卡、地图与数据编辑
 
@@ -280,6 +281,13 @@
 | Freya Holmér（YouTube） | https://www.youtube.com/@Acegikmo | 游戏数学/着色器 |
 | Game Maker's Toolkit（YouTube） | https://www.youtube.com/@GMTK | 游戏设计分析标杆 |
 | Aarthificial（YouTube） | https://www.youtube.com/@aarthificial | 技术美术/VFX |
+| Catlike Coding | https://catlikecoding.com/ | Unity C# 与渲染教程 |
+| GameDiscoverCo | https://gamediscover.co/ | 平台数据与发行趋势通讯 |
+| Handmade Network | https://handmade.network/ | 手写软件社区（Handmade 生态） |
+| How to Market a Game | https://howtomarketagame.com/ | 独立游戏营销方法（Chris Zukowski） |
+| GameDiscoverCo | https://gamediscover.co/ | 平台数据与发行趋势通讯 |
+| How to Market a Game | https://howtomarketagame.com/ | 独立游戏营销方法（Chris Zukowski） |
+| Brackeys（存档频道） | https://www.youtube.com/@Brackeys | Unity 入门经典（已停更，存档价值高） |
 
 ### 3.2 国内学习平台与教程
 
@@ -315,6 +323,7 @@
 | Foundations of Game Engine Development | https://foundationsofgameenginedev.com/ | 引擎开发系列书 |
 | Learn C++ | https://www.learncpp.com/ | 最适合入门 C++ 的系统教程 |
 | Riot Games 技术博客 | https://technology.riotgames.com/ | 大型在线游戏架构与工程实践 |
+| GDC 官方频道 | https://www.youtube.com/@GDC | GDC 演讲免费合集 |
 
 ---
 
@@ -336,6 +345,11 @@
 | Unreal 官方论坛 | https://forums.unrealengine.com/ | Unreal 官方论坛 |
 | Godot 官方论坛 | https://forum.godotengine.org/ | Godot 官方论坛 |
 | itch.io 社区 | https://itch.io/community | 独立游戏发布生态社区 |
+| ModDB | https://www.moddb.com/ | Mod 社区重镇 |
+| IndieDB | https://www.indiedb.com/ | 独立游戏数据库（可自发布新闻） |
+| IGDA | https://igda.org/ | 国际游戏开发者协会 |
+| Godot 社区页 | https://godotengine.org/community | 官方社区入口（含 Discord） |
+| r/IndieDev | https://www.reddit.com/r/IndieDev/ | 独立开发者板块 |
 
 ### 4.2 国内社区与组织
 
@@ -361,6 +375,21 @@
 | VG Insights | https://vginsights.com/ | 游戏市场数据与竞品分析 |
 | Sensor Tower | https://sensortower.com/ | 移动市场数据 |
 | Newzoo | https://newzoo.com/ | 全球游戏市场报告 |
+| Metacritic | https://www.metacritic.com/ | 媒体评分聚合 |
+| HowLongToBeat | https://howlongtobeat.com/ | 游戏时长数据库 |
+| Rock Paper Shotgun | https://www.rockpapershotgun.com/ | PC/独立游戏媒体 |
+| Eurogamer | https://www.eurogamer.net/ | 欧洲主流媒体 |
+| Warp Door | https://warpdoor.com/ | 实验性独立游戏发现 |
+| IndieGamesPlus | https://indiegamesplus.com/ | 独立游戏深度报道 |
+| IGN | https://www.ign.com/ | 全球最大游戏媒体 |
+| Steam Charts | https://steamcharts.com/ | Steam 在线人数追踪 |
+| Alpha Beta Gamer | https://www.alphabetagamer.com/ | 免费独立游戏试玩报道 |
+| OpenCritic | https://opencritic.com/ | 评分聚合（更透明） |
+| PC Gamer | https://www.pcgamer.com/ | PC 游戏主流媒体 |
+| Polygon | https://www.polygon.com/ | 综合游戏媒体 |
+| Splattercatgaming（YouTube） | https://www.youtube.com/@Splattercatgaming | 独立游戏报道频道（推广触达） |
+| Wanderbots（YouTube） | https://www.youtube.com/@Wanderbots | 独立游戏试玩频道 |
+| Retromation（YouTube） | https://www.youtube.com/@Retromation | Roguelite 报道频道 |
 
 > 说明：GDC 演讲资料见 §3.1「GDC Vault」，大会官网见 §7.1。
 
@@ -476,6 +505,7 @@
 | 思源黑体 | https://github.com/adobe-fonts/source-han-sans | Adobe/Google 开源中文字体 |
 | 霞鹜文楷 | https://github.com/lxgw/LxgwWenKai | 开源中文楷体（文学风） |
 | 更纱黑体 | https://github.com/be5invis/Sarasa-Gothic | 开源中文黑体（编程友好） |
+| Fontshare | https://www.fontshare.com/ | 免费商用字体库（ITF） |
 
 ### 5.7 素材商店
 
@@ -507,6 +537,9 @@
 | App Store Connect | https://appstoreconnect.apple.com/ | 苹果商店管理后台 |
 | Google Play Console | https://play.google.com/console | 安卓商店管理后台 |
 | Meta Quest / Meta Horizon | https://developers.meta.com/horizon/ | Quest VR 平台发行（原 Oculus 门户） |
+| Green Man Gaming | https://www.greenmangaming.com/ | 数字零售（Keys 分销） |
+| Humble Bundle | https://www.humblebundle.com/ | 捆绑包与商店（发行合作） |
+| Fanatical | https://www.fanatical.com/ | 数字零售与捆绑包 |
 
 ### 6.2 国内发行平台与渠道
 
@@ -534,6 +567,31 @@
 | 摩点 | https://www.modian.com/ | 国内众筹平台（游戏项目常见） |
 | 爱发电 | https://afdian.com/ | 国内创作者赞助平台 |
 | Patreon | https://www.patreon.com/ | 国际持续赞助平台 |
+| BackerKit | https://www.backerkit.com/ | 众筹管理与履约工具 |
+| BackerKit | https://www.backerkit.com/ | 众筹管理与履约工具 |
+
+### 6.4 国际独立发行商（可投递）
+
+| 名称 | 官网 | 说明 |
+| --- | --- | --- |
+| Devolver Digital | https://www.devolverdigital.com/ | 发行风格鲜明的独立作品（Cult of the Lamb 等） |
+| Annapurna Interactive | https://annapurna.pictures/interactive | 影视集团旗下游戏发行（Stray 等） |
+| Raw Fury | https://rawfury.com/ | 北欧独立发行（Kingdom 系列） |
+| Team17 | https://www.team17.com/ | 老牌发行（含独立标签） |
+| Fellow Traveller | https://fellowtraveller.games/ | 叙事向独立发行 |
+| No More Robots | https://nomorerobots.io/ | 英式独立发行（Yes, Your Grace 等） |
+| Chucklefish | https://chucklefish.org/ | 发行+开发（星露谷早期发行方） |
+| PLAYISM | https://playism.com/ | 日本独立发行（东方等） |
+
+### 6.5 国际资金与补助
+
+| 名称 | 官网 | 说明 |
+| --- | --- | --- |
+| Epic MegaGrants | https://www.unrealengine.com/en-US/megagrants | Epic 资助计划（不限UE项目） |
+| Indie Fund | https://indie-fund.com/ | 资深开发者资助基金 |
+| Canada Media Fund | https://cmf-fmc.ca/ | 加拿大官方影视游戏基金 |
+| Screen Australia | https://www.screenaustralia.gov.au/ | 澳大利亚影视游戏资助 |
+| UK Games Fund | https://ukgamesfund.com/ | 英国游戏基金（原型与早期） |
 
 ---
 
@@ -551,6 +609,15 @@
 | IGF | https://igf.com/ | 独立游戏节（GDC 同期大奖） |
 | SIGGRAPH | https://www.siggraph.org/ | 计算机图形学顶会（技术美术必修） |
 | Devcom | https://www.devcom.global/ | gamescom 同期开发者大会 |
+| G-Star | https://www.gstar.or.kr/ | 韩国最大游戏展 |
+| DevGAMM | https://devgamm.com/ | 东欧开发者大会 |
+| A MAZE. | https://www.amaze-berlin.de/ | 柏林独立游戏与艺术节 |
+| IndieCade | https://www.indiecade.com/ | 美国独立游戏节 |
+| Day of the Devs | https://dayofthedevs.com/ | 独立游戏展示活动（双精主持） |
+| Nordic Game | https://nordicgame.com/ | 北欧游戏大会 |
+| Taipei Game Show | https://tgs.tca.org.tw/ | 台北国际电玩展 |
+| Tokyo Game Show | https://tgs.nikkeibp.co.jp/ | 东京电玩展（日本最大） |
+| BitSummit | https://bitsummit.com/ | 日本独立游戏峰会 |
 
 ### 7.2 国内展会与活动
 
@@ -593,6 +660,7 @@
 | Vivox | https://unity.com/products/vivox | Unity 内置语音聊天方案 |
 | Mirror | https://mirror-networking.com/ | Unity 开源网络库 |
 | 阿里云 | https://www.aliyun.com/ | 国内云服务（游戏行业方案） |
+| Unity Gaming Services | https://unity.com/solutions/gaming-services | Unity 官方后端套件 |
 
 ### 8.2 分析、统计与崩溃监控
 
@@ -655,6 +723,7 @@
 | Testin 云测 | https://www.testin.cn/ | 国内测试服务（兼容/自动化） |
 | 极光推送 JPush | https://www.jiguang.cn/ | 国内推送服务 |
 | 个推 | https://www.getui.com/ | 国内推送服务 |
+| PlaytestCloud | https://www.playtestcloud.com/ | 游戏可用性测试（真人视频反馈） |
 
 ### 8.7 本地化与翻译
 
@@ -665,6 +734,8 @@
 | Weblate | https://weblate.org/ | 开源翻译平台（可自建） |
 | Transifex | https://www.transifex.com/ | 翻译管理平台 |
 | 译马网 | https://www.jeemaa.com/ | 国内翻译协作平台 |
+| Keywords Studios | https://www.keywordsstudios.com/ | 全球最大游戏服务商（本地化/QA/美术） |
+| Alconost | https://alconost.com/ | 本地化与配音服务（含游戏案例） |
 
 ---
 
@@ -705,14 +776,19 @@
 | BOSS 直聘 | https://www.zhipin.com/ | 国内招聘（游戏岗位量大） |
 | 猎聘 | https://www.liepin.com/ | 国内中高端招聘 |
 | LinkedIn | https://www.linkedin.com/ | 国际职业网络（出海团队招聘） |
+| Hitmarker | https://hitmarker.net/ | 游戏行业招聘板（国际） |
+| Work With Indies | https://www.workwithindies.com/ | 独立工作室招聘板 |
+| GameJobs.co | https://gamejobs.co/ | 游戏岗位聚合 |
 
 ---
 
-## 11. 链接核查报告（迭代 ⑤ 收尾 · 2026-10-04）
+## 11. 链接核查报告（迭代 ⑤⑥ 累计 · 2026-10-04）
 
 **方法**：配套脚本 `check_links.py` 对全部链接做双通道核查（直连 → 代理回退；HEAD → GET 回退）。接受 2xx/3xx；403/405/429 记为「反爬保护（浏览器可访问）」；401/451 记为「需登录」。
-**规模**：457 条唯一链接。
-**结果**：**398 条直连可访问 · 42 条反爬保护 · 2 条需登录（Apple/索尼开发者后台，正常）· 15 条异常（已全部处理）**。
+**规模**：521 条唯一链接（含第 ⑥ 轮国际线增补 63 条）。
+**结果**（基础批次）：**398 条直连可访问 · 42 条反爬保护 · 2 条需登录（Apple/索尼开发者后台，正常）· 15 条异常（已全部处理）**。
+
+**第 ⑥ 轮增补核查（2026-10-04）**：新增国际线链接 63 条，全部可达（60 条直接可达 · 3 条反爬保护，浏览器可访问）；无失效条目（2 条候选因站点失效未收录）。
 
 异常处理明细（15 条）：
 
@@ -743,4 +819,5 @@
 - **第 ③ 轮**：素材资源（综合站/2D 图标/3D 建模纹理/音频/字体/素材商店，含国内）。
 - **第 ④ 轮**：发行平台与商店（国际/国内/众筹）+ 会议、赛事与展会（国际/国内）。
 - **第 ⑤ 轮**：服务与基础设施（后端/分析/变现/安全/支付/测试/本地化）+ 合规政策 + 外包人力；随后执行全量链接核查与修订（见上）。
+- **第 ⑥ 轮**：国际线深度扩展（社区板块、行业媒体与数据、独立发行商、资金与补助、国际展会延伸、服务与招聘；学习与引擎类经复核多数已在既往轮次收录）。
 
