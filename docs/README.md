@@ -24,7 +24,7 @@
 
 ## 引擎轨道（engines/）
 
-- [引擎索引](engines/README.md)：Godot、Unity、Unreal、Bevy、Web 游戏、轻量框架、Cocos 七页已完成。
+- [引擎索引](engines/README.md)：12 条轨道全部完成（Godot、Unity、Unreal、Bevy、Web 游戏、轻量框架、Cocos、Ren’Py、RPG Maker、GameMaker、Defold、MonoGame/FNA）。
 
 ## 团队与规模（teams/）
 
@@ -62,4 +62,4 @@
 
 ## 建设中
 
-- 引擎轨道剩余 5 条（Ren’Py、RPG Maker、GameMaker、Defold、MonoGame/FNA）；类型手册 P1 批次；管线与模板持续扩充。
+- 类型手册 P2 批次；管线区、实践手册与模板持续扩充。

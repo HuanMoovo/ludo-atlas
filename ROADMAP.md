@@ -31,8 +31,13 @@
 
 - 动作 RPG、JRPG、双摇杆射击、FPS、弹幕射击、模拟经营、城市建造、殖民模拟、卡牌构筑、RTS。
 
+## v1.6 — 引擎轨道收满 + 类型 P1 收尾（2026-10-04）
+
+- 引擎轨道余量五页：Ren’Py、RPG Maker、GameMaker、Defold、MonoGame/FNA（12/12 完成）。
+- 类型手册 P1 收尾五类：物理解谜、点击式冒险、文字冒险、自走棋、沙盒建造（P0+P1 共 25 类）。
+
 ## 规划（v1.0 后）
 
-- 112 类型 Playbook 与 12 引擎轨道的实体化（见 `docs/meta/design.md`）：类型 P0 十类与 P1 前 10 类已完成（共 20 类落盘，P1 余 5 类）；引擎轨道 7/12 已完成（余 Ren’Py、RPG Maker、GameMaker、Defold、MonoGame/FNA）。
+- 112 类型 Playbook 与 12 引擎轨道的实体化（见 `docs/meta/design.md`）：类型 P0 与 P1 共 25 类落盘；引擎轨道 12/12 全部完成；后批次：管线、实践手册、模板与 catalog。
 - catalog YAML 单源化：表格与站点由数据生成。
 - 英文版与示例代码仓库。

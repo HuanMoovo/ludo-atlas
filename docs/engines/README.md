@@ -1,8 +1,6 @@
 # engines/ — 引擎轨道
 
-每条轨道一页，覆盖定位选型、工程结构、核心工作流、惯用法、性能要点、学习路线与常见坑。
-
-## 已完成
+每条轨道一页，覆盖定位选型、工程结构、核心工作流、惯用法、性能要点、学习路线与常见坑。12 条轨道已全部完成。
 
 | 轨道 | 一句话 |
 | --- | --- |
@@ -13,10 +11,11 @@
 | [Web 游戏](web/README.md) | 浏览器路线：Phaser / PixiJS / Three.js 的分野与工程链。 |
 | [轻量框架](micro/README.md) | 代码优先路线：raylib / LÖVE / Pygame / SDL / SFML 的适用面。 |
 | [Cocos](cocos/README.md) | 中文生态引擎：Cocos Creator 与小游戏发布链。 |
-
-## 规划中（下一批）
-
-- Ren'Py、RPG Maker、GameMaker、Defold、MonoGame/FNA，以及自研引擎的取舍。
+| [Ren'Py](renpy/README.md) | 视觉小说专用：label 分支、内置存档回看、多平台打包。 |
+| [RPG Maker](rpgmaker/README.md) | 付费 RPG 专用工具：地图编辑器与事件系统。 |
+| [GameMaker](gamemaker/README.md) | 2D 快速开发：房间/对象/事件模型与像素工作流。 |
+| [Defold](defold/README.md) | 轻量开源引擎：组件与消息传递，移动与 HTML5 导出。 |
+| [MonoGame / FNA](monogame/README.md) | C# 代码优先框架：主循环自管、无编辑器路线。 |
 
 先行内容：
 

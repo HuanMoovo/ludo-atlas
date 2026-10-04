@@ -17,7 +17,7 @@
 | [幸存者类](bullet-heaven/README.md) | 短局结构、构筑爆发与同屏密度工程。 |
 | [放置增量](idle-incremental/README.md) | 离线收益、指数曲线与转生系统。 |
 
-## P1 批次（已完成 · 10/15 类）
+## P1 批次（已完成 · 15 类）
 
 | 类型 | 一句话定位 |
 | --- | --- |
@@ -31,10 +31,11 @@
 | [殖民模拟](colony-sim/README.md) | 个体模拟、故事生成器与事件压力曲线。 |
 | [卡牌构筑](deckbuilder/README.md) | 费用与效果曲线、构筑 combo 与平衡测试。 |
 | [RTS](rts/README.md) | 克制矩阵、经济节奏与操作体验。 |
-
-### P1 剩余（下一批）
-
-- 物理解谜、点击冒险、文字冒险、自走棋、沙盒建造。
+| [物理解谜](physics-puzzle/README.md) | 物理模拟作为机制、卡死防护与调参直觉。 |
+| [点击式冒险](point-and-click/README.md) | 物品栏组合逻辑、防卡死引导与手绘美术量级。 |
+| [文字冒险](interactive-fiction/README.md) | parser 与选择式两大流派、状态追踪与文本预算。 |
+| [自走棋](auto-battler/README.md) | 经济利息、共享牌池与站位克制。 |
+| [沙盒建造](sandbox-building/README.md) | 工具即游戏、规则组合与分享机制。 |
 
 ## P2（规划）
 
