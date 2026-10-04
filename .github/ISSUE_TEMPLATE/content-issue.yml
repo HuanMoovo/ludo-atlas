@@ -1,0 +1,23 @@
+name: 内容勘误
+description: 报告失效链接、过期信息或内容错误
+title: "[勘误] "
+labels: [content-fix]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 页面路径或标题
+      placeholder: 例如 docs/fundamentals/game-design/README.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 哪里不对、期望是什么
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 参考来源（可选）

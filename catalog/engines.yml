@@ -1,0 +1,110 @@
+# GameDev Atlas · 开源引擎（种子清单）
+# 字段规范见 schema.json；许可证为快照，以各仓库最新声明为准
+- name: Godot Engine
+  homepage: https://godotengine.org/
+  repo: https://github.com/godotengine/godot
+  description: 开源 2D/3D 引擎，GDScript/C#/C++
+  category: engine
+  tags: [2d, 3d, gdscript, csharp]
+  license: MIT
+  platforms: [windows, macos, linux, android, ios, web]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Bevy
+  homepage: https://bevyengine.org/
+  repo: https://github.com/bevyengine/bevy
+  description: Rust ECS 架构开源引擎
+  category: engine
+  tags: [rust, ecs, 3d]
+  license: MIT/Apache-2.0
+  platforms: [windows, macos, linux, web]
+  maturity: beta
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: raylib
+  homepage: https://www.raylib.com/
+  repo: https://github.com/raysan5/raylib
+  description: 轻量 C 语言游戏编程库
+  category: engine
+  tags: [c, 2d, 3d, lightweight]
+  license: zlib
+  platforms: [windows, macos, linux, web]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: LOVE
+  homepage: https://love2d.org/
+  repo: https://github.com/love2d/love
+  description: Lua 2D 游戏框架
+  category: engine
+  tags: [lua, 2d]
+  license: zlib
+  platforms: [windows, macos, linux, android, ios]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: libGDX
+  homepage: https://libgdx.com/
+  repo: https://github.com/libgdx/libgdx
+  description: Java/Kotlin 跨平台游戏框架
+  category: engine
+  tags: [java, kotlin, 2d, 3d]
+  license: Apache-2.0
+  platforms: [windows, macos, linux, android, ios, web]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: MonoGame
+  homepage: https://monogame.net/
+  repo: https://github.com/MonoGame/MonoGame
+  description: C# 跨平台游戏框架（XNA 精神续作）
+  category: engine
+  tags: [csharp, 2d, 3d]
+  license: MS-PL
+  platforms: [windows, macos, linux, android, ios]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Defold
+  homepage: https://defold.com/
+  repo: https://github.com/defold/defold
+  description: Lua 轻量跨平台引擎（源码开放）
+  category: engine
+  tags: [lua, 2d, 3d]
+  license: Defold License
+  platforms: [windows, macos, linux, android, ios, web]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Cocos2d-x
+  homepage: https://www.cocos.com/
+  repo: https://github.com/cocos2d/cocos2d-x
+  description: C++ 跨平台 2D/3D 引擎
+  category: engine
+  tags: [cpp, 2d, 3d]
+  license: MIT
+  platforms: [windows, macos, linux, android, ios]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Solar2D
+  homepage: https://solar2d.com/
+  repo: https://github.com/coronalabs/corona
+  description: Lua 2D 引擎（原 Corona SDK）
+  category: engine
+  tags: [lua, 2d, mobile]
+  license: MIT
+  platforms: [windows, macos, android, ios]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active

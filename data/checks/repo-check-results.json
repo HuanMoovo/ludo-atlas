@@ -1,0 +1,929 @@
+[
+ {
+  "slug": "godotengine/godot",
+  "status": 200,
+  "canonical": "godotengine/godot",
+  "archived": false,
+  "stars": 118105,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "bevyengine/bevy",
+  "status": 200,
+  "canonical": "bevyengine/bevy",
+  "archived": false,
+  "stars": 48586,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "raysan5/raylib",
+  "status": 200,
+  "canonical": "raysan5/raylib",
+  "archived": false,
+  "stars": 34963,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "love2d/love",
+  "status": 200,
+  "canonical": "love2d/love",
+  "archived": false,
+  "stars": 8797,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "libgdx/libgdx",
+  "status": 200,
+  "canonical": "libgdx/libgdx",
+  "archived": false,
+  "stars": 25423,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "MonoGame/MonoGame",
+  "status": 200,
+  "canonical": "MonoGame/MonoGame",
+  "archived": false,
+  "stars": 14484,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "FNA-XNA/FNA",
+  "status": 200,
+  "canonical": "FNA-XNA/FNA",
+  "archived": false,
+  "stars": 3050,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "stride3d/stride",
+  "status": 200,
+  "canonical": "stride3d/stride",
+  "archived": false,
+  "stars": 7843,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "defold/defold",
+  "status": 200,
+  "canonical": "defold/defold",
+  "archived": false,
+  "stars": 6346,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "o3de/o3de",
+  "status": 200,
+  "canonical": "o3de/o3de",
+  "archived": false,
+  "stars": 9726,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "FlaxEngine/FlaxEngine",
+  "status": 200,
+  "canonical": "FlaxEngine/FlaxEngine",
+  "archived": false,
+  "stars": 7035,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "cocos/cocos-engine",
+  "status": 200,
+  "canonical": "cocos/cocos-engine",
+  "archived": false,
+  "stars": 9843,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "haxeflixel/haxeflixel",
+  "status": 404,
+  "canonical": null,
+  "archived": null,
+  "stars": null,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "heapsio/heaps",
+  "status": 200,
+  "canonical": "HeapsIO/heaps",
+  "archived": false,
+  "stars": 3507,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "mrdoob/three.js",
+  "status": 200,
+  "canonical": "mrdoob/three.js",
+  "archived": false,
+  "stars": 116200,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "BabylonJS/Babylon.js",
+  "status": 200,
+  "canonical": "BabylonJS/Babylon.js",
+  "archived": false,
+  "stars": 26127,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "pixijs/pixijs",
+  "status": 200,
+  "canonical": "pixijs/pixijs",
+  "archived": false,
+  "stars": 48275,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "phaserjs/phaser",
+  "status": 200,
+  "canonical": "phaserjs/phaser",
+  "archived": false,
+  "stars": 40400,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "hajimehoshi/ebiten",
+  "status": 200,
+  "canonical": "hajimehoshi/ebiten",
+  "archived": false,
+  "stars": 13533,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "panda3d/panda3d",
+  "status": 200,
+  "canonical": "panda3d/panda3d",
+  "archived": false,
+  "stars": 5234,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "skypjack/entt",
+  "status": 200,
+  "canonical": "skypjack/entt",
+  "archived": false,
+  "stars": 13161,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "SanderMertens/flecs",
+  "status": 200,
+  "canonical": "SanderMertens/flecs",
+  "archived": false,
+  "stars": 8723,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "erincatto/box2d",
+  "status": 200,
+  "canonical": "erincatto/box2d",
+  "archived": false,
+  "stars": 10395,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "jrouwe/JoltPhysics",
+  "status": 200,
+  "canonical": "jrouwe/JoltPhysics",
+  "archived": false,
+  "stars": 11652,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "dimforge/rapier",
+  "status": 200,
+  "canonical": "dimforge/rapier",
+  "archived": false,
+  "stars": 5813,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "bulletphysics/bullet3",
+  "status": 200,
+  "canonical": "bulletphysics/bullet3",
+  "archived": false,
+  "stars": 14763,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "gfx-rs/wgpu",
+  "status": 200,
+  "canonical": "gfx-rs/wgpu",
+  "archived": false,
+  "stars": 18181,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "bkaradzic/bgfx",
+  "status": 200,
+  "canonical": "bkaradzic/bgfx",
+  "archived": false,
+  "stars": 17536,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "floooh/sokol",
+  "status": 200,
+  "canonical": "floooh/sokol",
+  "archived": false,
+  "stars": 10333,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "google/filament",
+  "status": 200,
+  "canonical": "google/filament",
+  "archived": false,
+  "stars": 20560,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "DiligentGraphics/DiligentEngine",
+  "status": 200,
+  "canonical": "DiligentGraphics/DiligentEngine",
+  "archived": false,
+  "stars": 4461,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "mas-bandwidth/yojimbo",
+  "status": 200,
+  "canonical": "mas-bandwidth/yojimbo",
+  "archived": false,
+  "stars": 2743,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "ValveSoftware/GameNetworkingSockets",
+  "status": 200,
+  "canonical": "ValveSoftware/GameNetworkingSockets",
+  "archived": false,
+  "stars": 9956,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "MirrorNetworking/Mirror",
+  "status": 200,
+  "canonical": "MirrorNetworking/Mirror",
+  "archived": false,
+  "stars": 6350,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "heroiclabs/nakama",
+  "status": 200,
+  "canonical": "heroiclabs/nakama",
+  "archived": false,
+  "stars": 13468,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "colyseus/colyseus",
+  "status": 200,
+  "canonical": "colyseus/colyseus",
+  "archived": false,
+  "stars": 7333,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "mackron/miniaudio",
+  "status": 200,
+  "canonical": "mackron/miniaudio",
+  "archived": false,
+  "stars": 7320,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "jarikomppa/soloud",
+  "status": 200,
+  "canonical": "jarikomppa/soloud",
+  "archived": false,
+  "stars": 2182,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "Auburn/FastNoiseLite",
+  "status": 200,
+  "canonical": "Auburn/FastNoiseLite",
+  "archived": false,
+  "stars": 3522,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "recastnavigation/recastnavigation",
+  "status": 200,
+  "canonical": "recastnavigation/recastnavigation",
+  "archived": false,
+  "stars": 7941,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "ocornut/imgui",
+  "status": 200,
+  "canonical": "ocornut/imgui",
+  "archived": false,
+  "stars": 76482,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "mikke89/RmlUi",
+  "status": 200,
+  "canonical": "mikke89/RmlUi",
+  "archived": false,
+  "stars": 4482,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "mxgmn/WaveFunctionCollapse",
+  "status": 200,
+  "canonical": "mxgmn/WaveFunctionCollapse",
+  "archived": false,
+  "stars": 25377,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "inkle/ink",
+  "status": 200,
+  "canonical": "inkle/ink",
+  "archived": false,
+  "stars": 4957,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "YarnSpinnerTool/YarnSpinner",
+  "status": 200,
+  "canonical": "YarnSpinnerTool/YarnSpinner",
+  "archived": false,
+  "stars": 2852,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "renpy/renpy",
+  "status": 200,
+  "canonical": "renpy/renpy",
+  "archived": false,
+  "stars": 6877,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "dialogic-godot/dialogic",
+  "status": 200,
+  "canonical": "dialogic-godot/dialogic",
+  "archived": false,
+  "stars": 6040,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "mapeditor/tiled",
+  "status": 200,
+  "canonical": "mapeditor/tiled",
+  "archived": false,
+  "stars": 12939,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "deepnight/ldtk",
+  "status": 200,
+  "canonical": "deepnight/ldtk",
+  "archived": false,
+  "stars": 4299,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "Orama-Interactive/Pixelorama",
+  "status": 200,
+  "canonical": "Orama-Interactive/Pixelorama",
+  "archived": false,
+  "stars": 10457,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "LibreSprite/LibreSprite",
+  "status": 200,
+  "canonical": "LibreSprite/LibreSprite",
+  "archived": false,
+  "stars": 8489,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "JannisX11/blockbench",
+  "status": 200,
+  "canonical": "JannisX11/blockbench",
+  "archived": false,
+  "stars": 6021,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "RodZill4/material-maker",
+  "status": 200,
+  "canonical": "RodZill4/material-maker",
+  "archived": false,
+  "stars": 5962,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "DragonBones/DragonBones",
+  "status": 404,
+  "canonical": null,
+  "archived": null,
+  "stars": null,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "audacity/audacity",
+  "status": 200,
+  "canonical": "audacity/audacity",
+  "archived": false,
+  "stars": 18642,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "LMMS/lmms",
+  "status": 200,
+  "canonical": "LMMS/lmms",
+  "archived": false,
+  "stars": 10427,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "Ardour/ardour",
+  "status": 200,
+  "canonical": "Ardour/ardour",
+  "archived": false,
+  "stars": 5316,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "OpenMPT/openmpt",
+  "status": 200,
+  "canonical": "OpenMPT/openmpt",
+  "archived": false,
+  "stars": 782,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "chr15m/jsfxr",
+  "status": 200,
+  "canonical": "chr15m/jsfxr",
+  "archived": false,
+  "stars": 452,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "itchio/butler",
+  "status": 200,
+  "canonical": "itchio/butler",
+  "archived": false,
+  "stars": 990,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "game-ci/unity-actions",
+  "status": 200,
+  "canonical": "game-ci/unity-actions",
+  "archived": false,
+  "stars": 1098,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "MikeSchulze/gdUnit4",
+  "status": 200,
+  "canonical": "godot-gdunit-labs/gdUnit4",
+  "archived": false,
+  "stars": 1246,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "bitwes/Gut",
+  "status": 200,
+  "canonical": "bitwes/Gut",
+  "archived": false,
+  "stars": 2745,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "baldurk/renderdoc",
+  "status": 200,
+  "canonical": "baldurk/renderdoc",
+  "archived": false,
+  "stars": 11137,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "00-Evan/shattered-pixel-dungeon",
+  "status": 200,
+  "canonical": "00-Evan/shattered-pixel-dungeon",
+  "archived": false,
+  "stars": 6604,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "CleverRaven/Cataclysm-DDA",
+  "status": 200,
+  "canonical": "CleverRaven/Cataclysm-DDA",
+  "archived": false,
+  "stars": 13296,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "endless-sky/endless-sky",
+  "status": 200,
+  "canonical": "endless-sky/endless-sky",
+  "archived": false,
+  "stars": 7608,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "Anuken/Mindustry",
+  "status": 200,
+  "canonical": "Anuken/Mindustry",
+  "archived": false,
+  "stars": 29207,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "OpenRA/OpenRA",
+  "status": 200,
+  "canonical": "OpenRA/OpenRA",
+  "archived": false,
+  "stars": 17478,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "wesnoth/wesnoth",
+  "status": 200,
+  "canonical": "wesnoth/wesnoth",
+  "archived": false,
+  "stars": 6900,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "OpenRCT2/OpenRCT2",
+  "status": 200,
+  "canonical": "OpenRCT2/OpenRCT2",
+  "archived": false,
+  "stars": 16274,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "OpenTTD/OpenTTD",
+  "status": 200,
+  "canonical": "OpenTTD/OpenTTD",
+  "archived": false,
+  "stars": 8327,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "supertuxkart/stk-code",
+  "status": 200,
+  "canonical": "supertuxkart/stk-code",
+  "archived": false,
+  "stars": 5393,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "Revolutionary-Games/Thrive",
+  "status": 200,
+  "canonical": "Revolutionary-Games/Thrive",
+  "archived": false,
+  "stars": 3727,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "Warzone2100/warzone2100",
+  "status": 200,
+  "canonical": "Warzone2100/warzone2100",
+  "archived": false,
+  "stars": 3981,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "OpenMW/OpenMW",
+  "status": 200,
+  "canonical": "OpenMW/openmw",
+  "archived": false,
+  "stars": 6595,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "scummvm/scummvm",
+  "status": 200,
+  "canonical": "scummvm/scummvm",
+  "archived": false,
+  "stars": 2825,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "chocolate-doom/chocolate-doom",
+  "status": 200,
+  "canonical": "chocolate-doom/chocolate-doom",
+  "archived": false,
+  "stars": 2423,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "id-Software/DOOM",
+  "status": 200,
+  "canonical": "id-Software/DOOM",
+  "archived": false,
+  "stars": 19643,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "id-Software/Quake",
+  "status": 200,
+  "canonical": "id-Software/Quake",
+  "archived": false,
+  "stars": 6072,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "diasurgical/devilutionX",
+  "status": 200,
+  "canonical": "diasurgical/DevilutionX",
+  "archived": false,
+  "stars": 9784,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "munificent/game-programming-patterns",
+  "status": 200,
+  "canonical": "munificent/game-programming-patterns",
+  "archived": false,
+  "stars": 4554,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "JoeyDeVries/LearnOpenGL",
+  "status": 200,
+  "canonical": "JoeyDeVries/LearnOpenGL",
+  "archived": false,
+  "stars": 12646,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "patriciogonzalezvivo/thebookofshaders",
+  "status": 200,
+  "canonical": "patriciogonzalezvivo/thebookofshaders",
+  "archived": false,
+  "stars": 7038,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "ssloy/tinyrenderer",
+  "status": 200,
+  "canonical": "ssloy/tinyrenderer",
+  "archived": false,
+  "stars": 24328,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "lettier/3d-game-shaders-for-beginners",
+  "status": 200,
+  "canonical": "lettier/3d-game-shaders-for-beginners",
+  "archived": false,
+  "stars": 19940,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "RayTracing/raytracing.github.io",
+  "status": 200,
+  "canonical": "RayTracing/raytracing.github.io",
+  "archived": false,
+  "stars": 10680,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "OneLoneCoder/olcPixelGameEngine",
+  "status": 200,
+  "canonical": "OneLoneCoder/olcPixelGameEngine",
+  "archived": false,
+  "stars": 4250,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "godotengine/godot-demo-projects",
+  "status": 200,
+  "canonical": "godotengine/godot-demo-projects",
+  "archived": false,
+  "stars": 9611,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "UnityTechnologies/open-project-1",
+  "status": 200,
+  "canonical": "UnityTechnologies/open-project-1",
+  "archived": false,
+  "stars": 6104,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "ellisonleao/magictools",
+  "status": 200,
+  "canonical": "ellisonleao/magictools",
+  "archived": false,
+  "stars": 17417,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "dawdle-deer/awesome-learn-gamedev",
+  "status": 200,
+  "canonical": "dawdle-deer/awesome-learn-gamedev",
+  "archived": false,
+  "stars": 3562,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "FronkonGames/Awesome-Gamedev",
+  "status": 200,
+  "canonical": "FronkonGames/Awesome-Gamedev",
+  "archived": false,
+  "stars": 671,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "utilForever/game-developer-roadmap",
+  "status": 200,
+  "canonical": "utilForever/game-developer-roadmap",
+  "archived": false,
+  "stars": 5781,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "miloyip/game-programmer",
+  "status": 200,
+  "canonical": "miloyip/game-programmer",
+  "archived": false,
+  "stars": 18715,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "0xFA11/GameNetworkingResources",
+  "status": 200,
+  "canonical": "0xFA11/MultiplayerNetworkingResources",
+  "archived": false,
+  "stars": 8718,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "Trilarion/opensourcegames",
+  "status": 200,
+  "canonical": "Trilarion/opensourcegames",
+  "archived": false,
+  "stars": 1071,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "mattdesl/graphics-resources",
+  "status": 200,
+  "canonical": "mattdesl/graphics-resources",
+  "archived": false,
+  "stars": 1855,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "comfyanonymous/ComfyUI",
+  "status": 200,
+  "canonical": "Comfy-Org/ComfyUI",
+  "archived": false,
+  "stars": 136022,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "AUTOMATIC1111/stable-diffusion-webui",
+  "status": 200,
+  "canonical": "AUTOMATIC1111/stable-diffusion-webui",
+  "archived": false,
+  "stars": 165189,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "ollama/ollama",
+  "status": 200,
+  "canonical": "ollama/ollama",
+  "archived": false,
+  "stars": 182132,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "ggml-org/llama.cpp",
+  "status": 200,
+  "canonical": "ggml-org/llama.cpp",
+  "archived": false,
+  "stars": 130239,
+  "via": "direct",
+  "err": ""
+ },
+ {
+  "slug": "facebookresearch/audiocraft",
+  "status": 200,
+  "canonical": "facebookresearch/audiocraft",
+  "archived": false,
+  "stars": 23659,
+  "via": "direct",
+  "err": ""
+ }
+]

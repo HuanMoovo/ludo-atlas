@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GameDev Atlas Catalog",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "homepage", "description", "category", "license", "added", "reviewed", "status"],
+    "properties": {
+      "name": { "type": "string" },
+      "homepage": { "type": "string" },
+      "repo": { "type": "string" },
+      "description": { "type": "string", "maxLength": 120 },
+      "category": { "type": "string" },
+      "tags": { "type": "array", "items": { "type": "string" } },
+      "license": { "type": "string" },
+      "platforms": { "type": "array", "items": { "type": "string" } },
+      "languages": { "type": "array", "items": { "type": "string" } },
+      "maturity": { "enum": ["experimental", "beta", "production", "deprecated"] },
+      "added": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+      "reviewed": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+      "status": { "enum": ["active", "stale", "archived"] }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+name: 新增内容
+description: 建议新增手册、条目或资源
+title: "[建议] "
+labels: [content-new]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: 主题
+      placeholder: 想增加什么内容
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么需要
+      description: 面向哪些读者、解决什么问题
+    validations:
+      required: true
+  - type: textarea
+    id: refs
+    attributes:
+      label: 参考材料（可选）
