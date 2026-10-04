@@ -1,4 +1,4 @@
-# GameDev Atlas · 文档索引
+# Ludo Atlas · 文档索引
 
 全部手册按主题分组；目录结构与长期规划见 [设计文档](meta/design.md)。
 

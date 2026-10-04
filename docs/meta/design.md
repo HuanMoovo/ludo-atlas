@@ -1,6 +1,6 @@
-# GameDev Atlas · 游戏开发全景手册 — 仓库骨架设计文档
+# Ludo Atlas · 游戏开发全景手册 — 仓库骨架设计文档
 
-> 版本 v1.1 · 2026-10-04 · 状态：持续扩展（第 ①-㉚ 轮；国际线深度扩展完成，累计 521 条资源链接；仓库与站点稳定运行）
+> 版本 v1.2 · 2026-10-04 · 状态：持续扩展（项目定名 **Ludo Atlas**；像素史莱姆 LOGO 上线；仓库与站点迁移至 ludo-atlas）
 > 目标：设计一个可长期维护的开源游戏开发知识仓库，整合「分类型开发流程」×「开源项目目录」×「课程与学习资源」×「AI 开发工作流」。
 
 ---
@@ -152,7 +152,7 @@ flowchart LR
 > 说明：`#` 后为注释；`…/` 表示该目录内采用统一文件模板（见 §5.3、§5.4）。全库共 9 个顶层区域。
 
 ```text
-gamedev-atlas/
+ludo-atlas/
 ├── .github/                          # 工程化：CI、模板、责任到人
 │   ├── workflows/
 │   │   ├── lint-md.yml               # markdownlint + 格式检查（每次 PR）
@@ -1112,9 +1112,9 @@ ai/
 
 ## 16. 仓库元数据与命名建议
 
-- **仓库名（推荐）**：`gamedev-atlas`。备选：`gamedev-handbook`、`awesome-gamedev-cn`、`game-dev-playbook`。
+- **仓库名（推荐）**：`ludo-atlas`。备选：`gamedev-handbook`、`awesome-gamedev-cn`、`game-dev-playbook`。
   - 取舍：`atlas` 强调"全景图谱"与本仓库"结构科学"的差异点；`awesome-*` 命名容易被误读为纯链接列表。
-- **显示名**：`GameDev Atlas · 游戏开发全景手册`
+- **显示名**：`Ludo Atlas · 游戏开发全景手册`
 - **Description（GitHub About）**：`游戏开发全景开源手册：分类型开发流程 × 开源工具链 × 课程资源 × AI 工作流 | A structured open handbook for game development.`
 - **Topics**：`game-development` `gamedev` `game-design` `godot` `unity` `unreal-engine` `bevy` `indiedev` `awesome-list` `knowledge-base` `chinese` `ai-workflow` `learning-resources` `roadmap`
 - **仓库设置**：默认分支 `main`；开启 Discussions（问答/选题讨论）；squash merge only；Pages 用 Actions 源部署 VitePress；社交预览图用 `assets/social-preview.png`。
@@ -1124,7 +1124,7 @@ ai/
 
 ## 17. 附录：种子内容（已并入《资源大全》）
 
-配套文件 **《GameDev Atlas · 资源大全》（`gamedev-atlas-resources.md`）** 已落实并大幅扩编本附录：
+配套文件 **《Ludo Atlas · 资源大全》（`ludo-atlas-resources.md`）** 已落实并大幅扩编本附录：
 
 - **5 轮迭代**：① 引擎与开发框架 + 工具软件官网 → ② 学习平台与社区资讯 → ③ 素材资源 → ④ 发行平台与赛事展会 → ⑤ 服务基础设施 / 合规 / 外包。
 - **规模与验证**：11 章、521 条链接全量核查（含第 ⑥ 轮国际线增补）：398 直连可访问 · 42 反爬保护（浏览器可访问）· 2 需登录（开发者后台）· 15 异常已全部处理（替换 7 / 修正 1 / 删除 1 / 第三方复核保留 6），详见该文件《链接核查报告》。
@@ -1135,30 +1135,30 @@ ai/
 
 | 手册 | 文件 | 对应仓库落点（建议） |
 | --- | --- | --- |
-| 避坑大全（约 90 个高频坑，含联机/网游与 AI 工作流） | `gamedev-atlas-pitfalls.md` | `docs/pitfalls/`（里程碑评审引用） |
-| 法务、专利与竞争手册（版权/商标/专利/合同/出海合规/竞品分析） | `gamedev-atlas-legal.md` | `docs/publishing/legal/` + `docs/publishing/market/` |
-| 全平台上架手册（Steam/主机/移动/国内渠道/小游戏 + 网络游戏版号/防沉迷专项） | `gamedev-atlas-launch.md` | `playbooks/platform-launch/` + `docs/publishing/compliance/` |
-| 游戏设计手册（流程/核心循环/系统/数值/关卡/手感/UX/叙事/验证） | `gamedev-atlas-game-design.md` | `docs/fundamentals/game-design/` |
-| 技术实现手册（架构选型/核心系统/性能/多平台/网络/工程基建/引擎对照） | `gamedev-atlas-tech.md` | `docs/fundamentals/programming/` + `docs/pipelines/` |
-| 美术与音频手册（Art Bible/2D/3D/UI/技术美术/音频设计与实现/交付规格） | `gamedev-atlas-art-audio.md` | `docs/fundamentals/art/` + `docs/fundamentals/audio/` |
-| 制作管理手册（立项/估算排期/阶段模型/范围控制/协作/QA/风险/单人开发/复盘） | `gamedev-atlas-production.md` | `docs/fundamentals/production/` + `playbooks/` |
-| 运营与增长手册（增长漏斗/发售节奏/数据指标/社区危机/变现伦理/出海） | `gamedev-atlas-liveops.md` | `docs/publishing/` + `docs/pipelines/live-ops/` |
-| 游戏简史（领域史/中国游戏史/技术发展简史/代表作品） | `gamedev-atlas-history.md` | `docs/meta/history/` |
-| 独立开发者与厂商谱（开发者/传奇/厂商/跟人学法） | `gamedev-atlas-people.md` | `docs/meta/people/` + `docs/meta/studios/` |
-| 开源精选与书籍推荐（GitHub 103 仓库核查 + 60 余本书目） | `gamedev-atlas-github-books.md` | `resources/books.md` + `catalog` 精选层 |
-| 独立开发者深度谱（44 组深度档案 + 星露谷物语作者专题 + 共性规律） | `gamedev-atlas-indie-devs.md` | `docs/meta/people/indie/` |
-| 独立开发生存手册（模式/财务/路径阶梯/资金来源/决策关口/中国特辑） | `gamedev-atlas-indie-survival.md` | `playbooks/indie-survival/` + `docs/teams/solo/` |
-| AI 工作流手册（编码代理/引擎 MCP/美术音频管线/8 个端到端工作流/合规/提示词库） | `gamedev-atlas-ai.md` | `docs/ai/`（设计文档 §14 的落地版） |
-| 案例研究集（成功/失败/救赎/中国案例，四段拆解 + 模式总结） | `gamedev-atlas-cases.md` | `docs/postmortems/` 导读层 |
-| 关卡设计手册（度量/引导/节奏/白盒工作流/经典拆解/练习） | `gamedev-atlas-level-design.md` | `docs/fundamentals/level-design/` |
-| 小游戏开发手册（微信/抖音/硬件渠道：包体红线/平台能力/变现/买量/合规） | `gamedev-atlas-minigame.md` | `docs/publishing/minigame/` |
-| 主机开发手册（ID@Xbox / PlayStation Partners / Nintendo：移植、认证、发行） | `gamedev-atlas-console.md` | `docs/publishing/console/` |
-| VR/AR 开发手册（平台上架、交互设计、舒适度、性能预算、工程栈） | `gamedev-atlas-xr.md` | `docs/publishing/xr/` |
-| Mod 与 UGC 手册（支持层级、创意工坊/mod.io、社区运营、合规） | `gamedev-atlas-modding.md` | `docs/pipelines/modding/` |
-| 联机与后端深入手册（同步模型、匹配、经济安全、反作弊、成本运维） | `gamedev-atlas-netcode.md` | `docs/pipelines/multiplayer-backend/` |
-| 电竞与竞技设计手册（竞技性/观战系统/平衡/赛事生态/中国口径） | `gamedev-atlas-esports.md` | `docs/publishing/esports/` |
-| 引擎源码阅读路线（Godot/Bevy/小引擎，方法论与周计划） | `gamedev-atlas-engine-reading.md` | `docs/fundamentals/engine-internals/` |
-| 从零写渲染器路线（软光栅化→实时 API→光追） | `gamedev-atlas-renderer-path.md` | `docs/fundamentals/graphics/` |
+| 避坑大全（约 90 个高频坑，含联机/网游与 AI 工作流） | `ludo-atlas-pitfalls.md` | `docs/pitfalls/`（里程碑评审引用） |
+| 法务、专利与竞争手册（版权/商标/专利/合同/出海合规/竞品分析） | `ludo-atlas-legal.md` | `docs/publishing/legal/` + `docs/publishing/market/` |
+| 全平台上架手册（Steam/主机/移动/国内渠道/小游戏 + 网络游戏版号/防沉迷专项） | `ludo-atlas-launch.md` | `playbooks/platform-launch/` + `docs/publishing/compliance/` |
+| 游戏设计手册（流程/核心循环/系统/数值/关卡/手感/UX/叙事/验证） | `ludo-atlas-game-design.md` | `docs/fundamentals/game-design/` |
+| 技术实现手册（架构选型/核心系统/性能/多平台/网络/工程基建/引擎对照） | `ludo-atlas-tech.md` | `docs/fundamentals/programming/` + `docs/pipelines/` |
+| 美术与音频手册（Art Bible/2D/3D/UI/技术美术/音频设计与实现/交付规格） | `ludo-atlas-art-audio.md` | `docs/fundamentals/art/` + `docs/fundamentals/audio/` |
+| 制作管理手册（立项/估算排期/阶段模型/范围控制/协作/QA/风险/单人开发/复盘） | `ludo-atlas-production.md` | `docs/fundamentals/production/` + `playbooks/` |
+| 运营与增长手册（增长漏斗/发售节奏/数据指标/社区危机/变现伦理/出海） | `ludo-atlas-liveops.md` | `docs/publishing/` + `docs/pipelines/live-ops/` |
+| 游戏简史（领域史/中国游戏史/技术发展简史/代表作品） | `ludo-atlas-history.md` | `docs/meta/history/` |
+| 独立开发者与厂商谱（开发者/传奇/厂商/跟人学法） | `ludo-atlas-people.md` | `docs/meta/people/` + `docs/meta/studios/` |
+| 开源精选与书籍推荐（GitHub 103 仓库核查 + 60 余本书目） | `ludo-atlas-github-books.md` | `resources/books.md` + `catalog` 精选层 |
+| 独立开发者深度谱（44 组深度档案 + 星露谷物语作者专题 + 共性规律） | `ludo-atlas-indie-devs.md` | `docs/meta/people/indie/` |
+| 独立开发生存手册（模式/财务/路径阶梯/资金来源/决策关口/中国特辑） | `ludo-atlas-indie-survival.md` | `playbooks/indie-survival/` + `docs/teams/solo/` |
+| AI 工作流手册（编码代理/引擎 MCP/美术音频管线/8 个端到端工作流/合规/提示词库） | `ludo-atlas-ai.md` | `docs/ai/`（设计文档 §14 的落地版） |
+| 案例研究集（成功/失败/救赎/中国案例，四段拆解 + 模式总结） | `ludo-atlas-cases.md` | `docs/postmortems/` 导读层 |
+| 关卡设计手册（度量/引导/节奏/白盒工作流/经典拆解/练习） | `ludo-atlas-level-design.md` | `docs/fundamentals/level-design/` |
+| 小游戏开发手册（微信/抖音/硬件渠道：包体红线/平台能力/变现/买量/合规） | `ludo-atlas-minigame.md` | `docs/publishing/minigame/` |
+| 主机开发手册（ID@Xbox / PlayStation Partners / Nintendo：移植、认证、发行） | `ludo-atlas-console.md` | `docs/publishing/console/` |
+| VR/AR 开发手册（平台上架、交互设计、舒适度、性能预算、工程栈） | `ludo-atlas-xr.md` | `docs/publishing/xr/` |
+| Mod 与 UGC 手册（支持层级、创意工坊/mod.io、社区运营、合规） | `ludo-atlas-modding.md` | `docs/pipelines/modding/` |
+| 联机与后端深入手册（同步模型、匹配、经济安全、反作弊、成本运维） | `ludo-atlas-netcode.md` | `docs/pipelines/multiplayer-backend/` |
+| 电竞与竞技设计手册（竞技性/观战系统/平衡/赛事生态/中国口径） | `ludo-atlas-esports.md` | `docs/publishing/esports/` |
+| 引擎源码阅读路线（Godot/Bevy/小引擎，方法论与周计划） | `ludo-atlas-engine-reading.md` | `docs/fundamentals/engine-internals/` |
+| 从零写渲染器路线（软光栅化→实时 API→光追） | `ludo-atlas-renderer-path.md` | `docs/fundamentals/graphics/` |
 
 （原 §17.1-17.3 种子清单不再重复维护，以《资源大全》为唯一事实来源。）
 
@@ -1166,14 +1166,14 @@ ai/
 
 | # | 问题 | 建议默认 |
 | --- | --- | --- |
-| 1 | 仓库名用 `gamedev-atlas`？ | 是（见 §16） |
+| 1 | 仓库名用 `ludo-atlas`？ | 是（见 §16） |
 | 2 | 112 个类型全建目录，只全量写 P0？ | 是 |
 | 3 | 站点方案 VitePress？ | 是（中文友好、Vue 生态、搜索插件成熟）；备选 MkDocs Material |
 | 4 | 中英双语还是中文优先？ | 中文主 + README.en；全量英译放 Phase 2 |
 | 5 | 与 magictools-SI 等既有列表的关系？ | 互链互补；种子批量导入后逐条验证 |
 | 6 | 是否收录付费资源？ | 收录但强制标注；无联盟链接 |
 | 7 | 是否申请加入 awesome 列表生态？ | Phase 2 后再议（需先满足 awesome 规范） |
-| 8 | 托管方式？ | GitHub 公开仓库（HuanMoovo/gamedev-atlas）+ Pages |
+| 8 | 托管方式？ | GitHub 公开仓库（HuanMoovo/ludo-atlas）+ Pages |
 | 9 | 《资源大全》如何维护？ | 作为 catalog/resources 种子进仓；链接核查并入 CI（同口径白名单） |
 
 ---
@@ -1205,6 +1205,7 @@ ai/
 | v0.10 | 2026-10-04 | 第 ㉔㉕ 轮：《VR/AR 开发手册》（Meta/PICO/Vision Pro 口径、舒适度与性能预算）、《Mod 与 UGC 手册》（创意工坊版本控制、mod.io 跨平台、法律与社区）。共 22 份文档。 |
 | v0.11 | 2026-10-04 | 第 ㉖ 轮：《联机与后端深入手册》（同步模型、服务分层、匹配、经济安全、反作弊、成本运维）。共 23 份文档。 |
 | v0.12 | 2026-10-04 | 第 ㉗㉘㉙ 轮：《电竞与竞技设计手册》（竞技/观战/平衡/赛事/中国办赛口径）、《引擎源码阅读路线》（三线+周计划）、《从零写渲染器路线》（三阶段）；新增链接核查通过。共 26 份文档。 |
-| v0.13 | 2026-10-04 | 仓库与站点落地：GitHub 仓库上线（HuanMoovo/gamedev-atlas）、VitePress 站点经 GitHub Pages 上线、CI 三件套（Lint/链接检查/站点部署）就绪、全部 Markdown 格式规范化。 |
+| v0.13 | 2026-10-04 | 仓库与站点落地：GitHub 仓库上线（HuanMoovo/ludo-atlas）、VitePress 站点经 GitHub Pages 上线、CI 三件套（Lint/链接检查/站点部署）就绪、全部 Markdown 格式规范化。 |
 | v1.0 | 2026-10-04 | 收官：语言打磨遍（108 处破折号清零至 1 处表格占位符；106 处替换为冒号/逗号/句号；术语统一）；站点与 CI 稳定。**v1.0 完成判定达成：全部批次完成 + 仓库推送 + 站点上线。** |
 | v1.1 | 2026-10-04 | 第 ㉚ 轮：《资源大全》国际线深度扩展——新增 63 条国际资源（发行商 / 资金与补助 / 行业媒体与数据 / 社区 / 展会 / 服务与招聘），全量核查通过（60 直接可达 · 3 反爬保护）；去重复核（36 条疑似缺失经精确比对，24 条确认为既往已收录）；全库计数同步至 521 条。 |
+| v1.2 | 2026-10-04 | 项目定名 **Ludo Atlas**（原工作名 gamedev-atlas，本地目录未改）：像素史莱姆 LOGO 上线（`assets/logo.svg` + 备选 + 品牌页 + PNG）；GitHub 仓库与 Pages 站点迁移至 ludo-atlas；修复站点 base 缺失（此前子路径下样式与脚本 404）；全库品牌串与链接同步。 |

@@ -2,6 +2,12 @@
 
 > 项目在公开发布前经过 29 轮内部迭代（结构设计 → 资源 → 风险/法务/上架 → 五大实践 → 史谱 → 开源书单 → 独立开发 → AI 与案例 → 平台实操 → 深度路线）。迭代日志的完整版见 `docs/meta/design.md` 变更记录。
 
+## 1.2.0 — 2026-10-04
+
+- 项目定名 **Ludo Atlas**（原 GameDev Atlas）；像素史莱姆 LOGO 上线（`assets/logo.svg`）。
+- 仓库与站点迁移：github.com/HuanMoovo/ludo-atlas · huanmoovo.github.io/ludo-atlas/
+- 修复 VitePress `base` 缺失：此前 GitHub Pages 子路径下样式与脚本 404，现已正常。
+
 ## 1.1.0 — 2026-10-04
 
 - 《资源大全》国际线深度扩展：新增 63 条国际资源（独立发行商、资金与补助、行业媒体与数据、社区板块、国际展会、服务与招聘），全部核查通过；累计 521 条链接。

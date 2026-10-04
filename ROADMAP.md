@@ -7,13 +7,15 @@
 
 ## 已完成（v0.2）
 
-- VitePress 站点上线：https://huanmoovo.github.io/gamedev-atlas/ （CI 自动部署）。
+- VitePress 站点上线：https://huanmoovo.github.io/ludo-atlas/ （CI 自动部署）。
 - CI 三件套：markdownlint、链接检查、站点部署。
 
 ## v1.0 收官（2026-10-04）
 
 - 语言打磨遍完成：破折号减量（108→1）、术语统一、随内容更新修正过时表述。
 - 链接全量复核完成；CI 严格模式对齐作为后续观察项。
+
+- 项目定名 Ludo Atlas（像素史莱姆 LOGO）；仓库与站点迁移至 ludo-atlas。
 
 ## 规划（v1.0 后）
 

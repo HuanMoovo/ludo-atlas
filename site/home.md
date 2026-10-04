@@ -2,16 +2,19 @@
 layout: home
 
 hero:
-  name: GameDev Atlas
+  name: Ludo Atlas
   text: 游戏开发全景手册
   tagline: 26 份中文开源手册 · 约 22.6 万字 · 外链逐条核查 · 持续更新
+  image:
+    src: /logo.svg
+    alt: Ludo Atlas
   actions:
     - theme: brand
       text: 开始阅读
       link: /docs/
     - theme: alt
       text: GitHub 仓库
-      link: https://github.com/HuanMoovo/gamedev-atlas
+      link: https://github.com/HuanMoovo/ludo-atlas
 
 features:
 

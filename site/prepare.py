@@ -40,6 +40,9 @@ def main():
                 os.makedirs(os.path.dirname(dst), exist_ok=True)
                 text = open(os.path.join(dirpath, fn), encoding='utf-8').read()
                 open(dst, 'w', encoding='utf-8', newline='\n').write(rewrite(text))
+    pub = os.path.join(OUT, 'public')
+    os.makedirs(pub, exist_ok=True)
+    shutil.copyfile(os.path.join(REPO, 'assets', 'logo.svg'), os.path.join(pub, 'logo.svg'))
     for extra in ['GLOSSARY.md']:
         s = os.path.join(REPO, extra)
         if os.path.exists(s):
