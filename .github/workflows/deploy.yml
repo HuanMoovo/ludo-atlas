@@ -19,19 +19,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-python@v5
         with:
-          node-version: 20
+          python-version: '3.12'
+      - name: Install MkDocs Material
+        run: pip install -r site/requirements.txt
       - name: Prepare content
-        run: python3 site/prepare.py
-      - name: Install and build
-        working-directory: site
-        run: |
-          npm install
-          npm run build
+        run: python site/prepare.py
+      - name: Build site
+        run: mkdocs build --strict
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site/.vitepress/dist
+          path: site/dist
 
   deploy:
     needs: build

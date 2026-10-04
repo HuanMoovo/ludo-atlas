@@ -3,7 +3,9 @@ node_modules/
 Thumbs.db
 *.log
 .venv/
+.venv-mkdocs/
 __pycache__/
-site/.vitepress/dist/
-site/.vitepress/cache/
+.cache/
+site/build/
+site/dist/
 _site/

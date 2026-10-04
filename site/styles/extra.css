@@ -1,0 +1,51 @@
+/* Ludo Atlas 阅读站样式微调（Material for MkDocs） */
+
+/* 中文字体优先，避免依赖 Google Fonts */
+:root {
+  --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+  --md-code-font: "Cascadia Code", "JetBrains Mono", Consolas, Menlo, "Courier New", monospace;
+}
+
+/* 品牌色（与 LOGO 绿色系对齐） */
+[data-md-color-primary="green"] {
+  --md-primary-fg-color: #2f9e44;
+  --md-primary-fg-color--light: #48d64f;
+  --md-primary-fg-color--dark: #1b2b20;
+}
+[data-md-color-accent="green"] {
+  --md-accent-fg-color: #28a63c;
+}
+
+/* 正文阅读微调：更松弛的行距与标题间距 */
+.md-typeset {
+  line-height: 1.78;
+}
+.md-typeset p {
+  margin: 1em 0;
+}
+.md-typeset h2 {
+  margin-top: 1.9em;
+}
+.md-typeset h3 {
+  margin-top: 1.4em;
+}
+
+/* 首页 Hero 居中 */
+.hero {
+  text-align: center;
+  margin: 1.2rem auto 0.4rem;
+}
+.hero img {
+  width: 132px;
+  height: auto;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0 0.15rem;
+}
+.hero p {
+  margin: 0.35rem 0;
+}
+.hero .md-button {
+  margin: 0.5rem 0.2rem 0.2rem;
+}

@@ -7,6 +7,7 @@
 - `docs/` 手册正文；`docs/meta/design.md` 是顶层设计（改结构前必读）。
 - `catalog/` 机器可读条目（YAML，`schema.json` 校验）。
 - `resources/` 链接目录；`playbooks/` 实战手册；`templates/` 模板；`scripts/` 工具。
+- `site/` 阅读站构建（Material for MkDocs）：`python site/prepare.py` 汇总到 `site/build`，`mkdocs build` 输出 `site/dist`；导航由 `site/hooks/gen_nav.py` 自动生成。
 
 ## 写作规则
 

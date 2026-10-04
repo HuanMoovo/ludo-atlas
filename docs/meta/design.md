@@ -1,6 +1,6 @@
 # Ludo Atlas · 游戏开发全景手册 — 仓库骨架设计文档
 
-> 版本 v2.3 · 2026-10-04 · 状态：类型覆盖收官（81 类：主流与常见类型完成）
+> 版本 v2.4 · 2026-10-04 · 状态：阅读站迁移 Material for MkDocs（书籍版）
 > 目标：设计一个可长期维护的开源游戏开发知识仓库，整合「分类型开发流程」×「开源项目目录」×「课程与学习资源」×「AI 开发工作流」。
 
 ---
@@ -158,7 +158,7 @@ ludo-atlas/
 │   │   ├── lint-md.yml               # markdownlint + 格式检查（每次 PR）
 │   │   ├── link-check.yml            # lychee 链接检查（PR + 每周定时）
 │   │   ├── validate-catalog.yml      # catalog/*.yml 按 schema.json 校验
-│   │   ├── build-site.yml            # VitePress 构建并部署 GitHub Pages
+│   │   ├── build-site.yml            # MkDocs Material 构建并部署 GitHub Pages
 │   │   ├── gen-tables.yml            # 每周由 yml 重新生成各索引页表格
 │   │   └── stats.yml                 # 每周产出 data/stats.json（条目数/覆盖度）
 │   ├── ISSUE_TEMPLATE/
@@ -171,8 +171,8 @@ ludo-atlas/
 │   ├── CODEOWNERS                    # 按区域指派评审人
 │   └── dependabot.yml                # 依赖与 Actions 更新
 │
-├── docs/                             # ① 文档主站（VitePress，GitHub Pages 部署）
-│   ├── .vitepress/                   # 站点配置：config.ts、侧边栏自动生成、主题、locales(zh 默认/en)
+├── docs/                             # ① 文档主站（正文内容；阅读站构建见仓库根 site/）
+│   ├──（站点工程在 site/：prepare.py 汇总 + hooks 生成导航 + Material for MkDocs 构建）
 │   ├── index.md                      # 首页：定位一句话 + 四条主线入口 + 统计数字
 │   ├── meta/                         # 关于仓库自身
 │   │   ├── design.md                 # 本设计文档（随仓库演进）
@@ -916,7 +916,7 @@ draft → review → published → (stale) → archived
 
 ### 13.2 贡献流程（两类）
 
-**内容类（写文章/Playbook）**：Fork → 从模板初始化 → 本地预览（VitePress dev）→ PR（附自查表）→ 1 名领域评审 → squash merge。
+**内容类（写文章/Playbook）**：Fork → 从模板初始化 → 本地预览（mkdocs serve）→ PR（附自查表）→ 1 名领域评审 → squash merge。
 
 **数据类（改 catalog/resources）**：改 yml / md 表 → 本地跑 `validate_catalog.py` → PR → CI 绿 → 评审 → merge → 下一次 `gen-tables` 自动上表格。
 
@@ -932,7 +932,7 @@ draft → review → published → (stale) → archived
 
 ### 13.5 翻译（i18n）策略
 
-- 结构：VitePress `locales`；`docs/` 中文为主，英文镜像目录后置（Phase 2）。README 三语（中/英，日语可选）。
+- 结构：MkDocs Material（`mkdocs.yml`）；`docs/` 中文为主，英文镜像目录后置（Phase 2）。README 三语（中/英，日语可选）。
 - 优先翻译序：README → 首页 → `start/` → P0 类型 README → catalog 分类说明。
 - 术语统一靠 `GLOSSARY.md` + 翻译术语表；译文评审至少一人母语级。
 
@@ -1095,7 +1095,7 @@ ai/
 | 阶段 | 周期 | 交付物 | 完成标准（验收） |
 | --- | --- | --- | --- |
 | **Phase 0 骨架** | 第 1-2 周 | 全目录树 + 根文件 + 6 个 workflow + 模板库（§9）+ 每板块 1-2 个样板内容 + 许可/README/COD | CI 全绿；`main` 可公开；新人能按 CONTRIBUTING 完成一次贡献 |
-| **Phase 1 可用** | 1-2 个月 | `start/` 全量；P0 十类型的 7 文件；`catalog/` ≥120 条（含验证）；`docs/ai/` 主体；VitePress 站点上线 Pages | 站点可从 0 走到"完成第一个游戏"；catalog 表格自动生成；链接检查通过率 ≥99% |
+| **Phase 1 可用** | 1-2 个月 | `start/` 全量；P0 十类型的 7 文件；`catalog/` ≥120 条（含验证）；`docs/ai/` 主体；站点上线 Pages（Material for MkDocs） | 站点可从 0 走到"完成第一个游戏"；catalog 表格自动生成；链接检查通过率 ≥99% |
 | **Phase 2 完整** | 3-6 个月 | P1 二十六类型；12 引擎轨道；12 管线；10 个 Playbook；课程库 ≥200 条；`examples/` 首批 5 个 | 112 类型全覆盖（P2 至少 README）；README.en 上线；统计看板数字自动更新 |
 | **Phase 3 社区化** | 6 个月+ | 月度精选、投稿常态化、翻译项目启动、showcase（用本仓库教程做出来的作品） | 外部贡献者 ≥5 人/季度；stale 率 <10% |
 
@@ -1106,7 +1106,7 @@ ai/
 3. `.github/`：6 个 workflow + PR/Issue 模板 + CODEOWNERS
 4. `templates/` 全量（先于内容：模板驱动一切）
 5. 样板内容：`start/first-game-7days`、`genres/action/platformer/`（全套 7 文件之一二）、`catalog/engines.yml`（先 15 条）、`docs/ai/README`
-6. 站点骨架（VitePress）可选后置，但目录结构按站点要求一步到位
+6. 站点骨架可选后置，但目录结构按站点要求一步到位
 
 ---
 
@@ -1117,7 +1117,7 @@ ai/
 - **显示名**：`Ludo Atlas · 游戏开发全景手册`
 - **Description（GitHub About）**：`游戏开发全景开源手册：分类型开发流程 × 开源工具链 × 课程资源 × AI 工作流 | A structured open handbook for game development.`
 - **Topics**：`game-development` `gamedev` `game-design` `godot` `unity` `unreal-engine` `bevy` `indiedev` `awesome-list` `knowledge-base` `chinese` `ai-workflow` `learning-resources` `roadmap`
-- **仓库设置**：默认分支 `main`；开启 Discussions（问答/选题讨论）；squash merge only；Pages 用 Actions 源部署 VitePress；社交预览图用 `assets/social-preview.png`。
+- **仓库设置**：默认分支 `main`；开启 Discussions（问答/选题讨论）；squash merge only；Pages 用 Actions 源部署（MkDocs Material）；社交预览图用 `assets/social-preview.png`。
 - **徽章**：CI 状态、链接检查、许可、PRs welcome、最新提交。
 
 ---
@@ -1168,7 +1168,7 @@ ai/
 | --- | --- | --- |
 | 1 | 仓库名用 `ludo-atlas`？ | 是（见 §16） |
 | 2 | 112 个类型全建目录，只全量写 P0？ | 是 |
-| 3 | 站点方案 VitePress？ | 是（中文友好、Vue 生态、搜索插件成熟）；备选 MkDocs Material |
+| 3 | 站点方案？ | MkDocs Material 书籍版（中文友好、导航与搜索成熟）；原 VitePress 方案已迁移 |
 | 4 | 中英双语还是中文优先？ | 中文主 + README.en；全量英译放 Phase 2 |
 | 5 | 与 magictools-SI 等既有列表的关系？ | 互链互补；种子批量导入后逐条验证 |
 | 6 | 是否收录付费资源？ | 收录但强制标注；无联盟链接 |
@@ -1183,7 +1183,7 @@ ai/
 1. **确认 §18 决策**（或直接采纳建议默认值）。
 2. **一键生成骨架**：用脚本按 §4 目录树在本机初始化仓库（含全部目录、模板文件、CI、根文件），`git init` 后经隐私/链接检查推送 GitHub。
 3. **Phase 0 填样板**：先落 `templates/` + `start/` + `genres/action/platformer/` + `catalog/engines.yml`，让 CI 跑起来。
-4. **上线站点**：VitePress 骨架 + Pages Actions。
+4. **上线站点**：MkDocs Material（site/ + Pages Actions）。
 
 > 本文档为 v0.2 设计稿；结构定稿后将作为 `docs/meta/design.md` 进入仓库，并随仓库演进（变更须走 PR）。
 
@@ -1221,3 +1221,4 @@ ai/
 | v2.1 | 2026-10-04 | 第 ㊴ 轮：类型 P3 前 10 类（开放世界/撤离射击/怪物收集/动作冒险/沉浸模拟/生存恐怖/英雄射击/大战略/割草无双/恋爱模拟），累计 61 类；全库扩至 120 份文档。 |
 | v2.2 | 2026-10-04 | 第 ㊵ 轮：类型 P3 续批十类（工厂自动化/抽卡养成/战术射击/战棋/超休闲/无尽跑酷/教育/钓鱼/生活模拟/寻物找茬），累计 71 类；全库扩至 130 份文档。 |
 | v2.3 | 2026-10-04 | 第 ㊶ 轮：类型长尾收尾批十类（狩猎/飞行/列车/互动电影/拼图/音乐创作/联机恐怖/换装/极限运动/非对称对抗），累计 81 类；全库扩至 140 份文档。 |
+| v2.4 | 2026-10-04 | 阅读站迁移：VitePress → Material for MkDocs 书籍版（顶部板块 + 左侧全站目录 + 右侧页内目录 + 整站搜索 + 深色模式）；首页重排为居中 Hero + 板块卡片；构建链 site/prepare.py + hooks/gen_nav.py + mkdocs.yml；CI 部署链更新。 |

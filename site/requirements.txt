@@ -1,0 +1,3 @@
+# Ludo Atlas 阅读站构建依赖（Material for MkDocs）
+mkdocs==1.6.1
+mkdocs-material==9.7.7
