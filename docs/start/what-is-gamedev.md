@@ -1,6 +1,6 @@
 # Ludo Atlas · 入门 · 游戏开发全貌
 
-> **入门区**（第 ㉛ 轮扩展）。这一页回答四个问题：游戏是怎么做出来的、团队里每种人在干什么、钱从哪来、以及新手最常见的六个想当然。读完再决定往哪个方向走。
+> **入门**。这一页回答四个问题：游戏是怎么做出来的、团队里每种人在干什么、钱从哪来、以及新手最常见的六个想当然。读完再决定往哪个方向走。
 
 ## 1. 一个游戏是怎么做出来的
 
@@ -20,12 +20,12 @@
 
 | 想做好的事 | 去看 |
 | --- | --- |
-| 玩法、系统、数值 | [游戏设计手册](../fundamentals/game-design/README.md)（⑨） |
-| 代码、架构、性能 | [技术实现手册](../fundamentals/programming/README.md)（⑩） |
-| 美术与音频生产 | [美术与音频手册](../fundamentals/art-audio/README.md)（⑪） |
-| 排期与范围控制 | [制作管理手册](../fundamentals/production/README.md)（⑫） |
-| 关卡 | [关卡设计手册](../fundamentals/level-design/README.md)（㉑） |
-| 上线之后 | [运营手册](../publishing/live-ops/README.md)（⑬） |
+| 玩法、系统、数值 | [游戏设计手册](../fundamentals/game-design/README.md) |
+| 代码、架构、性能 | [技术实现手册](../fundamentals/programming/README.md) |
+| 美术与音频生产 | [美术与音频手册](../fundamentals/art-audio/README.md) |
+| 排期与范围控制 | [制作管理手册](../fundamentals/production/README.md) |
+| 关卡 | [关卡设计手册](../fundamentals/level-design/README.md) |
+| 上线之后 | [运营手册](../publishing/live-ops/README.md) |
 
 ## 2. 团队里都有谁
 
@@ -55,7 +55,7 @@
 | 订阅 | 会员制内容服务 | 少量产品与平台服务 |
 | 众筹 / 补助 | 预售或资助先行 | 独立项目启动期 |
 
-平台与形态的差异（PC、主机、移动、小游戏、Web）会直接影响商业模式和开发预算，展开见[全平台上架手册](../../playbooks/platform-launch/README.md)（⑧）与[法务手册](../publishing/legal/README.md)（⑦）。
+平台与形态的差异（PC、主机、移动、小游戏、Web）会直接影响商业模式和开发预算，展开见[全平台上架手册](../../playbooks/platform-launch/README.md)与[法务手册](../publishing/legal/README.md)。
 
 ## 4. 三种规模，三种打法
 
@@ -69,9 +69,9 @@
 
 ## 5. 中国大陆与出海要额外注意的事
 
-- 国内发行涉及版号、防沉迷、渠道分成与备案，细节见[法务手册](../publishing/legal/README.md)（⑦）。
-- 小游戏是独立的工程形态（包体、性能、平台规则都不同），见[小游戏手册](../publishing/minigame/README.md)（㉒）。
-- 出海走 Steam、主机或海外移动商店，测试、评级、税务各有门槛，见[全平台上架手册](../../playbooks/platform-launch/README.md)（⑧）。
+- 国内发行涉及版号、防沉迷、渠道分成与备案，细节见[法务手册](../publishing/legal/README.md)。
+- 小游戏是独立的工程形态（包体、性能、平台规则都不同），见[小游戏手册](../publishing/minigame/README.md)。
+- 出海走 Steam、主机或海外移动商店，测试、评级、税务各有门槛，见[全平台上架手册](../../playbooks/platform-launch/README.md)。
 
 ## 6. 六个常见误解
 
@@ -80,7 +80,7 @@
 3. 「引擎选错就完了」：任何主流引擎都能做完一款游戏。切换成本远低于「一直不做」的成本。
 4. 「独立开发自由又轻松」：自由是真的，轻松是假的。它是高强度的自我管理。
 5. 「先想一个爆款点子最重要」：点子不值钱，把它做出来并推出去才值钱。
-6. 「AI 来了，一个人能做 3A」：AI 显著加速了编码与资产生产，但它不替你做取舍。见 [AI 工作流手册](../ai/README.md)（⑲）。
+6. 「AI 来了，一个人能做 3A」：AI 显著加速了编码与资产生产，但它不替你做取舍。见 [AI 工作流手册](../ai/README.md)。
 
 ## 7. 你现在的位置
 
@@ -89,7 +89,7 @@
 | 想搞清行业与岗位 | [岗位与技能地图](role-map.md) |
 | 准备动手做东西 | [引擎选型指南](engine-choice.md) → [第一个游戏](first-game.md) |
 | 想长期投入，规划几年 | [学习路径](learning-path.md) |
-| 手上有项目，想避坑 | [避坑大全](../pitfalls/README.md)（⑥） · [独立开发生存手册](../../playbooks/indie-survival/README.md)（⑱） |
+| 手上有项目，想避坑 | [避坑大全](../pitfalls/README.md) · [独立开发生存手册](../../playbooks/indie-survival/README.md) |
 
 ## 延伸阅读
 

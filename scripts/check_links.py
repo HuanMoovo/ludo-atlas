@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""批量链接核查器（供《资源大全》使用，5 轮迭代产物的验证工具）。
+"""批量链接核查器（供《资源大全》使用）。
 用法: python check_links.py <urls.json> <out.json> [start] [end]  （省略范围=全量）
 策略: HEAD 直连 -> GET 直连 -> 代理(127.0.0.1:7897) HEAD/GET。
 分类: ok(2xx/3xx) guard(403/405/429 浏览器可达) auth(401/451) fail(其他/异常)

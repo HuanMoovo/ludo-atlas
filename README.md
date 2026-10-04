@@ -1,7 +1,7 @@
 <div align="center">
 <img src="assets/logo.svg" alt="Ludo Atlas logo" width="150">
 <h1>Ludo Atlas · 游戏开发全景手册</h1>
-<p><strong>一个中文优先、结构化的开源游戏开发知识库。</strong> 从学习、避坑、法务、上架，到设计、技术、美术、制作、运营与 AI 工作流：把"做游戏"拆成 <strong>140 份文档（约 100.1 万字）</strong>，全部外链逐条核查，可持续贡献。</p>
+<p><strong>一个中文优先、结构化的开源游戏开发知识库。</strong> 从学习、避坑、法务、上架，到设计、技术、美术、制作、运营与 AI 工作流：把"做游戏"拆成 <strong>139 份文档（约 98.2 万字）</strong>，全部外链逐条核查，可持续贡献。</p>
 <p><strong>📖 在线阅读：<a href="https://huanmoovo.github.io/ludo-atlas/">https://huanmoovo.github.io/ludo-atlas/</a> （GitHub Pages，由 CI 自动部署）</strong></p>
 <p><a href="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml"><img src="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml/badge.svg" alt="Lint"></a> <a href="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml"><img src="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml/badge.svg" alt="Link Check"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0%20%2B%20MIT-blue.svg" alt="License: CC BY-SA 4.0 + MIT"></a></p>
 </div>
@@ -12,7 +12,7 @@
 
 - **讲清楚"怎么做"和"为什么"**，不给空话；数据、政策与费率都给出可核实的来源，并标注核实时点。
 - **全部外链逐条核查**（发布前逐条验证 + CI 每周自动复查），死链有一整套处理机制。
-- **结构设计科学**：140 份文档各司其职、互相引用不重复；目录与长期规划见 [设计文档](docs/meta/design.md)。
+- **结构设计科学**：139 份文档各司其职、互相引用不重复；目录与长期规划见 [设计文档](docs/meta/design.md)。
 
 ## 内容地图
 
@@ -80,12 +80,11 @@ resources/      链接目录与书单
 playbooks/      端到端实战手册（上架、生存）
 templates/      可复用模板（立项书、复盘）
 scripts/        工具脚本（链接核查）
-data/checks/    发布前核查记录归档
 ```
 
 ## 链接与事实核查
 
-- 发布前对全部外链逐条验证（原始记录见 [data/checks/](data/checks/README.md)）；CI 每周自动复检。
+- 发布前对全部外链逐条验证；CI 每周自动复检。
 - 政策、费率、平台规则类内容均标注核实时点；行动前请以官方最新文档为准。
 
 ## 参与贡献

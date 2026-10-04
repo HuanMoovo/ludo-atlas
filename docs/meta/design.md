@@ -1,7 +1,7 @@
 # Ludo Atlas · 游戏开发全景手册 — 仓库骨架设计文档
 
-> 版本 v2.4 · 2026-10-04 · 状态：阅读站迁移 Material for MkDocs（书籍版）
-> 目标：设计一个可长期维护的开源游戏开发知识仓库，整合「分类型开发流程」×「开源项目目录」×「课程与学习资源」×「AI 开发工作流」。
+> 当前状态：v2.4 · 类型手册 81 类 · 阅读站 Material for MkDocs（书籍版）
+> 目标：建设一个可长期维护的开源游戏开发知识仓库，整合「分类型开发流程」×「开源项目目录」×「课程与学习资源」×「AI 开发工作流」。
 
 ---
 
@@ -16,23 +16,23 @@
 7. `resources/` 详解（课程与学习资源）
 8. `playbooks/` 详解（端到端实战手册）
 9. `templates/` 详解（统一模板库）
-10. `examples/` `scripts/` `data/` `.github/` `assets/` 详解
-11. 游戏类型矩阵（18 家族 × 112 类型 × 优先级）
+10. `examples/` `scripts/` `.github/` `assets/` 详解
+11. 游戏类型矩阵（18 家族 × 112 类型 × 分辑）
 12. 内容规范与写作规范
 13. 治理与维护（贡献、评审、生命周期、许可、翻译）
 14. AI 开发工作流（专章设计，含 8 个端到端案例）
-15. 落地路线图（Phase 0-3）
+15. 现状与后续
 16. 仓库元数据与命名建议
-17. 附录：种子内容（已并入《资源大全》）
-18. 待决策问题
+17. 附录：配套手册与落点
+18. 变更记录
 
 ---
 
 ## 0. 关于本文档
 
-- 本文档定义仓库的**骨架**：定位、结构、每个目录的职责、文件清单、模板与规范、路线图。
-- 落地方式：按 §4 目录树初始化仓库；按 §5-§10 逐目录填充；§9 与 §14 的模板直接复制使用。
-- 本文档建议存放在未来仓库的 `docs/meta/design.md`，作为仓库自身的"设计说明书"，随仓库演进更新。
+- 本文档定义仓库的信息架构与维护规范：定位、目录职责、模板、写作规范与协作流程。
+- 目录树与模板可直接复制使用（§4-§10）；内容规范与治理见 §12-§13；AI 章节设计见 §14。
+- 本文档位于 `docs/meta/design.md`，随仓库演进更新；版本记录见仓库根 `CHANGELOG.md`。
 
 ---
 
@@ -87,15 +87,15 @@
 
 | # | 原则 | 说明 | 落地方式 |
 | --- | --- | --- | --- |
-| P1 | **双轴导航** | 内容沿两条轴组织：学科轴（设计/程序/美术/音频/制作）与类型轴（45 个游戏类型） | `fundamentals/` 管学科，`genres/` 管类型；交叉处互相链接不重复 |
+| P1 | **双轴导航** | 内容沿两条轴组织：学科轴（设计/程序/美术/音频/制作）与类型轴（112 个游戏类型，已收录 81 类） | `fundamentals/` 管学科，`genres/` 管类型；交叉处互相链接不重复 |
 | P2 | **单一事实来源（SSOT）** | 每个工具、课程、资源只在 `catalog/` 或 `resources/` 定义一次 | 其他页面只引用条目 id / 链接，禁止复制描述文本 |
 | P3 | **机器可读优先** | 目录数据是数据，不是散文 | `catalog/*.yml` + `schema.json`；表格与站点页面由脚本生成 |
 | P4 | **模板驱动** | 同类内容必须同构，降低写作与维护成本 | `templates/` 提供类型 Playbook、条目、GDD、复盘等模板；新内容一律从模板初始化 |
 | P5 | **渐进式披露** | README → 板块索引 → 章节主页 → 深潜页，逐层展开 | 每级页面首屏给"一句话摘要 + 导航"，细节下沉 |
 | P6 | **可验证性** | 链接必须能打开、条目必须有复核日期 | CI：markdownlint + lychee 链接检查 + catalog schema 校验；条目标注 `added/reviewed` |
 | P7 | **稳定 URL** | 目录与文件名用英文 kebab-case，标题用中文；改标题不改路径 | 分类法与路径一旦发布视为兼容性承诺，迁移必须留重定向 |
-| P8 | **范围可控** | 112 个类型不是一次铺满，按 P0/P1/P2 分级推进 | 类型矩阵标注优先级；P0 全量、P1 骨架、P2 建目录待填 |
-| P9 | **面向 AI 时代** | 仓库自身要"对 LLM 友好"，并把 AI 工作流作为一等公民 | 根目录 `AGENTS.md` 约定 AI 协作规则；`docs/ai/` 独立章节；内容结构清晰便于检索 |
+| P8 | **范围可控** | 112 个类型不是一次铺满，按分辑分级推进 | 类型矩阵标注分辑；第一辑全量、其余按需展开 |
+| P9 | **面向 AI 时代** | 仓库自身要"对 LLM 友好"，并把 AI 工作流作为一等公民 | `docs/ai/` 独立章节；内容结构清晰、便于检索与引用 |
 | P10 | **开放治理** | 任何人都能按流程贡献，评审有规则、失效有处理 | CONTRIBUTING + CODEOWNERS + 生命周期状态机（§13） |
 
 ---
@@ -160,7 +160,7 @@ ludo-atlas/
 │   │   ├── validate-catalog.yml      # catalog/*.yml 按 schema.json 校验
 │   │   ├── build-site.yml            # MkDocs Material 构建并部署 GitHub Pages
 │   │   ├── gen-tables.yml            # 每周由 yml 重新生成各索引页表格
-│   │   └── stats.yml                 # 每周产出 data/stats.json（条目数/覆盖度）
+│   │   └── stats.yml                 # 每周统计（条目数/覆盖度）
 │   ├── ISSUE_TEMPLATE/
 │   │   ├── new-resource.yml          # 推荐新资源（表单：类型/链接/理由/不重复声明）
 │   │   ├── content-fix.yml           # 纠错（链接失效、过时、错误）
@@ -327,15 +327,10 @@ ludo-atlas/
 ├── scripts/                          # ⑦ 自动化脚本
 │   ├── validate_catalog.py           # schema 校验（CI 调用）
 │   ├── gen_catalog_tables.py         # yml → 索引页表格（生成，不手改）
-│   ├── new_genre.py                  # 从模板生成新类型目录（7 文件）
+│   ├── new_genre.py                  # 从模板生成新类型目录
 │   ├── new_playbook.py               # 从模板生成新 Playbook
 │   ├── check_links.py                # 本地链接检查入口（CI 用 lychee）
 │   └── stats.py                      # 统计：条目数/类型覆盖度/复核过期数
-│
-├── data/                             # ⑧ 生成产物（机器写入，勿手改）
-│   ├── catalog.merged.json           # 全部 yml 合并索引（站点与脚本共用）
-│   ├── stats.json                    # 统计快照（README 徽章与首页数字）
-│   └── links-report.json             # 最近一次链接检查报告
 │
 ├── assets/                           # ⑨ 品牌与图片资源
 │   ├── logo.svg  banner.png  social-preview.png   # 品牌（浅/深两版）
@@ -349,10 +344,9 @@ ludo-atlas/
     CONTRIBUTING.md            # 贡献指南（写作+数据两类流程）
     CODE_OF_CONDUCT.md         # 行为准则（Contributor Covenant）
     GOVERNANCE.md              # 治理：角色、评审、仲裁、兼职维护者制度
-    ROADMAP.md                 # 路线图（同步 §15）
+    ROADMAP.md                 # 路线图（状态与后续）
     CHANGELOG.md               # 变更日志（Keep a Changelog 格式）
     GLOSSARY.md                # 术语表（中英对照，站点挂页）
-    AGENTS.md                  # 给 AI（编码代理）的仓库协作规则（P9）
     CITATION.cff               # 引用信息
     .editorconfig  .gitattributes  .gitignore
     .markdownlint.json  .lycheeignore
@@ -364,106 +358,83 @@ ludo-atlas/
 
 ### 5.1 `start/` 与 `fundamentals/`
 
-| 文件 | 内容要点 | 来源规范 |
-| --- | --- | --- |
-| `start/README` | 三条推荐路径（爱好者 2 周 / 独立开发 6 个月 / 求职 12 个月），每步链接到具体章节 | 自写 |
-| `start/what-is-gamedev` | 一张"游戏诞生流程图"（概念→原型→切片→量产→QA→发布→运营）+ 岗位地图表 | 自写 + 链接 `teams/hiring` |
-| `start/engine-choice` | 决策树（图表）：目标平台×编程基础×2D/3D×团队→推荐引擎；给出 5 个常见场景的结论 | 引用 `engines/README` 对比表 |
-| `start/first-game-7days` | 7 天任务清单（Day1 环境 → Day7 发布 itch），每步附"卡住了看这里"链接 | 自写 + 引用 `playbooks/game-jam-48h` |
-| `start/learning-path` | 三线成长路径图，每阶段：学什么→做什么→验收标准 | 引用 `resources/courses` |
+`start/` 五页（外加索引）：
 
-`fundamentals/` 六门学科统一结构：每目录 `README.md`（学科地图 + 学习顺序）+ 5-8 个主题页。主题页统一模板：
+| 文件 | 内容要点 |
+| --- | --- |
+| `what-is-gamedev` | 游戏从概念到发布的完整流程 + 岗位地图 |
+| `role-map` | 岗位与技能地图：程序 / 策划 / 美术 / TA / 音频 / 制作 |
+| `engine-choice` | 引擎选型：目标平台 × 编程基础 × 2D/3D × 团队 |
+| `first-game` | 第一个游戏：30 天计划与验收标准 |
+| `learning-path` | 学习路径：学什么 → 做什么 → 验收标准 |
 
-```markdown
----
-title: <主题中文名>（<English>）
-level: beginner | intermediate | advanced
-tags: [fundamentals/game-design, ...]
-status: draft | published
-updated: YYYY-MM-DD
----
-# <标题>
-> 一句话摘要：这个主题解决什么问题。
-## 为什么重要（30 秒）
-## 核心概念（图解优先）
-## 实践：最小例子
-## 常见误区
-## 进阶阅读（→ resources/ 链接）
-```
+`fundamentals/` 基础学科 7 册，每册一份 `README.md`：学科地图 + 学习顺序 + 主题分节的核心内容。
 
-### 5.2 `fundamentals/` 各目录文件清单
+### 5.2 `fundamentals/` 各册落点
 
-```text
-game-design/    core-loop.md  systems.md  level-design.md  numbers-balance.md
-                narrative.md  economy.md  ux.md  playtesting.md
-programming/    languages.md  architecture.md  patterns.md  algorithms.md
-                networking.md  optimization.md  save-load.md  tools.md
-math-physics/   vectors-matrices.md  quaternions.md  probability.md
-                collision.md  gameplay-math.md
-art/            pipeline-overview.md  2d.md  3d.md  animation.md  ui.md
-                technical-art.md  shaders.md
-audio/          sound-design.md  music.md  middleware.md  mixing.md
-production/     planning.md  scoping.md  version-control.md  testing.md
-```
+| 册 | 目录 |
+| --- | --- |
+| 游戏设计手册 | `game-design/` |
+| 技术实现手册 | `programming/` |
+| 美术与音频手册 | `art-audio/` |
+| 制作管理手册 | `production/` |
+| 关卡设计手册 | `level-design/` |
+| 引擎源码阅读路线 | `engine-internals/` |
+| 从零写渲染器路线 | `graphics/` |
 
 ### 5.3 `genres/` ★ 核心板块
 
-**组织方式**：18 个家族（action/shooter/rpg/strategy/simulation/puzzle/narrative/social/procedural/rhythm-music/sports-racing/sandbox/automation/horror/card-board/education/casual/xr）× 112 个类型目录，每个类型目录采用**统一的 7 文件模板**（`_template/` 为空白模板）：
+**组织方式**：18 个家族下按类型建目录，每类一页 `README.md`，统一七节结构：
 
-| 文件 | 职责 | 内容大纲 |
-| --- | --- | --- |
-| `README.md` | 概览与导航 | 一句话定义；为什么适合（不）做这个类型；核心循环图（mermaid）；难度/团队规模/周期参考；子页面导航 |
-| `design.md` | 设计要点 | 体验目标三支柱；核心循环拆解；系统清单；数值与曲线；关卡/内容节奏；**常见设计陷阱**；设计 Checklist（可勾选） |
-| `tech.md` | 技术方案 | 关键技术点表格（手感/碰撞/相机/输入缓冲/状态机/生成算法/存档/网络…）；架构建议；**各引擎实现差异**（Godot/Unity/Unreal 各一节）；性能预算 |
-| `content-pipeline.md` | 内容生产管线 | 关卡/美术/音频/文案的生产工具与流程；数据表设计；迭代节奏（改一次关卡要几步） |
-| `production.md` | 制作与范围 | 参考范围表（单人/小队/全职分别多久）；里程碑模板；**砍功能优先序**；风险清单 |
-| `case-studies.md` | 案例拆解 | 3-5 个案例，统一结构：背景 → 关键做法 → 结果 → 可复用结论；优先选**开源可读源码**的案例 |
-| `starter-kit.md` | 起步套件 | 开源模板/脚手架（→ catalog/starter-kits.yml）；教程起点（→ resources）；必备素材包；"首日 10 步" |
+| 节 | 内容 |
+| --- | --- |
+| 1. 定位与核心循环 | 一句话定义、核心循环拆解、类型边界 |
+| 2. 玩家体验目标与标杆作品 | 体验目标、标杆作品与启示 |
+| 3. 设计要点 | 系统清单、数值与曲线、内容节奏、设计陷阱 |
+| 4. 技术要点 | 关键技术点、架构建议、引擎实现差异、性能预算 |
+| 5. 内容量与工作量参考 | 规模档位（单人 / 小队 / 商业）与里程碑参考 |
+| 6. 第一个原型怎么起步 | 最小原型路线与首日清单 |
+| 7. 常见坑 | 高频陷阱与对策 |
 
-**写作顺序建议**：先写 `README` 与 `starter-kit`（能立刻帮到人），再 `design`/`tech`，最后 `case-studies`。
-
-**优先级**：P0 十个类型全量写；P1 二十六个类型先建目录 + 填 `README`/`starter-kit`；P2 剩余类型仅建目录占位（矩阵见 §11）。
+每页首部为定位块（`> **类型手册 · 第X辑**。定位：…`）与配套阅读指引；正文末尾附延伸阅读。**分辑**：第一辑～第四辑（10 / 15 / 26 / 30 类），共 81 类；长尾与混合类型按需补充（矩阵见 §11）。
 
 ### 5.4 `engines/` 引擎轨道（12 条）
 
-每条轨道 7 个文件，统一结构（示例：`godot/`）：
+每条轨道一页 `README.md`，统一七节结构：
 
-| 文件 | 内容 |
+| 节 | 内容 |
 | --- | --- |
-| `README.md` | 生态总览：版本现状、适用场景、优缺点、与之匹配的类型（→ genres）、学习资源（→ resources） |
-| `project-structure.md` | 工程结构最佳实践：目录布局、场景/预制体组织、资源命名、命名空间 |
-| `patterns.md` | 引擎惯用法与架构模式：信号/事件、状态机、组件化、数据驱动、自动加载/单例管理 |
-| `testing-debugging.md` | 单元测试框架（godot 用 gdUnit4/GUT）、调试器、日志、性能分析器用法 |
-| `performance.md` | 性能预算与优化：绘制调用、内存、加载策略、平台差异 |
-| `build-release.md` | 导出/打包/签名/商店集成（→ pipelines/build-release） |
-| `ecosystem.md` | 生态：常用插件（→ catalog）、社区、工具链缺口 |
+| 1. 定位与选型 | 版本现状、适用场景与取舍、匹配的类型 |
+| 2. 生态与工程结构 | 目录布局、资源命名、插件生态与工具链 |
+| 3. 核心工作流 | 编辑、调试、构建与日常循环 |
+| 4. 关键系统惯用法 | 信号/事件、状态机、组件化、数据驱动 |
+| 5. 性能与优化要点 | 绘制调用、内存、加载与平台差异 |
+| 6. 学习路线 | 官方文档与教程路径（→ resources） |
+| 7. 常见坑 | 高频陷阱与对策 |
 
-**12 条轨道**：`godot`（GDScript/C#，开源首选）、`unity`、`unreal`、`bevy`（Rust/ECS）、`web`（Three.js/Babylon.js/PixiJS/Phaser）、`microframework`（raylib/LÖVE/SDL/SFML，框架而非引擎）、`monogame-fna`（C#）、`defold`、`gamemaker`、`renpy`（视觉小说）、`rpgmaker`、`custom-inhouse`（自研引擎/不用引擎，含 Handmade 路线）。
+**12 条轨道**：`godot`（GDScript/C#，开源首选）、`unity`、`unreal`、`bevy`（Rust/ECS）、`web`（Three.js/Babylon.js/PixiJS/Phaser）、`micro`（raylib/LÖVE/SDL/SFML）、`monogame`、`defold`、`gamemaker`、`renpy`、`rpgmaker`、`cocos`。
 
-### 5.5 `pipelines/` 工作流水线（12 条）
+### 5.5 `pipelines/` 工作流水线（6 条 + 2 本深入手册）
 
-每条管线一个目录，统一 2-3 文件：`README.md`（概览+流程图）+ 专题页 + `checklist.md`。**这是仓库里"经验分享"属性最强的板块**，每条管线首屏第一句必须是"这条管线解决什么问题、什么时候需要它"。
+每条管线一页 `README.md`：首屏先回答"这条管线解决什么问题、什么时候需要它"，再给流程与检查清单。**这是仓库里"经验分享"属性最强的板块。**
 
-| 管线 | 一句话 | 关键文件 |
-| --- | --- | --- |
-| version-control | 游戏仓库与普通软件的 Git 差异（二进制资产、LFS、锁） | `git-for-games.md` `git-lfs.md` `branch-strategy.md` |
-| environment | 团队环境一致性（版本锁定、工具分发、代理/镜像） | `toolchain.md` `team-mirror.md` |
-| coordination | 任务与文档协作（看板、周会、决策记录 ADR） | `task-flow.md` `adr-practice.md` |
-| asset-pipeline | 美术资产从 DCC 到引擎（命名/导出/导入/图集/LOD） | `naming.md` `export-import.md` `atlas.md` |
-| audio-pipeline | 音频资产（格式/响度标准/预算/中间件接线） | `formats-loudness.md` `middleware.md` |
-| level-content | 关卡与数据内容（数据表、编辑器、迭代循环） | `data-tables.md` `iteration-loop.md` |
-| localization | 本地化管线（字符串提取、术语表、字体、LQA） | `string-management.md` `glossary.md` `fonts.md` |
-| playtesting | 试玩（招募、脚本、观察、问卷、指标） | `recruiting.md` `session-guide.md` |
-| build-release | 构建与发布（版本号、签名、多平台、商店） | `versioning.md` `platforms.md` `store-release.md` |
-| cicd | 游戏 CI/CD（构建农场、自动打包、Steam 管道） | `build-farm.md` `steam-pipe.md` |
-| analytics | 遥测与分析（事件设计、隐私合规、看板） | `event-design.md` `privacy.md` |
-| live-ops | 上线后运营（更新节奏、热修、事故响应、社区） | `cadence.md` `incident.md` |
+| 管线 | 一句话 |
+| --- | --- |
+| `version-control` | 游戏仓库的 Git 策略、LFS 与场景冲突治理 |
+| `asset-pipeline` | 从创作到入库的五段流水线与规范 |
+| `localization` | 抽取、翻译、回填、测试的完整流程 |
+| `build-release` | 构建矩阵、自动化与渠道包管理 |
+| `playtesting` | 假设先行、陌生人优先的测试方法 |
+| `telemetry-analytics` | 先定问题再埋点的数据管线 |
+
+深入手册：[Mod 与 UGC](../pipelines/modding/README.md)、[联机与后端](../pipelines/multiplayer-backend/README.md)。
 
 ### 5.6 `teams/`、`publishing/`、`postmortems/`
 
-- `teams/`：`solo.md`（单人开发策略与防弃坑）、`small-team.md`（2-8 人分工与协作）、`studio.md`（部门与流程）、`hiring.md`（求职面试 + 招聘）、`jams.md`（Game Jam 全指南）。
-- `publishing/`：从愿望单营销到大作发行的全链；重点页 `steam-launch.md` 与 `store-page.md`（胶囊图/截图/文案规范）。
-- `postmortems/`：不用子目录堆积，一文件一复盘（`0001-<slug>.md`），README 维护筛选索引（按类型/规模/成败）。**投稿优先，需要授权**。
+- `teams/`：`solo-dev`（单人开发策略与防弃坑）、`small-team`（3-10 人分工与协作）、`studio`（部门与流程）。
+- `publishing/`：运营与增长、小游戏、主机、VR/AR、电竞、法务六册 + 索引，覆盖发行、合规与商业化。
+- `postmortems/`：一文件一复盘，README 维护筛选索引（按类型 / 规模 / 成败）。投稿优先，需要授权。
+
 
 ---
 
@@ -508,9 +479,9 @@ production/     planning.md  scoping.md  version-control.md  testing.md
 
 1. 贡献者改 `catalog/*.yml`（或通过 Issue 表单提交，由维护者代填）。
 2. CI：`validate_catalog.py` 校验 schema（必填字段/枚举值/日期格式）。
-3. `gen_catalog_tables.py` 把 yml 生成：各分类索引页表格（插入到 `docs/catalog/*.md` 的标记区之间）、站点数据、`data/catalog.merged.json`。
-4. 链接检查（lychee）对 homepage/repo 做可达性检查，结果进 `data/links-report.json`。
-5. README 与首页的统计数字从 `data/stats.json` 读出，避免手改不同步。
+3. `gen_catalog_tables.py` 把 yml 生成：各分类索引页表格（插入到 `docs/catalog/*.md` 的标记区之间）与站点数据。
+4. 链接检查（lychee）对 homepage/repo 做可达性检查，结果并入 CI 报告。
+5. README 与首页的统计数字由构建脚本计算注入，避免手改不同步。
 
 > 生成区用注释标记包裹：`<!-- gen:begin category=engine -->` … `<!-- gen:end -->`，人只维护 yml。
 
@@ -626,7 +597,7 @@ repo-starter/
 
 - 每个示例 = 最小可运行 + `README.md`（解决什么问题 / 关键文件导读 / 运行命令）+ 不引入无关依赖。
 - 原则："能删的都删"：示例是教学材料，不是产品工程。
-- 引擎示例可参加各自 CI（可选，Phase 2 起）。
+- 引擎示例可参加各自 CI（可选）。
 
 ### 10.2 `scripts/` 职责与 CI 映射
 
@@ -636,7 +607,7 @@ repo-starter/
 | `gen_catalog_tables.py` | `gen-tables.yml`（周更 + 手动） | 重新生成索引页表格与 merged json |
 | `new_genre.py` / `new_playbook.py` | 贡献者本地 | 从模板生成目录骨架 |
 | `check_links.py` | 本地；CI 用 lychee | 链接检查（403/429 视作"浏览器可达"，其余失败需修复） |
-| `stats.py` | `stats.yml`（周更） | 条目数、类型覆盖度、stale 计数、过期复核列表 |
+| `stats.py` | 本地 / CI（周更） | 条目数、类型覆盖度、stale 计数、过期复核列表 |
 
 ### 10.3 `.github/` 工程化细节
 
@@ -645,219 +616,214 @@ repo-starter/
 - **Issue 表单**：推荐资源（防重复检查步骤）、纠错（附坏链）、Playbook 需求、翻译认领。
 - **CODEOWNERS**：按 `catalog/`、`docs/genres/`、`docs/ai/` 等分区指派。
 
-### 10.4 `data/` 与 `AGENTS.md`
-
-- `data/` 全部为生成物，`.gitattributes` 标记 `linguist-generated`，贡献者不手改。
-- `AGENTS.md` 内容要点：仓库结构与 SSOT 规则；改数据用 yml 不改生成区；写作规范摘要；提交信息格式（Conventional Commits）；禁止批量 AI 生成未验证的条目（**AI 辅助的提交必须逐条人验证链接与事实**）。
-
 ---
 
 ## 11. 游戏类型矩阵（18 家族 × 112 类型）
 
-> 优先级：**P0**=首批全量编写（10 个）；**P1**=第二批（26 个，骨架+概览）；**P2**=建目录待填（76 个）。原型难度：★=低 … ★★★★=高（"做出可玩原型"的相对难度）。
-> 每个类型目录统一采用 7 文件 Playbook 模板（见 §5.3）；本矩阵用于选题与排期，不是类型目录的全部定义。
+> 优先级（分辑）：**第一辑**=首批全量编写（10 个）；**第二辑**、**第三辑**=按批次推进的其余类型。原型难度：★=低 … ★★★★=高（"做出可玩原型"的相对难度）。
+> 每个类型目录统一为单页七节结构（见 §5.3）；本矩阵用于选题与排期，不是类型目录的全部定义。
 
 ### 11.1 动作 action（12）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| platformer | 平台跳跃：移动手感与关卡节奏 | ★ | 蔚蓝 / 超级马力欧 | **P0** |
-| precision-platformer | 硬核平台：极限操作与速通 | ★★ | 掘地求升 / 超级肉肉哥 | P1 |
-| metroidvania | 银河城：能力门锁 + 连通地图 | ★★★ | 空洞骑士 | **P0** |
-| beat-em-up | 清版动作：连段与人群控制 | ★★ | 怒之铁拳 4 | P1 |
-| fighting | 格斗：帧数据与对抗平衡 | ★★★★ | 街霸 | P2 |
-| character-action | 动作冒险：连招系统与镜头调度 | ★★★★ | 鬼泣 5 | P2 |
-| hack-and-slash | 割草无双：一骑当千的爽快 | ★★★ | 真·三国无双 | P2 |
-| stealth | 潜行：信息与路线规划 | ★★★ | 耻辱 | P2 |
-| soulslike | 类魂：高难战斗与关卡循环 | ★★★★ | 艾尔登法环 | P1 |
-| run-and-gun | 横版跑轰：跑动射击的节奏 | ★★ | 合金弹头 | P2 |
-| endless-runner | 跑酷：一次失误重来 | ★ | 神庙逃亡 | P2 |
-| immersive-sim | 沉浸模拟：系统交互的自由度 | ★★★★ | 掠食 / 杀出重围 | P2 |
+| platformer | 平台跳跃：移动手感与关卡节奏 | ★ | 蔚蓝 / 超级马力欧 | **第一辑** |
+| precision-platformer | 硬核平台：极限操作与速通 | ★★ | 掘地求升 / 超级肉肉哥 | 第二辑 |
+| metroidvania | 银河城：能力门锁 + 连通地图 | ★★★ | 空洞骑士 | **第一辑** |
+| beat-em-up | 清版动作：连段与人群控制 | ★★ | 怒之铁拳 4 | 第二辑 |
+| fighting | 格斗：帧数据与对抗平衡 | ★★★★ | 街霸 | 第三辑 |
+| character-action | 动作冒险：连招系统与镜头调度 | ★★★★ | 鬼泣 5 | 第三辑 |
+| hack-and-slash | 割草无双：一骑当千的爽快 | ★★★ | 真·三国无双 | 第三辑 |
+| stealth | 潜行：信息与路线规划 | ★★★ | 耻辱 | 第三辑 |
+| soulslike | 类魂：高难战斗与关卡循环 | ★★★★ | 艾尔登法环 | 第二辑 |
+| run-and-gun | 横版跑轰：跑动射击的节奏 | ★★ | 合金弹头 | 第三辑 |
+| endless-runner | 跑酷：一次失误重来 | ★ | 神庙逃亡 | 第三辑 |
+| immersive-sim | 沉浸模拟：系统交互的自由度 | ★★★★ | 掠食 / 杀出重围 | 第三辑 |
 
 ### 11.2 射击 shooter（9）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| fps | 第一人称射击：枪感与关卡视线 | ★★★ | DOOM | P1 |
-| tps | 第三人称射击：掩体与镜头 | ★★★ | 生化危机 4 重制版 | P2 |
-| shmup | 弹幕射击（STG）：弹幕设计与判定 | ★★ | 斑鸠 | P1 |
-| twin-stick | 双摇杆射击：移动与瞄准分离 | ★★ | 挺进地牢 | P1 |
-| bullet-heaven | 幸存者类：自动攻击 + 海量敌人 | ★ | 吸血鬼幸存者 | **P0** |
-| battle-royale | 大逃杀：百人同局与长线运营 | ★★★★ | 和平精英 | P2 |
-| extraction-shooter | 搜打撤：高风险物资循环 | ★★★★ | 逃离塔科夫 | P2 |
-| hero-shooter | 英雄竞技射击：角色技能组合 | ★★★★ | 守望先锋 | P2 |
-| looter-shooter | 刷宝射击：掉落与数值驱动 | ★★★★ | 无主之地 | P2 |
+| fps | 第一人称射击：枪感与关卡视线 | ★★★ | DOOM | 第二辑 |
+| tps | 第三人称射击：掩体与镜头 | ★★★ | 生化危机 4 重制版 | 第三辑 |
+| shmup | 弹幕射击（STG）：弹幕设计与判定 | ★★ | 斑鸠 | 第二辑 |
+| twin-stick | 双摇杆射击：移动与瞄准分离 | ★★ | 挺进地牢 | 第二辑 |
+| bullet-heaven | 幸存者类：自动攻击 + 海量敌人 | ★ | 吸血鬼幸存者 | **第一辑** |
+| battle-royale | 大逃杀：百人同局与长线运营 | ★★★★ | 和平精英 | 第三辑 |
+| extraction-shooter | 搜打撤：高风险物资循环 | ★★★★ | 逃离塔科夫 | 第三辑 |
+| hero-shooter | 英雄竞技射击：角色技能组合 | ★★★★ | 守望先锋 | 第三辑 |
+| looter-shooter | 刷宝射击：掉落与数值驱动 | ★★★★ | 无主之地 | 第三辑 |
 
 ### 11.3 角色扮演 rpg（7）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| jrpg | 日式 RPG：叙事驱动 + 回合/半即时战斗 | ★★★ | 歧路旅人 | P1 |
-| arpg | 动作 RPG：刷装循环 + 打击感 | ★★★ | 哈迪斯 / 暗黑破坏神 | P1 |
-| crpg | 欧美 RPG：规则系统 + 分支叙事 | ★★★★ | 博德之门 3 | P2 |
-| tactics-srpg | 战棋：网格战术与职业成长 | ★★★ | 火焰纹章 | P2 |
-| dungeon-crawler | 地牢爬行：格子探索与资源管理 | ★★★ | 世界树迷宫 | P2 |
-| mmorpg | 大型多人在线 RPG | ★★★★ | 魔兽世界 | P2 |
-| monster-taming | 怪物收集与养成对战 | ★★★ | 宝可梦 | P2 |
+| jrpg | 日式 RPG：叙事驱动 + 回合/半即时战斗 | ★★★ | 歧路旅人 | 第二辑 |
+| arpg | 动作 RPG：刷装循环 + 打击感 | ★★★ | 哈迪斯 / 暗黑破坏神 | 第二辑 |
+| crpg | 欧美 RPG：规则系统 + 分支叙事 | ★★★★ | 博德之门 3 | 第三辑 |
+| tactics-srpg | 战棋：网格战术与职业成长 | ★★★ | 火焰纹章 | 第三辑 |
+| dungeon-crawler | 地牢爬行：格子探索与资源管理 | ★★★ | 世界树迷宫 | 第三辑 |
+| mmorpg | 大型多人在线 RPG | ★★★★ | 魔兽世界 | 第三辑 |
+| monster-taming | 怪物收集与养成对战 | ★★★ | 宝可梦 | 第三辑 |
 
 ### 11.4 策略 strategy（8）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| rts | 即时战略：单位经济与操作上限 | ★★★★ | 星际争霸 | P1 |
-| tower-defense | 塔防：波次数值与建造成长 | ★★ | 王国保卫战 | **P0** |
-| 4x | 4X：探索扩张开发征服 | ★★★★ | 文明 6 | P2 |
-| grand-strategy | 大战略：宏观模拟与外交 | ★★★★ | 十字军之王 3 | P2 |
-| auto-battler | 自走棋：阵容组合与自动解算 | ★★ | 云顶之弈 | P1 |
-| moba | 多人在线竞技：英雄与地图平衡 | ★★★★ | 王者荣耀 / DOTA 2 | P2 |
-| wargame | 兵棋：军事推演 | ★★★★ | 钢铁雄心 | P2 |
-| artillery | 炮术对战：弹道与回合制 | ★★ | 百战天虫 | P2 |
+| rts | 即时战略：单位经济与操作上限 | ★★★★ | 星际争霸 | 第二辑 |
+| tower-defense | 塔防：波次数值与建造成长 | ★★ | 王国保卫战 | **第一辑** |
+| 4x | 4X：探索扩张开发征服 | ★★★★ | 文明 6 | 第三辑 |
+| grand-strategy | 大战略：宏观模拟与外交 | ★★★★ | 十字军之王 3 | 第三辑 |
+| auto-battler | 自走棋：阵容组合与自动解算 | ★★ | 云顶之弈 | 第二辑 |
+| moba | 多人在线竞技：英雄与地图平衡 | ★★★★ | 王者荣耀 / DOTA 2 | 第三辑 |
+| wargame | 兵棋：军事推演 | ★★★★ | 钢铁雄心 | 第三辑 |
+| artillery | 炮术对战：弹道与回合制 | ★★ | 百战天虫 | 第三辑 |
 
 ### 11.5 模拟 simulation（11）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| management | 模拟经营：资源循环与规模曲线 | ★★ | 双点医院 | P1 |
-| city-builder | 城市建造：布局与系统耦合 | ★★★ | 城市天际线 | P1 |
-| colony-sim | 殖民模拟：AI 代理与故事生成 | ★★★★ | 环世界 | P1 |
-| farming-life | 农场生活：日常循环与情感陪伴 | ★★ | 星露谷物语 / 波西亚时光 | **P0** |
-| survival-craft | 生存建造：生存压力与制作链 | ★★ | 我的世界 / 饥荒 | **P0** |
-| vehicle-sim | 驾驶模拟：车辆物理与路况 | ★★★ | 欧洲卡车模拟 | P2 |
-| flight-sim | 飞行模拟：仪表与气动 | ★★★★ | 微软飞行模拟 | P2 |
-| god-game | 上帝游戏：俯视操控全局 | ★★★ | 黑与白 | P2 |
-| life-sim | 人生模拟：日常与社交编织 | ★★★ | 模拟人生 | P2 |
-| pet-sim | 电子宠物：陪伴与轻养成 | ★★ | 旅行青蛙 | P2 |
-| raising-sim | 养成：数值培育与情感投入 | ★★ | 中国式家长 / 美少女梦工场 | P2 |
+| management | 模拟经营：资源循环与规模曲线 | ★★ | 双点医院 | 第二辑 |
+| city-builder | 城市建造：布局与系统耦合 | ★★★ | 城市天际线 | 第二辑 |
+| colony-sim | 殖民模拟：AI 代理与故事生成 | ★★★★ | 环世界 | 第二辑 |
+| farming-life | 农场生活：日常循环与情感陪伴 | ★★ | 星露谷物语 / 波西亚时光 | **第一辑** |
+| survival-craft | 生存建造：生存压力与制作链 | ★★ | 我的世界 / 饥荒 | **第一辑** |
+| vehicle-sim | 驾驶模拟：车辆物理与路况 | ★★★ | 欧洲卡车模拟 | 第三辑 |
+| flight-sim | 飞行模拟：仪表与气动 | ★★★★ | 微软飞行模拟 | 第三辑 |
+| god-game | 上帝游戏：俯视操控全局 | ★★★ | 黑与白 | 第三辑 |
+| life-sim | 人生模拟：日常与社交编织 | ★★★ | 模拟人生 | 第三辑 |
+| pet-sim | 电子宠物：陪伴与轻养成 | ★★ | 旅行青蛙 | 第三辑 |
+| raising-sim | 养成：数值培育与情感投入 | ★★ | 中国式家长 / 美少女梦工场 | 第三辑 |
 
 ### 11.6 解谜 puzzle（11）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| logic | 逻辑解谜：规则与推理之美 | ★ | 传送门 / 巴巴是你 | **P0** |
-| sokoban | 推箱子：空间推理的经典 | ★ | 推箱子 | P2 |
-| physics | 物理解谜：模拟的不确定设计 | ★★ | 人类一败涂地 | P1 |
-| escape-room | 密室逃脱：线索网络与叙事包装 | ★★ | 锈湖系列 / 纸嫁衣 | P2 |
-| puzzle-platformer | 解谜平台：机制教学的关卡设计 | ★★ | FEZ / 跷跷板 | P2 |
-| match-3 | 三消：爽感反馈与关卡曲线 | ★ | 开心消消乐 | P1 |
-| merge | 合成：组合成长与解压反馈 | ★ | 合成大西瓜 | P1 |
-| word | 文字解谜：词汇与语言逻辑 | ★ | Wordle | P2 |
-| hidden-object | 找物：观察力与场景叙事 | ★★ | 隐藏的家伙 | P2 |
-| grid-logic | 网格逻辑：数独/数织/扫雷 | ★ | 数独 | P2 |
-| jigsaw | 拼图：碎片整理与图案 | ★ | 拼图游戏合集 | P2 |
+| logic | 逻辑解谜：规则与推理之美 | ★ | 传送门 / 巴巴是你 | **第一辑** |
+| sokoban | 推箱子：空间推理的经典 | ★ | 推箱子 | 第三辑 |
+| physics | 物理解谜：模拟的不确定设计 | ★★ | 人类一败涂地 | 第二辑 |
+| escape-room | 密室逃脱：线索网络与叙事包装 | ★★ | 锈湖系列 / 纸嫁衣 | 第三辑 |
+| puzzle-platformer | 解谜平台：机制教学的关卡设计 | ★★ | FEZ / 跷跷板 | 第三辑 |
+| match-3 | 三消：爽感反馈与关卡曲线 | ★ | 开心消消乐 | 第二辑 |
+| merge | 合成：组合成长与解压反馈 | ★ | 合成大西瓜 | 第二辑 |
+| word | 文字解谜：词汇与语言逻辑 | ★ | Wordle | 第三辑 |
+| hidden-object | 找物：观察力与场景叙事 | ★★ | 隐藏的家伙 | 第三辑 |
+| grid-logic | 网格逻辑：数独/数织/扫雷 | ★ | 数独 | 第三辑 |
+| jigsaw | 拼图：碎片整理与图案 | ★ | 拼图游戏合集 | 第三辑 |
 
 ### 11.7 叙事 narrative（7）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| visual-novel | 视觉小说：分支叙事与演出 | ★ | 逆转裁判 | **P0** |
-| otome | 乙女/恋爱：角色关系与好感系统 | ★ | 恋与制作人 | P1 |
-| point-and-click | 点击冒险：物品谜题与对话 | ★★ | 猴岛小英雄 | P1 |
-| interactive-fiction | 互动小说：纯文本的叙事实验 | ★ | 80 Days | P1 |
-| mud | 文字冒险/MUD：命令行叙事世界 | ★★ | 各在线文字世界 | P2 |
-| interactive-movie | 互动电影/FMV：影像分支 | ★★ | 完蛋！我被美女包围了 / 隐形守护者 | P2 |
-| walking-sim | 步行模拟：环境叙事 | ★★ | 看火人 | P2 |
+| visual-novel | 视觉小说：分支叙事与演出 | ★ | 逆转裁判 | **第一辑** |
+| otome | 乙女/恋爱：角色关系与好感系统 | ★ | 恋与制作人 | 第二辑 |
+| point-and-click | 点击冒险：物品谜题与对话 | ★★ | 猴岛小英雄 | 第二辑 |
+| interactive-fiction | 互动小说：纯文本的叙事实验 | ★ | 80 Days | 第二辑 |
+| mud | 文字冒险/MUD：命令行叙事世界 | ★★ | 各在线文字世界 | 第三辑 |
+| interactive-movie | 互动电影/FMV：影像分支 | ★★ | 完蛋！我被美女包围了 / 隐形守护者 | 第三辑 |
+| walking-sim | 步行模拟：环境叙事 | ★★ | 看火人 | 第三辑 |
 
 ### 11.8 社交与多人 social（7）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| party | 派对：多人同乐的混乱感 | ★★ | 蛋仔派对 | P2 |
-| co-op | 合作闯关：协作机制设计 | ★★★ | 双人成行 | P1 |
-| couch-multiplayer | 本地多人：一屏共乐 | ★★ | 胡闹厨房 | P2 |
-| mmo | 大型多人在线：社交世界 | ★★★★ | 光·遇 | P2 |
-| social-deduction | 社交推理：信息不对称 | ★★ | 鹅鸭杀 | P2 |
-| asymmetric | 非对称对抗：不对等角色设计 | ★★★ | 第五人格 | P2 |
-| io-games | .io 网页对战：即点即玩 | ★★ | agar.io | P2 |
+| party | 派对：多人同乐的混乱感 | ★★ | 蛋仔派对 | 第三辑 |
+| co-op | 合作闯关：协作机制设计 | ★★★ | 双人成行 | 第二辑 |
+| couch-multiplayer | 本地多人：一屏共乐 | ★★ | 胡闹厨房 | 第三辑 |
+| mmo | 大型多人在线：社交世界 | ★★★★ | 光·遇 | 第三辑 |
+| social-deduction | 社交推理：信息不对称 | ★★ | 鹅鸭杀 | 第三辑 |
+| asymmetric | 非对称对抗：不对等角色设计 | ★★★ | 第五人格 | 第三辑 |
+| io-games | .io 网页对战：即点即玩 | ★★ | agar.io | 第三辑 |
 
 ### 11.9 程序生成与局内成长 procedural（4）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| roguelike | 传统 Roguelike：回合制 + 程序生成 | ★★★ | DCSS | P1 |
-| roguelite | 肉鸽 Lite：局内随机 + 局外成长 | ★★ | 哈迪斯 / 雨中冒险 2 | **P0** |
-| deckbuilder | 卡牌构筑：卡池与组合爆炸 | ★★ | 杀戮尖塔 | P1 |
-| idle-incremental | 放置增量：数值指数与时间感 | ★ | 饼干点点乐 / 咸鱼之王 | **P0** |
+| roguelike | 传统 Roguelike：回合制 + 程序生成 | ★★★ | DCSS | 第二辑 |
+| roguelite | 肉鸽 Lite：局内随机 + 局外成长 | ★★ | 哈迪斯 / 雨中冒险 2 | **第一辑** |
+| deckbuilder | 卡牌构筑：卡池与组合爆炸 | ★★ | 杀戮尖塔 | 第二辑 |
+| idle-incremental | 放置增量：数值指数与时间感 | ★ | 饼干点点乐 / 咸鱼之王 | **第一辑** |
 
 ### 11.10 音乐节奏 rhythm-music（4）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| rhythm | 节奏：判定窗口与谱面设计 | ★★ | 节奏医生 | P2 |
-| music-sandbox | 音乐沙盒：即兴创作的玩法化 | ★★ | Trombone Champ | P2 |
-| karaoke | 唱歌/K 歌玩法 | ★ | 全民 K 歌（游戏化） | P2 |
-| dance | 舞蹈/体感音游 | ★★ | Just Dance | P2 |
+| rhythm | 节奏：判定窗口与谱面设计 | ★★ | 节奏医生 | 第三辑 |
+| music-sandbox | 音乐沙盒：即兴创作的玩法化 | ★★ | Trombone Champ | 第三辑 |
+| karaoke | 唱歌/K 歌玩法 | ★ | 全民 K 歌（游戏化） | 第三辑 |
+| dance | 舞蹈/体感音游 | ★★ | Just Dance | 第三辑 |
 
 ### 11.11 竞速体育 sports-racing（8）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| racing | 竞速：车辆物理与赛道 | ★★★ | 极限竞速 | P2 |
-| kart-racing | 卡丁车竞速：道具与欢乐 | ★★ | 跑跑卡丁车 | P2 |
-| team-sports | 球类团队竞技 | ★★★ | FIFA 系列 | P2 |
-| extreme-sports | 极限运动：滑板/滑雪 | ★★★ | 极限巅峰 | P2 |
-| golf | 高尔夫/休闲球类 | ★★ | Golf With Your Friends | P2 |
-| fishing | 钓鱼：佛系节奏与收集 | ★★ | 俄罗斯钓鱼 4 | P2 |
-| billiards | 台球：物理的魔术 | ★★ | 台球游戏合集 | P2 |
-| fitness | 体感健身：运动即玩法 | ★★★ | 健身环大冒险 | P2 |
+| racing | 竞速：车辆物理与赛道 | ★★★ | 极限竞速 | 第三辑 |
+| kart-racing | 卡丁车竞速：道具与欢乐 | ★★ | 跑跑卡丁车 | 第三辑 |
+| team-sports | 球类团队竞技 | ★★★ | FIFA 系列 | 第三辑 |
+| extreme-sports | 极限运动：滑板/滑雪 | ★★★ | 极限巅峰 | 第三辑 |
+| golf | 高尔夫/休闲球类 | ★★ | Golf With Your Friends | 第三辑 |
+| fishing | 钓鱼：佛系节奏与收集 | ★★ | 俄罗斯钓鱼 4 | 第三辑 |
+| billiards | 台球：物理的魔术 | ★★ | 台球游戏合集 | 第三辑 |
+| fitness | 体感健身：运动即玩法 | ★★★ | 健身环大冒险 | 第三辑 |
 
 ### 11.12 沙盒创造 sandbox（3）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| sandbox-building | 沙盒建造：自由构造与物理 | ★★★ | 我的世界 | P1 |
-| creative-workshop | 创造工坊：游戏内创作与分享 | ★★★★ | 马力欧制造 | P2 |
-| physics-sandbox | 物理沙盒：玩具箱式交互 | ★★★ | 盖瑞模组 | P2 |
+| sandbox-building | 沙盒建造：自由构造与物理 | ★★★ | 我的世界 | 第二辑 |
+| creative-workshop | 创造工坊：游戏内创作与分享 | ★★★★ | 马力欧制造 | 第三辑 |
+| physics-sandbox | 物理沙盒：玩具箱式交互 | ★★★ | 盖瑞模组 | 第三辑 |
 
 ### 11.13 自动化与逻辑 automation（3）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| factory-automation | 工厂自动化：产线与效率之美 | ★★★ | 异星工厂 / 戴森球计划 | P1 |
-| programming-puzzle | 编程解谜：用代码解谜题 | ★★ | 人力资源机器 / TIS-100 | P2 |
-| logic-automation | 逻辑自动化：电路与红石 | ★★★ | 我的世界（红石） | P2 |
+| factory-automation | 工厂自动化：产线与效率之美 | ★★★ | 异星工厂 / 戴森球计划 | 第二辑 |
+| programming-puzzle | 编程解谜：用代码解谜题 | ★★ | 人力资源机器 / TIS-100 | 第三辑 |
+| logic-automation | 逻辑自动化：电路与红石 | ★★★ | 我的世界（红石） | 第三辑 |
 
 ### 11.14 恐怖 horror（3）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| survival-horror | 生存恐怖：资源匮乏与压迫感 | ★★★ | 生化危机 | P1 |
-| psychological-horror | 心理恐怖：氛围与叙事恐惧 | ★★ | 层层恐惧 | P2 |
-| co-op-horror | 联机恐怖：多人尖叫体验 | ★★ | 恐鬼症 | P2 |
+| survival-horror | 生存恐怖：资源匮乏与压迫感 | ★★★ | 生化危机 | 第二辑 |
+| psychological-horror | 心理恐怖：氛围与叙事恐惧 | ★★ | 层层恐惧 | 第三辑 |
+| co-op-horror | 联机恐怖：多人尖叫体验 | ★★ | 恐鬼症 | 第三辑 |
 
 ### 11.15 卡牌与桌面 card-board（5）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| tcg | 集换式卡牌：卡池经济与对战平衡 | ★★★★ | 炉石传说 | P2 |
-| board-game | 桌游电子化：规则数字化 | ★★★ | 数字桌游改编 | P2 |
-| mahjong | 麻将：国民棋牌玩法 | ★★ | 雀魂 | P2 |
-| solitaire | 纸牌接龙：经典单机 | ★ | 蜘蛛纸牌 | P2 |
-| casino | 棋牌/赌场玩法（注意各地合规） | ★★ | —— | P2 |
+| tcg | 集换式卡牌：卡池经济与对战平衡 | ★★★★ | 炉石传说 | 第三辑 |
+| board-game | 桌游电子化：规则数字化 | ★★★ | 数字桌游改编 | 第三辑 |
+| mahjong | 麻将：国民棋牌玩法 | ★★ | 雀魂 | 第三辑 |
+| solitaire | 纸牌接龙：经典单机 | ★ | 蜘蛛纸牌 | 第三辑 |
+| casino | 棋牌/赌场玩法（注意各地合规） | ★★ | —— | 第三辑 |
 
 ### 11.16 教育功能 education（4）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| edutainment | 教育娱乐：寓教于乐 | ★★ | 教育版 Minecraft | P2 |
-| serious-game | 严肃游戏：训练/科普/公益 | ★★★ | Foldit | P2 |
-| quiz | 答题竞猜：知识竞技 | ★ | 答题类综艺游戏 | P1 |
-| training-sim | 训练模拟：专业操作演练 | ★★★ | 行业训练模拟 | P2 |
+| edutainment | 教育娱乐：寓教于乐 | ★★ | 教育版 Minecraft | 第三辑 |
+| serious-game | 严肃游戏：训练/科普/公益 | ★★★ | Foldit | 第三辑 |
+| quiz | 答题竞猜：知识竞技 | ★ | 答题类综艺游戏 | 第二辑 |
+| training-sim | 训练模拟：专业操作演练 | ★★★ | 行业训练模拟 | 第三辑 |
 
 ### 11.17 休闲轻量 casual（4）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| hyper-casual | 超休闲：极简玩法 + 买量 | ★ | 各类买量小游戏 | P2 |
-| minigame-collection | 小游戏合集：一分钟一个 | ★★ | 瓦里奥制造 | P2 |
-| anti-stress | 解压玩具：指尖反馈 | ★ | Antistress 类 | P2 |
-| arcade-classic | 街机复古：经典玩法重制 | ★ | 吃豆人 / 太空侵略者 | P2 |
+| hyper-casual | 超休闲：极简玩法 + 买量 | ★ | 各类买量小游戏 | 第三辑 |
+| minigame-collection | 小游戏合集：一分钟一个 | ★★ | 瓦里奥制造 | 第三辑 |
+| anti-stress | 解压玩具：指尖反馈 | ★ | Antistress 类 | 第三辑 |
+| arcade-classic | 街机复古：经典玩法重制 | ★ | 吃豆人 / 太空侵略者 | 第三辑 |
 
 ### 11.18 扩展现实 xr（2）
 
 | 类型目录 | 定位 | 原型难度 | 代表作参考 | 优先级 |
 | --- | --- | --- | --- | --- |
-| vr-game | VR 游戏：体感与沉浸交互 | ★★★★ | 半衰期：爱莉克斯 | P2 |
-| ar-game | AR 游戏：现实叠加玩法 | ★★★★ | 宝可梦 GO | P2 |
+| vr-game | VR 游戏：体感与沉浸交互 | ★★★★ | 半衰期：爱莉克斯 | 第三辑 |
+| ar-game | AR 游戏：现实叠加玩法 | ★★★★ | 宝可梦 GO | 第三辑 |
 
 > 说明：开放世界、多人联机、买断/免费等属于**结构标签**而非类型，用 tags 受控词表（`docs/meta/taxonomy.md`）表达，不单设类型目录。
 
@@ -932,8 +898,8 @@ draft → review → published → (stale) → archived
 
 ### 13.5 翻译（i18n）策略
 
-- 结构：MkDocs Material（`mkdocs.yml`）；`docs/` 中文为主，英文镜像目录后置（Phase 2）。README 三语（中/英，日语可选）。
-- 优先翻译序：README → 首页 → `start/` → P0 类型 README → catalog 分类说明。
+- 结构：MkDocs Material（`mkdocs.yml`）；`docs/` 中文为主，英文镜像目录后置。README 三语（中/英，日语可选）。
+- 优先翻译序：README → 首页 → `start/` → 第一辑类型 README → catalog 分类说明。
 - 术语统一靠 `GLOSSARY.md` + 翻译术语表；译文评审至少一人母语级。
 
 ---
@@ -1064,7 +1030,7 @@ ai/
 | 4 | `wf-narrative-pipeline` | 世界观→剧情大纲→对话树半自动生成 | 角色一致性表人工核对 |
 | 5 | `wf-ai-qa-loop` | 代理跑冒烟测试 → 抓日志 → 汇总问题单 | 代理提交的 bug 单需人复核严重级 |
 | 6 | `wf-l10n-pipeline` | 提取→翻译→术语校验→回填→LQA | 术语表 + 抽样人工精读每语言 5% |
-| 7 | `wf-jam-ai` | 48h Game Jam 的 AI 分工表（哪些步骤 AI、哪些禁 AI） | 提交前留 2 小时"去 AI 味"与一致性检查 |
+| 7 | `wf-jam-ai` | 48h Game Jam 的 AI 分工表（哪些步骤 AI、哪些禁 AI） | 提交前留 2 小时人工润色与一致性检查 |
 | 8 | `wf-live-ops` | 上线后：更新日志起草、社区回复草稿、数据日报 | 对外文字必须人改人发 |
 
 ### 14.9 合规与伦理（`compliance/`，高风险区，必须写实）
@@ -1088,25 +1054,10 @@ ai/
 
 ---
 
-## 15. 落地路线图
+## 15. 现状与后续
 
-> 人力假设：单人维护（每周 5-10 小时）+ 社区投稿。核心策略：**先让结构完整（目录+CI+模板全就位），再让内容分级填充**。
-
-| 阶段 | 周期 | 交付物 | 完成标准（验收） |
-| --- | --- | --- | --- |
-| **Phase 0 骨架** | 第 1-2 周 | 全目录树 + 根文件 + 6 个 workflow + 模板库（§9）+ 每板块 1-2 个样板内容 + 许可/README/COD | CI 全绿；`main` 可公开；新人能按 CONTRIBUTING 完成一次贡献 |
-| **Phase 1 可用** | 1-2 个月 | `start/` 全量；P0 十类型的 7 文件；`catalog/` ≥120 条（含验证）；`docs/ai/` 主体；站点上线 Pages（Material for MkDocs） | 站点可从 0 走到"完成第一个游戏"；catalog 表格自动生成；链接检查通过率 ≥99% |
-| **Phase 2 完整** | 3-6 个月 | P1 二十六类型；12 引擎轨道；12 管线；10 个 Playbook；课程库 ≥200 条；`examples/` 首批 5 个 | 112 类型全覆盖（P2 至少 README）；README.en 上线；统计看板数字自动更新 |
-| **Phase 3 社区化** | 6 个月+ | 月度精选、投稿常态化、翻译项目启动、showcase（用本仓库教程做出来的作品） | 外部贡献者 ≥5 人/季度；stale 率 <10% |
-
-**Phase 0 任务清单（可直接执行）**：
-
-1. `git init` + 目录骨架（脚本生成，见 §19）
-2. 根文件：README（含 mermaid 导航）、LICENSE ×2、CONTRIBUTING、CODE_OF_CONDUCT、AGENTS.md
-3. `.github/`：6 个 workflow + PR/Issue 模板 + CODEOWNERS
-4. `templates/` 全量（先于内容：模板驱动一切）
-5. 样板内容：`start/first-game-7days`、`genres/action/platformer/`（全套 7 文件之一二）、`catalog/engines.yml`（先 15 条）、`docs/ai/README`
-6. 站点骨架可选后置，但目录结构按站点要求一步到位
+- v2.4：类型手册 81 类（第一辑～第四辑）、引擎轨道 12 条、管线与工作流、实践手册 6 本、模板 6 件、catalog 五表、示例区路线图；阅读站（Material for MkDocs 书籍版）已上线。
+- 后续方向与认领方式见[内容路线图](roadmap.md)；版本记录见仓库根 `CHANGELOG.md`。
 
 ---
 
@@ -1122,103 +1073,39 @@ ai/
 
 ---
 
-## 17. 附录：种子内容（已并入《资源大全》）
+## 17. 附录：配套手册与落点
 
-配套文件 **《Ludo Atlas · 资源大全》（`ludo-atlas-resources.md`）** 已落实并大幅扩编本附录：
+设计阶段整理的种子内容已并入《资源大全》与 `catalog/`、`resources/`，不再重复维护；《资源大全》为唯一事实来源（11 章、521 条链接全量核查：398 直连可访问 · 42 反爬保护 · 2 需登录 · 15 异常已处理）。
 
-- **5 轮迭代**：① 引擎与开发框架 + 工具软件官网 → ② 学习平台与社区资讯 → ③ 素材资源 → ④ 发行平台与赛事展会 → ⑤ 服务基础设施 / 合规 / 外包。
-- **规模与验证**：11 章、521 条链接全量核查（含第 ⑥ 轮国际线增补）：398 直连可访问 · 42 反爬保护（浏览器可访问）· 2 需登录（开发者后台）· 15 异常已全部处理（替换 7 / 修正 1 / 删除 1 / 第三方复核保留 6），详见该文件《链接核查报告》。
-- **覆盖面**：国际 + 国内（含小游戏生态、国内素材站、中文字体、国内发行渠道与外包平台）。
-- **定位**：直接作为仓库 `catalog/` 与 `resources/` 的种子数据；`check_links.py` 并入 CI 作为持续验证工具。
-
-**同目录配套手册（第 ⑥-⑱ 轮迭代，2026-10-04）**：
-
-| 手册 | 文件 | 对应仓库落点（建议） |
-| --- | --- | --- |
-| 避坑大全（约 90 个高频坑，含联机/网游与 AI 工作流） | `ludo-atlas-pitfalls.md` | `docs/pitfalls/`（里程碑评审引用） |
-| 法务、专利与竞争手册（版权/商标/专利/合同/出海合规/竞品分析） | `ludo-atlas-legal.md` | `docs/publishing/legal/` + `docs/publishing/market/` |
-| 全平台上架手册（Steam/主机/移动/国内渠道/小游戏 + 网络游戏版号/防沉迷专项） | `ludo-atlas-launch.md` | `playbooks/platform-launch/` + `docs/publishing/compliance/` |
-| 游戏设计手册（流程/核心循环/系统/数值/关卡/手感/UX/叙事/验证） | `ludo-atlas-game-design.md` | `docs/fundamentals/game-design/` |
-| 技术实现手册（架构选型/核心系统/性能/多平台/网络/工程基建/引擎对照） | `ludo-atlas-tech.md` | `docs/fundamentals/programming/` + `docs/pipelines/` |
-| 美术与音频手册（Art Bible/2D/3D/UI/技术美术/音频设计与实现/交付规格） | `ludo-atlas-art-audio.md` | `docs/fundamentals/art/` + `docs/fundamentals/audio/` |
-| 制作管理手册（立项/估算排期/阶段模型/范围控制/协作/QA/风险/单人开发/复盘） | `ludo-atlas-production.md` | `docs/fundamentals/production/` + `playbooks/` |
-| 运营与增长手册（增长漏斗/发售节奏/数据指标/社区危机/变现伦理/出海） | `ludo-atlas-liveops.md` | `docs/publishing/` + `docs/pipelines/live-ops/` |
-| 游戏简史（领域史/中国游戏史/技术发展简史/代表作品） | `ludo-atlas-history.md` | `docs/meta/history/` |
-| 独立开发者与厂商谱（开发者/传奇/厂商/跟人学法） | `ludo-atlas-people.md` | `docs/meta/people/` + `docs/meta/studios/` |
-| 开源精选与书籍推荐（GitHub 103 仓库核查 + 60 余本书目） | `ludo-atlas-github-books.md` | `resources/books.md` + `catalog` 精选层 |
-| 独立开发者深度谱（44 组深度档案 + 星露谷物语作者专题 + 共性规律） | `ludo-atlas-indie-devs.md` | `docs/meta/people/indie/` |
-| 独立开发生存手册（模式/财务/路径阶梯/资金来源/决策关口/中国特辑） | `ludo-atlas-indie-survival.md` | `playbooks/indie-survival/` + `docs/teams/solo/` |
-| AI 工作流手册（编码代理/引擎 MCP/美术音频管线/8 个端到端工作流/合规/提示词库） | `ludo-atlas-ai.md` | `docs/ai/`（设计文档 §14 的落地版） |
-| 案例研究集（成功/失败/救赎/中国案例，四段拆解 + 模式总结） | `ludo-atlas-cases.md` | `docs/postmortems/` 导读层 |
-| 关卡设计手册（度量/引导/节奏/白盒工作流/经典拆解/练习） | `ludo-atlas-level-design.md` | `docs/fundamentals/level-design/` |
-| 小游戏开发手册（微信/抖音/硬件渠道：包体红线/平台能力/变现/买量/合规） | `ludo-atlas-minigame.md` | `docs/publishing/minigame/` |
-| 主机开发手册（ID@Xbox / PlayStation Partners / Nintendo：移植、认证、发行） | `ludo-atlas-console.md` | `docs/publishing/console/` |
-| VR/AR 开发手册（平台上架、交互设计、舒适度、性能预算、工程栈） | `ludo-atlas-xr.md` | `docs/publishing/xr/` |
-| Mod 与 UGC 手册（支持层级、创意工坊/mod.io、社区运营、合规） | `ludo-atlas-modding.md` | `docs/pipelines/modding/` |
-| 联机与后端深入手册（同步模型、匹配、经济安全、反作弊、成本运维） | `ludo-atlas-netcode.md` | `docs/pipelines/multiplayer-backend/` |
-| 电竞与竞技设计手册（竞技性/观战系统/平衡/赛事生态/中国口径） | `ludo-atlas-esports.md` | `docs/publishing/esports/` |
-| 引擎源码阅读路线（Godot/Bevy/小引擎，方法论与周计划） | `ludo-atlas-engine-reading.md` | `docs/fundamentals/engine-internals/` |
-| 从零写渲染器路线（软光栅化→实时 API→光追） | `ludo-atlas-renderer-path.md` | `docs/fundamentals/graphics/` |
-
-（原 §17.1-17.3 种子清单不再重复维护，以《资源大全》为唯一事实来源。）
-
-## 18. 待决策问题（请确认，否则按"建议"执行）
-
-| # | 问题 | 建议默认 |
-| --- | --- | --- |
-| 1 | 仓库名用 `ludo-atlas`？ | 是（见 §16） |
-| 2 | 112 个类型全建目录，只全量写 P0？ | 是 |
-| 3 | 站点方案？ | MkDocs Material 书籍版（中文友好、导航与搜索成熟）；原 VitePress 方案已迁移 |
-| 4 | 中英双语还是中文优先？ | 中文主 + README.en；全量英译放 Phase 2 |
-| 5 | 与 magictools-SI 等既有列表的关系？ | 互链互补；种子批量导入后逐条验证 |
-| 6 | 是否收录付费资源？ | 收录但强制标注；无联盟链接 |
-| 7 | 是否申请加入 awesome 列表生态？ | Phase 2 后再议（需先满足 awesome 规范） |
-| 8 | 托管方式？ | GitHub 公开仓库（HuanMoovo/ludo-atlas）+ Pages |
-| 9 | 《资源大全》如何维护？ | 作为 catalog/resources 种子进仓；链接核查并入 CI（同口径白名单） |
+| 手册 | 仓库落点 |
+| --- | --- |
+| 避坑大全 | `docs/pitfalls/` |
+| 法务、专利与竞争手册 | `docs/publishing/legal/` |
+| 全平台上架手册 | `playbooks/platform-launch/` |
+| 游戏设计手册 | `docs/fundamentals/game-design/` |
+| 技术实现手册 | `docs/fundamentals/programming/` |
+| 美术与音频手册 | `docs/fundamentals/art-audio/` |
+| 制作管理手册 | `docs/fundamentals/production/` |
+| 运营与增长手册 | `docs/publishing/live-ops/` |
+| 游戏简史 | `docs/meta/history/` |
+| 人物与厂商谱 | `docs/meta/people/` |
+| 开源精选与书籍推荐 | `resources/books-and-repos.md` |
+| 独立开发者深度谱 | `docs/meta/people/indie/` |
+| 独立开发生存手册 | `playbooks/indie-survival/` |
+| AI 工作流手册 | `docs/ai/` |
+| 案例研究集 | `docs/postmortems/` |
+| 关卡设计手册 | `docs/fundamentals/level-design/` |
+| 小游戏开发手册 | `docs/publishing/minigame/` |
+| 主机开发手册 | `docs/publishing/console/` |
+| VR/AR 开发手册 | `docs/publishing/xr/` |
+| Mod 与 UGC 手册 | `docs/pipelines/modding/` |
+| 联机与后端深入手册 | `docs/pipelines/multiplayer-backend/` |
+| 电竞与竞技设计手册 | `docs/publishing/esports/` |
+| 引擎源码阅读路线 | `docs/fundamentals/engine-internals/` |
+| 从零写渲染器路线 | `docs/fundamentals/graphics/` |
 
 ---
 
-## 19. 下一步（可立即执行）
+## 18. 变更记录
 
-1. **确认 §18 决策**（或直接采纳建议默认值）。
-2. **一键生成骨架**：用脚本按 §4 目录树在本机初始化仓库（含全部目录、模板文件、CI、根文件），`git init` 后经隐私/链接检查推送 GitHub。
-3. **Phase 0 填样板**：先落 `templates/` + `start/` + `genres/action/platformer/` + `catalog/engines.yml`，让 CI 跑起来。
-4. **上线站点**：MkDocs Material（site/ + Pages Actions）。
-
-> 本文档为 v0.2 设计稿；结构定稿后将作为 `docs/meta/design.md` 进入仓库，并随仓库演进（变更须走 PR）。
-
----
-
-## 20. 变更记录
-
-| 版本 | 日期 | 变更 |
-| --- | --- | --- |
-| v0.1 | 2026-10-04 | 初始设计稿：定位、原则、信息架构、全库目录树、catalog/resources 设计、AI 工作流专章、路线图与种子清单。 |
-| v0.2 | 2026-10-04 | ① 类型矩阵由 12 家族 × 45 类型扩容至 **18 家族 × 112 类型**（新增 horror / card-board / automation / education / casual / xr 等家族及大量细分类型）；② 新增配套《资源大全》（5 轮迭代、457 链接全量核查、覆盖国内资源）；③ §17 种子并入资源大全；④ §4 / §5.3 / §11 / §16 同步更新。 |
-| v0.3 | 2026-10-04 | 新增第 ⑥⑦⑧ 轮配套手册三份：《避坑大全》《法务、专利与竞争手册》《全平台上架手册（含网络游戏专项）》；手册落点写入 §17；新一轮链接核查完成（新增 15 条链接，修正 2 处失效地址）。 |
-| v0.4 | 2026-10-04 | 补全第 ⑨⑩⑪⑫⑬ 轮五大实践手册：《游戏设计》《技术实现》《美术与音频》《制作管理》《运营与增长》；**13 轮迭代全部完成**，共 10 份文档（结构 1 + 内容 9），链接核查累计 476 条记录。 |
-| v0.5 | 2026-10-04 | 新增第 ⑭⑮⑯ 轮：《游戏简史》（含技术史与约百款代表作品）、《独立开发者与厂商谱》、《开源精选与书籍推荐》；GitHub 仓库存在性核查 103 个（101 通过、2 处修正、3 处改名更新）；书本链接 9 条核查通过。**16 轮迭代全部完成，共 13 份文档。** |
-| v0.6 | 2026-10-04 | 第 ⑰⑱ 轮：独立开发者部分扩编为《独立开发者深度谱》（44 组深度档案，含 Eric Barone 专题）与《独立开发生存手册》；⑮ 增加交叉指引；官方入口 8 条链接核查通过；两处笔误修正。**18 轮迭代全部完成，共 15 份文档。** |
-| v0.7 | 2026-10-04 | 第 ⑲⑳ 轮：《AI 工作流手册》（设计文档 §14 落地版）、《案例研究集》（成功/失败/救赎/中国案例四段拆解）；写作流程接入去 AI 味规范（humanizer-zh / de-ai-flavor / humanize-chinese）；存量 AI 腔扫描完成，主要问题为破折号偏多，语言打磨遍列入路线图。共 17 份文档。 |
-| v0.8 | 2026-10-04 | 第 ㉑㉒ 轮：《关卡设计手册》《小游戏开发手册》（含微信/抖音包体官方口径、iOS 虚拟支付 2025 年打通等时效事实，新增 6 条链接全部核查通过）；《案例研究集》戴森球、太吾绘卷两处数字按公开资料修正。共 19 份文档。 |
-| v0.9 | 2026-10-04 | 第 ㉓ 轮：《主机开发手册》（三大平台公开入口、认证与移植通用流程、发行实操；4 条入口链接核查通过）。共 20 份文档。 |
-| v0.10 | 2026-10-04 | 第 ㉔㉕ 轮：《VR/AR 开发手册》（Meta/PICO/Vision Pro 口径、舒适度与性能预算）、《Mod 与 UGC 手册》（创意工坊版本控制、mod.io 跨平台、法律与社区）。共 22 份文档。 |
-| v0.11 | 2026-10-04 | 第 ㉖ 轮：《联机与后端深入手册》（同步模型、服务分层、匹配、经济安全、反作弊、成本运维）。共 23 份文档。 |
-| v0.12 | 2026-10-04 | 第 ㉗㉘㉙ 轮：《电竞与竞技设计手册》（竞技/观战/平衡/赛事/中国办赛口径）、《引擎源码阅读路线》（三线+周计划）、《从零写渲染器路线》（三阶段）；新增链接核查通过。共 26 份文档。 |
-| v0.13 | 2026-10-04 | 仓库与站点落地：GitHub 仓库上线（HuanMoovo/ludo-atlas）、VitePress 站点经 GitHub Pages 上线、CI 三件套（Lint/链接检查/站点部署）就绪、全部 Markdown 格式规范化。 |
-| v1.0 | 2026-10-04 | 收官：语言打磨遍（108 处破折号清零至 1 处表格占位符；106 处替换为冒号/逗号/句号；术语统一）；站点与 CI 稳定。**v1.0 完成判定达成：全部批次完成 + 仓库推送 + 站点上线。** |
-| v1.1 | 2026-10-04 | 第 ㉚ 轮：《资源大全》国际线深度扩展——新增 63 条国际资源（发行商 / 资金与补助 / 行业媒体与数据 / 社区 / 展会 / 服务与招聘），全量核查通过（60 直接可达 · 3 反爬保护）；去重复核（36 条疑似缺失经精确比对，24 条确认为既往已收录）；全库计数同步至 521 条。 |
-| v1.2 | 2026-10-04 | 项目定名 **Ludo Atlas**（原工作名 gamedev-atlas，本地目录未改）：像素史莱姆 LOGO 上线（`assets/logo.svg` + 备选 + 品牌页 + PNG）；GitHub 仓库与 Pages 站点迁移至 ludo-atlas；修复站点 base 缺失（此前子路径下样式与脚本 404）；全库品牌串与链接同步。 |
-| v1.3 | 2026-10-04 | 第 ㉛ 轮：《类型手册》P0 十类落盘（平台跳跃、银河城、肉鸽、塔防、解谜、视觉小说、生存建造、农场经营、幸存者类、放置增量，统一七节结构）；入门区五页落盘（全貌/岗位/选型/第一个游戏/学习路径）；全库扩至 42 份文档。 |
-| v1.4 | 2026-10-04 | 第 ㉜ 轮：引擎轨道七页（Godot/Unity/Unreal/Bevy/Web/轻量框架/Cocos）与团队与规模三页（单人/小团队/工作室）落盘；全库扩至 53 份文档。 |
-| v1.5 | 2026-10-04 | 第 ㉝ 轮：《类型手册》P1 批次前 10 类落盘（动作 RPG、JRPG、双摇杆射击、FPS、弹幕射击、模拟经营、城市建造、殖民模拟、卡牌构筑、RTS）；类型索引双批次更新；全库扩至 63 份文档。 |
-| v1.6 | 2026-10-04 | 第 ㉞ 轮：引擎轨道五页（Ren’Py/RPG Maker/GameMaker/Defold/MonoGame-FNA，12/12 收满）与类型手册 P1 收尾五类（物理解谜/点击式冒险/文字冒险/自走棋/沙盒建造，P0+P1 共 25 类）。注：批内 8 个子代理回执流失败但文件已完整落盘，经逐页质检确认。 |
-| v1.7 | 2026-10-04 | 第 ㉟ 轮：管线六页（版本控制/美术资产/本地化/构建发布/试玩测试/遥测数据）；实践手册四页（Game Jam/30 天 Demo/垂直切片/作品集求职）；模板扩至六件（新增立项书/技术设计/测试计划/里程碑）；全库扩至 83 份文档。 |
-| v1.8 | 2026-10-04 | 第 ㊱ 轮：类型手册 P2 前 10 类（竞速/格斗/清版动作/音乐节奏/派对/合作/MMO/社交推理/叙事探索/密室逃脱），累计 35 类；全库扩至 94 份文档。 |
-| v1.9 | 2026-10-04 | 第 ㊲ 轮：类型手册六类（大逃杀/MOBA/潜行/恐怖/侦探推理/解谜平台，累计 41 类）；catalog 新增三表（美术 49 / 音频 55 / 素材 52）；示例区路线图。 |
-| v1.10 | 2026-10-04 | 第 ㊳ 轮：类型手册 P2 补批十类落盘（累计 51 类）；批内供应商波动经重派全部收敛；站点纳入 examples/ 与 catalog/；全库扩至 110 份文档。 |
-| v2.0 | 2026-10-04 | 收尾轮与里程碑：语言终扫（闭环→循环等 73 处）、catalog 五表 256 条链接全量核查归档、makehuman 修正、计数终审；v2.0.0 Release 发布。 |
-| v2.1 | 2026-10-04 | 第 ㊴ 轮：类型 P3 前 10 类（开放世界/撤离射击/怪物收集/动作冒险/沉浸模拟/生存恐怖/英雄射击/大战略/割草无双/恋爱模拟），累计 61 类；全库扩至 120 份文档。 |
-| v2.2 | 2026-10-04 | 第 ㊵ 轮：类型 P3 续批十类（工厂自动化/抽卡养成/战术射击/战棋/超休闲/无尽跑酷/教育/钓鱼/生活模拟/寻物找茬），累计 71 类；全库扩至 130 份文档。 |
-| v2.3 | 2026-10-04 | 第 ㊶ 轮：类型长尾收尾批十类（狩猎/飞行/列车/互动电影/拼图/音乐创作/联机恐怖/换装/极限运动/非对称对抗），累计 81 类；全库扩至 140 份文档。 |
-| v2.4 | 2026-10-04 | 阅读站迁移：VitePress → Material for MkDocs 书籍版（顶部板块 + 左侧全站目录 + 右侧页内目录 + 整站搜索 + 深色模式）；首页重排为居中 Hero + 板块卡片；构建链 site/prepare.py + hooks/gen_nav.py + mkdocs.yml；CI 部署链更新。 |
+版本与内容变更见仓库根 [CHANGELOG.md](../../CHANGELOG.md)。
