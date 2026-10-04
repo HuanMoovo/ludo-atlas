@@ -1,14 +1,10 @@
-<p align="center"><img src="assets/logo.svg" alt="Ludo Atlas logo" width="150"></p>
-
-# Ludo Atlas · 游戏开发全景手册
-
-> **一个中文优先、结构化的开源游戏开发知识库。** 从学习、避坑、法务、上架，到设计、技术、美术、制作、运营与 AI 工作流：把"做游戏"拆成 **140 份文档（约 100.1 万字）**，全部外链逐条核查，可持续贡献。
-
-**📖 在线阅读：https://huanmoovo.github.io/ludo-atlas/ （GitHub Pages，由 CI 自动部署）**
-
-[![Lint](https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml/badge.svg)](https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml)
-[![Link Check](https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml/badge.svg)](https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml)
-[![License: CC BY-SA 4.0 + MIT](https://img.shields.io/badge/License-CC%20BY--SA%204.0%20%2B%20MIT-blue.svg)](LICENSE)
+<div align="center">
+<img src="assets/logo.svg" alt="Ludo Atlas logo" width="150">
+<h1>Ludo Atlas · 游戏开发全景手册</h1>
+<p><strong>一个中文优先、结构化的开源游戏开发知识库。</strong> 从学习、避坑、法务、上架，到设计、技术、美术、制作、运营与 AI 工作流：把"做游戏"拆成 <strong>140 份文档（约 100.1 万字）</strong>，全部外链逐条核查，可持续贡献。</p>
+<p><strong>📖 在线阅读：<a href="https://huanmoovo.github.io/ludo-atlas/">https://huanmoovo.github.io/ludo-atlas/</a> （GitHub Pages，由 CI 自动部署）</strong></p>
+<p><a href="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml"><img src="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml/badge.svg" alt="Lint"></a> <a href="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml"><img src="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml/badge.svg" alt="Link Check"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0%20%2B%20MIT-blue.svg" alt="License: CC BY-SA 4.0 + MIT"></a></p>
+</div>
 
 ## 这是什么
 
