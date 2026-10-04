@@ -1,6 +1,6 @@
 # Ludo Atlas · 游戏开发全景手册 — 仓库骨架设计文档
 
-> 当前状态：v2.4 · 类型手册 81 类 · 阅读站 Material for MkDocs（书籍版）
+> 当前状态：v2.5 · 类型手册 81 类 · 阅读站 Material for MkDocs（书籍版，简体中文 / English / 日本語）
 > 目标：建设一个可长期维护的开源游戏开发知识仓库，整合「分类型开发流程」×「开源项目目录」×「课程与学习资源」×「AI 开发工作流」。
 
 ---
@@ -77,7 +77,7 @@
 2. **机器可读的目录**（YAML + JSON Schema + CI 校验），支持自动生成表格与站点，杜绝死链接堆积。
 3. **AI 工作流独立成章**：2024 年后游戏开发工作流的最大变量，现有列表普遍缺失。
 4. **模板驱动**：同类内容（类型、条目、复盘）结构完全一致，贡献者填空即写作。
-5. **中文优先**，术语中英对照，面向中文社区；结构预留英文翻译。
+5. **中文优先**，术语中英对照，面向中文社区；多语言阅读站已上线（英/日），英文版按批翻译。
 
 > 关系定位：与上述列表**互链互补**，不重复造轮子；`catalog/` 的种子数据可从既有列表（含已 fork 的 magictools-SI）批量导入后逐条验证。
 
@@ -338,7 +338,7 @@ ludo-atlas/
 │
 └── （根文件）
     README.md                  # 门面（中文）：一句话 + 四条主线导航 + 统计 + 快速开始
-    README.en.md               # 英文简版
+    README.en.md  README.ja.md # 英文 / 日文版
     LICENSE                    # 内容：CC BY-SA 4.0
     LICENSE-CODE               # 代码（examples/scripts）：MIT
     CONTRIBUTING.md            # 贡献指南（写作+数据两类流程）
@@ -898,9 +898,9 @@ draft → review → published → (stale) → archived
 
 ### 13.5 翻译（i18n）策略
 
-- 结构：MkDocs Material（`mkdocs.yml`）；`docs/` 中文为主，英文镜像目录后置。README 三语（中/英，日语可选）。
-- 优先翻译序：README → 首页 → `start/` → 第一辑类型 README → catalog 分类说明。
-- 术语统一靠 `GLOSSARY.md` + 翻译术语表；译文评审至少一人母语级。
+- 结构：Material for MkDocs + `mkdocs-static-i18n`（后缀模式）：译文与原文同目录、文件名加 `.en.md`；中文为默认语言（根路径），`/en/`、`/ja/` 为子站，顶部语言选择器切换；未译页自动回退中文。README 三语（中 / 英 / 日）。
+- 优先翻译序：README → 站点首页 → 前言 → `start/` → 基础学科 → 类型手册 → 其余按批推进；目前 README、首页、前言与入门区已上线英文。
+- 术语统一：`GLOSSARY.md` + `mkdocs.yml` 的 `nav_translations`；译文以 `docs/preface.en.md` 为风格基准；译文评审至少一人母语级。
 
 ---
 
