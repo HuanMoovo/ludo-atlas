@@ -37,7 +37,7 @@
 | [自走棋](auto-battler/README.md) | 经济利息、共享牌池与站位克制。 |
 | [沙盒建造](sandbox-building/README.md) | 工具即游戏、规则组合与分享机制。 |
 
-## P2 批次（已完成 · 16 类）
+## P2 批次（已完成 · 26 类）
 
 | 类型 | 一句话定位 |
 | --- | --- |
@@ -57,6 +57,16 @@
 | [恐怖](horror/README.md) | 恐惧资源模型、氛围与声音设计。 |
 | [侦探推理](detective/README.md) | 线索冗余、推理交互与顿悟设计。 |
 | [解谜平台](puzzle-platformer/README.md) | 机制耦合、教考变奏与防挫败。 |
+| [4X](four-x/README.md) | 四环循环、迷雾探测与策略 AI。 |
+| [体育游戏](sports/README.md) | 规则还原、判定简化与授权现实。 |
+| [养成](raising-sim/README.md) | 培养循环、成长曲线与事件分支。 |
+| [模拟驾驶](vehicle-sim/README.md) | 拟真分野、车辆物理与职业循环。 |
+| [太空模拟](space-sim/README.md) | 飞行手感、尺度艺术与生成密度。 |
+| [三消](match-3/README.md) | 连锁手感、数值骨架与无解检测。 |
+| [桌游数字化](board-game/README.md) | 自动化分界、规则引擎与异步对局。 |
+| [集换式卡牌](card-game-tcg/README.md) | 收集对战双循环与卡池管理。 |
+| [文字游戏](word-game/README.md) | 词库工程、每日谜题与分享设计。 |
+| [问答测验](trivia-quiz/README.md) | 题库工程、抽题公平与内容成本。 |
 
 ## 其余类型（持续扩充）
 

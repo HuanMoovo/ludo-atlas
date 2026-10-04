@@ -2,7 +2,7 @@
 """把仓库 Markdown 汇总为 VitePress 内容目录。
 
 规则:
-- 拷贝 docs/ resources/ playbooks/ templates/ 与 GLOSSARY.md。
+- 拷贝 docs/ resources/ playbooks/ templates/ examples/ catalog/ 与 GLOSSARY.md。
 - README.md 重命名为 index.md（目录首页）。
 - 正文中 .../README.md 形式的链接改写为目录链接。
 """
@@ -28,7 +28,7 @@ def main():
         shutil.rmtree(OUT)
     os.makedirs(OUT)
     shutil.copyfile(os.path.join(SITE, 'home.md'), os.path.join(OUT, 'index.md'))
-    for src_rel in ['docs', 'resources', 'playbooks', 'templates']:
+    for src_rel in ['docs', 'resources', 'playbooks', 'templates', 'examples', 'catalog']:
         src = os.path.join(REPO, src_rel)
         for dirpath, dirs, files in os.walk(src):
             for fn in files:
