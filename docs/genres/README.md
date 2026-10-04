@@ -68,6 +68,21 @@
 | [文字游戏](word-game/README.md) | 词库工程、每日谜题与分享设计。 |
 | [问答测验](trivia-quiz/README.md) | 题库工程、抽题公平与内容成本。 |
 
+## P3 批次（已完成 · 10 类）
+
+| 类型 | 一句话定位 |
+| --- | --- |
+| [开放世界](open-world/README.md) | 结构而非类型：密度、引导与「小开放世界」。 |
+| [撤离射击](extraction-shooter/README.md) | 搜打撤四环、风险心理学与带出经济。 |
+| [怪物收集（宝可梦类）](creature-collector/README.md) | 收集-培养-对战-交换四环与乘数成本。 |
+| [动作冒险](action-adventure/README.md) | 探索-战斗-解谜三支柱与箱庭节奏。 |
+| [沉浸模拟](immersive-sim/README.md) | 系统交互网络与关卡即沙盒。 |
+| [生存恐怖](survival-horror/README.md) | 资源稀缺、箱庭回环与敌人分级。 |
+| [英雄射击](hero-shooter/README.md) | 枪法×技能双维与英雄内容引擎。 |
+| [大战略](grand-strategy/README.md) | 系统嵌套、历史事件与可读性管理。 |
+| [割草无双](hack-and-slash/README.md) | 以一敌百的爽感公式与同屏工程。 |
+| [恋爱模拟](dating-sim/README.md) | 好感度系统、日程管理与路线文本量。 |
+
 ## 其余类型（持续扩充）
 
 - 混合类型与长尾类型按批次继续补充，欢迎通过 Issue 提名。
