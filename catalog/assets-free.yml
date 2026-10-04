@@ -100,7 +100,7 @@
   reviewed: 2026-10-04
   status: active
 - name: MakeHuman
-  homepage: https://www.makehumancommunity.org/
+  homepage: https://www.makehuman.org/
   description: 开源人体建模项目，可导出带骨骼参数的人体模型
   category: art-3d
   tags: [3d, character, human]

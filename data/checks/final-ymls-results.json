@@ -1,0 +1,1033 @@
+{
+ "ts": "2026-10-04",
+ "total": 256,
+ "ok": 241,
+ "guard": 14,
+ "fail": 1,
+ "results": {
+  "http://hydrogen-music.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "http://soloud-audio.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "http://www.wings3d.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://100r.co/site/orca.html": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://3dtextures.me/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://99sounds.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://aider.chat/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://ambientcg.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://ardour.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://armorpaint.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://asb2m10.github.io/dexed/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://bevyengine.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://birdfont.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://boscaceoil.net/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://boundingboxsoftware.com/materialize/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://cardinal.kx.studio/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://cascadeur.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://cgbookcase.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://chuck.stanford.edu/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://cline.bot/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://commons.wikimedia.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://coverr.co/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://crocotile3d.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://csound.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://defold.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://dragonbones.github.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://dust3d.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://ephtracy.github.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://esotericsoftware.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://famistudio.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://firealpaca.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://fontawesome.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://fontforge.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://fontlibrary.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://fonts.google.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://free-tex-packer.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://free3d.com/": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://freemusicarchive.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://freepbr.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://freepd.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://freesound.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://game-icons.net/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/Aider-AI/aider": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/Ardour/ardour": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/BespokeSynth/BespokeSynth": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/Bforartists/Bforartists": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/BleuBleu/FamiStudio": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/BoundingBoxSoftware/Materialize": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/Comfy-Org/ComfyUI": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/DISTRHO/Cardinal": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/DragonBones/DragonBonesJS": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/FluidSynth/fluidsynth": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/JannisX11/blockbench": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/LMMS/lmms": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/LiberatedPixelCup/Universal-LPC-Spritesheet-Character-Generator": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/LibreSprite/LibreSprite": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/MonoGame/MonoGame": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/NatronGitHub/Natron": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/Ogmo-Editor-3/OgmoEditor3-CE": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/OpenMPT/openmpt": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/Orama-Interactive/Pixelorama": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/PintaProject/Pinta": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/PortAudio/portaudio": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/RodZill4/material-maker": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/TTimo/GtkRadiant": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/Tahoma2D/tahoma2d": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/TerryCavanagh/boscaceoil": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/TrenchBroom/TrenchBroom": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/VCVRack/Rack": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/ValveSoftware/steam-audio": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/Wicklets/wick-editor": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/armory3d/armorpaint": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/asb2m10/dexed": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/aseprite/aseprite": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/audacity/audacity": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/bevyengine/bevy": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/ccrma/chuck": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/chr15m/jsfxr": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/cline/cline": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/cnr-isti-vclab/meshlab": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/cocos2d/cocos2d-x": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/coronalabs/corona": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/csound/csound": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/deepnight/ldtk": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/defold/defold": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/dgud/wings": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/falkTX/Carla": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/fontforge/fontforge": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/frescobaldi/frescobaldi": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/godotengine/godot": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/guillaumechereau/goxel": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/hundredrabbits/Orca": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/huxingyi/dust3d": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/hydrogen-music/hydrogen": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/increpare/bfxr": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/jarikomppa/soloud": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/johanmattssonm/birdfont": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/johnnesky/beepbox": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/kcat/openal-soft": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/libgdx/libgdx": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/libsndfile/libsndfile": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/love2d/love": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/mackron/miniaudio": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/makehumancommunity/makehuman": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/mapeditor/tiled": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/milkytracker/MilkyTracker": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/mtytel/helm": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/mtytel/vital": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/musescore/MuseScore": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/mypaint/mypaint": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/odrick/free-tex-packer": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/opentoonz/opentoonz": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/pencil2d/pencil": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/penpot/penpot": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/piskelapp/piskel": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/pure-data/pure-data": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/raysan5/raylib": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/raysan5/rfxgen": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/rncbc/qtractor": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/sonic-pi-net/sonic-pi": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/supercollider/supercollider": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/surge-synthesizer/surge": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/synfig/synfig": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/tidalcycles/Tidal": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/tidalcycles/strudel": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/tildearrow/furnace": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/zrythm/zrythm": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://github.com/zynaddsubfx/zynaddsubfx": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://gitlab.com/inkscape/inkscape": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://gitlab.com/lilypond/lilypond": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://gitlab.gnome.org/GNOME/gimp": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://godotengine.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://goxel.xyz/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://heroicons.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://hub.vroid.com/": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://icculus.org/gtkradiant/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://iconify.design/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://icons.getbootstrap.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://incompetech.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://inkscape.org/": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://invent.kde.org/graphics/krita": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://itch.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://kaylousberg.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://kenney.nl/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://krita.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://kx.studio/carla": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://labbed.net/software/labchirp/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://ldtk.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://libgdx.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://libresprite.github.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://libsndfile.github.io/libsndfile/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://lilypond.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://lmms.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://love2d.org/": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://lpc.opengameart.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://lucide.dev/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://makehuman.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://milkytracker.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://miniaud.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://mixkit.co/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://monogame.net/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://musescore.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://musopen.org/": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://mypaint.app/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://natrongithub.github.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://ogmo-editor-3.github.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://openal-soft.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://openclipart.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://opengameart.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://openmpt.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://opentoonz.github.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://openverse.org/": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://orama-interactive.itch.io/pixelorama": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://penpot.app/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://pinta-project.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://pixabay.com/": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://poly.pizza/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://polyhaven.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://portaudio.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://projects.blender.org/blender/blender": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://puredata.info/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://quaternius.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://raylibtech.itch.io/rfxgen": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://renderhjs.net/shoebox/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://rive.app/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://sfbgames.com/chiptone/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://sfxr.me/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://sketchfab.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://solar2d.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://sonic-pi.net/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://sonniss.com/": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://soundbible.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://sox.sourceforge.net/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://stocksnap.io/": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://strudel.cc/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://supercollider.github.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://surge-synthesizer.github.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://tahoma2d.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://tidalcycles.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://tildearrow.org/furnace": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://trenchbroom.github.io/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://tytel.org/helm/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://unsplash.com/": {
+   "v": "guard",
+   "c": "401"
+  },
+  "https://valvesoftware.github.io/steam-audio/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://vcvrack.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://vital.audio/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://vroid.com/en/studio": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://warmplace.ru/soft/sunvox/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.aseprite.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.audacityteam.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.audiokinetic.com/": {
+   "v": "ok",
+   "c": "202"
+  },
+  "https://www.beepbox.co/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.bespokesynth.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.bforartists.de/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.bfxr.net/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.blender.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.blenderkit.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.blockbench.net/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.clipstudio.net/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.cocos.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.codeandweb.com/texturepacker": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.comfy.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.dafont.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.deflemask.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.drpetter.se/project_sfxr.html": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.fluidsynth.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.fmod.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.fontsquirrel.com/": {
+   "v": "ok",
+   "c": "202"
+  },
+  "https://www.frescobaldi.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.getpaint.net/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.gimp.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.makehumancommunity.org/": {
+   "v": "fail",
+   "c": "net"
+  },
+  "https://www.mapeditor.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.materialmaker.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.meshlab.net/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.mixamo.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.ocenaudio.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.pencil2d.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.pexels.com/": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://www.photopea.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.piskelapp.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.qtractor.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.raylib.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.reaper.fm/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.renoise.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.rosegardenmusic.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.sharetextures.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.synfig.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.textures.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.turbosquid.com/": {
+   "v": "guard",
+   "c": "403"
+  },
+  "https://www.wavosaur.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.wickeditor.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.zapsplat.com/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://www.zrythm.org/": {
+   "v": "ok",
+   "c": "200"
+  },
+  "https://zynaddsubfx.sourceforge.io/": {
+   "v": "ok",
+   "c": "200"
+  }
+ }
+}

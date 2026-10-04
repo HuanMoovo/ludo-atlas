@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Ludo Atlas
   text: 游戏开发全景手册
-  tagline: 94 份中文文档 · 约 65.9 万字 · 外链逐条核查 · 持续更新
+  tagline: 110 份中文文档 · 约 77.9 万字 · 外链逐条核查 · 持续更新
   image:
     src: /logo.svg
     alt: Ludo Atlas
