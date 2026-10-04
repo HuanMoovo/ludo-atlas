@@ -22,6 +22,14 @@
 
 - [类型索引](genres/README.md)：P0 十类已完成（平台跳跃、银河城、肉鸽、塔防、解谜、视觉小说、生存建造、农场经营、幸存者类、放置增量）。
 
+## 引擎轨道（engines/）
+
+- [引擎索引](engines/README.md)：Godot、Unity、Unreal、Bevy、Web 游戏、轻量框架、Cocos 七页已完成。
+
+## 团队与规模（teams/）
+
+- [团队索引](teams/README.md)：单人开发、小团队、工作室三种规模。
+
 ## 风险与法务
 
 | [避坑大全](pitfalls/README.md) | 高频坑位合集（分领域、分级） |
@@ -54,4 +62,4 @@
 
 ## 建设中
 
-- [引擎轨道](engines/README.md)、[团队与规模](teams/README.md)：按设计文档逐步填充。
+- 引擎轨道剩余 5 条（Ren’Py、RPG Maker、GameMaker、Defold、MonoGame/FNA）；类型手册 P1 批次；管线与模板持续扩充。
