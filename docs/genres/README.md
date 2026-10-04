@@ -37,9 +37,24 @@
 | [自走棋](auto-battler/README.md) | 经济利息、共享牌池与站位克制。 |
 | [沙盒建造](sandbox-building/README.md) | 工具即游戏、规则组合与分享机制。 |
 
-## P2（规划）
+## P2 批次（已完成 · 10 类）
 
-- 其余类型与混合类型。
+| 类型 | 一句话定位 |
+| --- | --- |
+| [竞速](racing/README.md) | 手感翻译、赛道弯道节奏与对手配速。 |
+| [格斗](fighting/README.md) | 帧数据、连段资源与输入宽容。 |
+| [清版动作](beat-em-up/README.md) | 群战结构、打击感三件套与波次设计。 |
+| [音乐节奏](rhythm/README.md) | 判定系统、谱面流程与音频校准。 |
+| [派对游戏](party/README.md) | 低门槛高混乱、小游戏合集与笑点设计。 |
+| [合作闯关](co-op/README.md) | 互补设计、救援机制与沟通设计。 |
+| [MMO](mmo/README.md) | 三重成本的现实核算、社交与经济治理。 |
+| [社交推理](social-deduction/README.md) | 信息不对称、讨论节奏与反作弊。 |
+| [叙事探索](walking-sim/README.md) | 环境叙事、玩家契约与演出成本。 |
+| [密室逃脱](escape-room/README.md) | 谜题图、分级提示与多人协作。 |
+
+## 其余类型（持续扩充）
+
+- 混合类型与长尾类型按批次继续补充，欢迎通过 Issue 提名。
 
 先行阅读：
 
