@@ -87,7 +87,10 @@ def build_nav(base):
     def _have(rel):
         return os.path.exists(os.path.join(base, rel))
 
-    nav = [{'首页': 'index.md'}, {'总目录': 'docs/index.md'}]
+    nav = [{'首页': 'index.md'}]
+    if _have('docs/preface.md'):
+        nav.append({'前言': 'docs/preface.md'})
+    nav.append({'总目录': 'docs/index.md'})
     for rel, label in [
         ('docs/start', '入门'),
         ('docs/fundamentals', '基础学科'),

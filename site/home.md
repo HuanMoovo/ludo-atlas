@@ -23,6 +23,8 @@ hide:
 
 Ludo Atlas 是一个中文优先的开源游戏开发知识库：把「做游戏」拆成多条主线，从入门与基础学科，到分类型开发流程、引擎轨道、工作流水线、发行商业化与避坑复盘。全部外链逐条核查，政策、费率与平台规则标注核实时点。
 
+这个项目的缘起与组织原则见[前言](docs/preface.md)。
+
 ## 推荐阅读路线
 
 - **零基础入门**：[资源大全](resources/index.md) → [游戏设计手册](docs/fundamentals/game-design/index.md) → [技术实现手册](docs/fundamentals/programming/index.md) → [AI 工作流手册](docs/ai/index.md)

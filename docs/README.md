@@ -2,6 +2,8 @@
 
 全部手册按主题分组；目录结构与长期规划见 [设计文档](meta/design.md)。
 
+开篇：[前言](preface.md)（为什么会有这个项目）。
+
 ## 入门（start/）
 
 - [游戏开发全貌](start/what-is-gamedev.md) · [岗位与技能地图](start/role-map.md) · [引擎选型指南](start/engine-choice.md) · [第一个游戏](start/first-game.md) · [学习路径](start/learning-path.md)

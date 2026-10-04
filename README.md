@@ -6,6 +6,21 @@
 <p><a href="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml"><img src="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml/badge.svg" alt="Lint"></a> <a href="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml"><img src="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml/badge.svg" alt="Link Check"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0%20%2B%20MIT-blue.svg" alt="License: CC BY-SA 4.0 + MIT"></a></p>
 </div>
 
+## 前言
+
+游戏开发的中文资料从来不缺。教程、视频、书单、链接合集，搜一次能出来几百条。缺的是把资料组织起来的骨架，以及一条从「想做一个游戏」到「把它发出去」的完整路线。
+
+这个仓库就是为了补上这根骨架而建的。它针对四个长期存在的问题：
+
+- **学习没有顺序**：入门者不缺单点教程，缺的是先后次序与「学到什么程度算过关」的标准。入门区与学习路径按目标给出三条路线，每一步都写明达标线。
+- **生产环节缺资料**：多数中文内容停在代码与画面，而立项、范围控制、试玩测试、本地化、上架、合规、运营这些真正决定项目能否走完的环节，成体系的公开资料很少。仓库用管线与工作流、发行与商业化、实践手册三块补齐，并给出每个环节的最小检查清单。
+- **资料会过期**：引擎版本、平台政策、费率与合规要求年年变化，博客和视频常常落后数代。仓库对政策类内容标注核实时点，对外链逐条核查，并交给 CI 持续复验。
+- **AI 时代还没有标准答案**：编码代理、生成式美术与音频正在进入真实项目，AI 工作流章节收录可复用的工作流、工具矩阵与合规边界，可按项目规模取用。
+
+名字取自拉丁语 ludo（我在玩）与 atlas（地图集）：为「做游戏」画一张尽可能完整的地图。组织原则只有一条：按真实的开发顺序摆放知识。内容中文优先，每篇文档回答一个具体问题，互相引用而不重复。
+
+这是一个持续维护的开源项目，错漏在所难免：欢迎提交 Issue 或 PR 修正与补充，勘误的优先级最高。
+
 ## 这是什么
 
 一套覆盖游戏开发全流程的中文开源手册：
