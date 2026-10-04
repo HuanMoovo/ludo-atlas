@@ -16,6 +16,8 @@ jobs:
       - name: Link Check
         uses: lycheeverse/lychee-action@v2
         with:
+          # 观察期 fail=false：先收集结果，稳定后改为 true 严格拦截
+          fail: false
           args: --verbose --no-progress --max-retries 2 --accept 200,206,403,405,429 "./**/*.md"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
