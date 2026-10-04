@@ -51,7 +51,8 @@ def _stats():
     files = []
     for d in COUNT_DIRS:
         for dirpath, _, fs in os.walk(os.path.join(OUT, d)):
-            files += [os.path.join(dirpath, f) for f in fs if f.endswith('.md')]
+            files += [os.path.join(dirpath, f) for f in fs
+                      if f.endswith('.md') and not re.search(r'\.(?:en|ja)\.md$', f)]
     glossary = os.path.join(OUT, 'GLOSSARY.md')
     if os.path.exists(glossary):
         files.append(glossary)
@@ -84,7 +85,13 @@ def main():
                 if parts[0] == 'templates':
                     parts[0] = 'doc-templates'
                     rel = os.sep.join(parts)
-                name = 'index.md' if fn == 'README.md' else fn
+                mm = re.fullmatch(r'README\.(en|ja)\.md', fn)
+                if fn == 'README.md':
+                    name = 'index.md'
+                elif mm:
+                    name = 'index.' + mm.group(1) + '.md'
+                else:
+                    name = fn
                 dst = os.path.join(OUT, os.path.dirname(rel), name)
                 os.makedirs(os.path.dirname(dst), exist_ok=True)
                 text = open(os.path.join(dirpath, fn), encoding='utf-8').read()
@@ -113,14 +120,22 @@ def main():
     shutil.copyfile(os.path.join(REPO, 'assets', 'logo.svg'), os.path.join(OUT, 'logo.svg'))
     shutil.copyfile(os.path.join(SITE, 'styles', 'extra.css'), os.path.join(OUT, 'extra.css'))
 
-    # 4) 首页（注入统计）
-    home = open(os.path.join(SITE, 'home.md'), encoding='utf-8').read()
+    # 4) 首页（注入统计；支持 site/home.en.md、site/home.ja.md 多语言版）
     n, w, g, e = _stats()
-    stats = f'{n} 份中文文档 · 约 {w} 万字 · {g} 类类型手册 · {e} 条引擎轨道'
-    home = home.replace('{{STATS}}', stats)
-    open(os.path.join(OUT, 'index.md'), 'w', encoding='utf-8', newline='\n').write(home)
+    stats_by_locale = {
+        '': f'{n} 份中文文档 · 约 {w} 万字 · {g} 类类型手册 · {e} 条引擎轨道',
+        '.en': f'{n} documents · ~{round(w * 10)}k characters · {g} genre handbooks · {e} engine tracks',
+        '.ja': f'{n} 冊のドキュメント · 約 {w} 万字 · {g} ジャンル · {e} エンジントラック',
+    }
+    for loc, stats in stats_by_locale.items():
+        src = os.path.join(SITE, 'home%s.md' % loc)
+        if not os.path.exists(src):
+            continue
+        home = open(src, encoding='utf-8').read().replace('{{STATS}}', stats)
+        open(os.path.join(OUT, 'index%s.md' % loc), 'w', encoding='utf-8', newline='\n').write(home)
+        print(f'  home[{loc or "zh"}] -> index{loc}.md')
 
-    print(f'content ready: {n_md} md files; stats: {stats}')
+    print(f'content ready: {n_md} md files; stats: {stats_by_locale[""]}')
 
 
 if __name__ == '__main__':

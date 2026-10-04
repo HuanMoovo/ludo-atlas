@@ -90,3 +90,5 @@ Ludo Atlas 是一个中文优先的开源游戏开发知识库：把「做游戏
 - 仓库：[github.com/HuanMoovo/ludo-atlas](https://github.com/HuanMoovo/ludo-atlas)
 - [术语表](GLOSSARY.md) · [贡献指南](CONTRIBUTING.md) · [更新日志](CHANGELOG.md)
 - 顶部为板块导航，左侧为全站目录，右侧为页内目录，支持整站搜索与深色模式。
+- 站点支持 简体中文 / English / 日本語 三语切换（页面顶部语言选择器）。
+- Star 趋势：[star-history 星标曲线](https://star-history.com/#HuanMoovo/ludo-atlas&Date)

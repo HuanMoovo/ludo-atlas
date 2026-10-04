@@ -26,8 +26,25 @@ def _h1(path):
 def _short(title):
     t = title
     if t.startswith('Ludo Atlas'):
-        parts = [p.strip() for p in t.split('·') if p.strip()]
+        # 只在括号外按「·」切段取末段（括号内的「·」属于说明文字）
+        parts, cur, depth = [], '', 0
+        for ch in t:
+            if ch == '（':
+                depth += 1
+            elif ch == '）':
+                depth = max(0, depth - 1)
+            if ch == '·' and depth == 0:
+                parts.append(cur)
+                cur = ''
+            else:
+                cur += ch
+        parts.append(cur)
+        parts = [p.strip() for p in parts if p.strip()]
         t = parts[-1]
+    # 形如「游戏简史（领域史 · 技术史 · 代表作品）」的枚举式括号说明不进短标题
+    m = re.match(r'^([^（]{4,})（[^）]*·[^）]*）$', t)
+    if m:
+        t = m.group(1).strip()
     if ' — ' in t:
         t = t.split(' — ')[-1].strip()
     elif ' · ' in t:
@@ -60,7 +77,8 @@ def _node(base, rel):
     subdirs = sorted(d for d in os.listdir(ab)
                      if os.path.isdir(os.path.join(ab, d)) and not d.startswith('.'))
     files = sorted(f for f in os.listdir(ab)
-                   if f.endswith('.md') and f != 'index.md')
+                   if f.endswith('.md') and f != 'index.md'
+                   and not re.search(r'\.(?:en|ja)\.md$', f))
     d_order, f_order = _order(base, idx) if has_idx else ([], [])
     label = _label(base, idx) if has_idx else rel.split('/')[-1]
     if not subdirs and not files:
