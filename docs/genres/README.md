@@ -51,7 +51,7 @@
 | [社交推理](social-deduction/README.md) | 信息不对称、讨论节奏与反作弊。 |
 | [叙事探索](walking-sim/README.md) | 环境叙事、玩家契约与演出成本。 |
 | [密室逃脱](escape-room/README.md) | 谜题图、分级提示与多人协作。 |
-| [大逃杀](battle-royale/README.md) | 缩圈节奏、物资经济与联机门槛的现实核算。 |
+| [大逃杀](battle-royale/README.md) | 缩圈节奏、物资经济与联机门槛的现实核算（俗称「吃鸡」）。 |
 | [MOBA](moba/README.md) | 兵线经济、英雄克制与赛事生态。 |
 | [潜行](stealth/README.md) | 感知系统、双路径设计与失败宽容。 |
 | [恐怖](horror/README.md) | 恐惧资源模型、氛围与声音设计。 |
