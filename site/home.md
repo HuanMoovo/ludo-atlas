@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Ludo Atlas
   text: 游戏开发全景手册
-  tagline: 26 份中文开源手册 · 约 22.6 万字 · 外链逐条核查 · 持续更新
+  tagline: 42 份中文文档 · 约 32.5 万字 · 外链逐条核查 · 持续更新
   image:
     src: /logo.svg
     alt: Ludo Atlas
@@ -25,7 +25,7 @@ features:
   - title: 数据可核实
     details: 政策、费率、平台规则均标注核实时点与来源；拿不准的明确标注，不编造。
   - title: 结构科学
-    details: 26 份文档各司其职、互相引用不重复；目录与长期规划见设计文档。
+    details: 42 份文档各司其职、互相引用不重复；目录与长期规划见设计文档。
   - title: 面向中文开发者
     details: 中文优先写作，覆盖国内渠道、版号、小游戏、出海等本土实践。
   - title: 机器可读

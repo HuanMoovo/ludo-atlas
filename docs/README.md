@@ -2,6 +2,10 @@
 
 全部手册按主题分组；目录结构与长期规划见 [设计文档](meta/design.md)。
 
+## 入门（start/）
+
+- [游戏开发全貌](start/what-is-gamedev.md) · [岗位与技能地图](start/role-map.md) · [引擎选型指南](start/engine-choice.md) · [第一个游戏](start/first-game.md) · [学习路径](start/learning-path.md)
+
 ## 基础学科（fundamentals/）
 
 | 手册 | 说明 |
@@ -13,6 +17,10 @@
 | [关卡设计手册](fundamentals/level-design/README.md) | 度量、引导、节奏、白盒流程、经典拆解 |
 | [引擎源码阅读路线](fundamentals/engine-internals/README.md) | Godot / Bevy / 小引擎，方法论与周计划 |
 | [从零写渲染器路线](fundamentals/graphics/README.md) | 软光栅化 → 实时 API → 光追 |
+
+## 类型手册（genres/）
+
+- [类型索引](genres/README.md)：P0 十类已完成（平台跳跃、银河城、肉鸽、塔防、解谜、视觉小说、生存建造、农场经营、幸存者类、放置增量）。
 
 ## 风险与法务
 
@@ -46,4 +54,4 @@
 
 ## 建设中
 
-- [入门路径](start/README.md)、[类型手册](genres/README.md)、[引擎轨道](engines/README.md)、[团队与规模](teams/README.md)（按设计文档逐步填充）
+- [引擎轨道](engines/README.md)、[团队与规模](teams/README.md)：按设计文档逐步填充。
