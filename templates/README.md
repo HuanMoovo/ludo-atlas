@@ -1,6 +1,12 @@
 # templates/ — 可复用模板
 
-- [gdd-mini.md](gdd-mini.md) — 一页纸立项书 / 轻型 GDD
-- [postmortem.md](postmortem.md) — 项目复盘模板
+直接复制到项目里改的文件骨架：
 
-规划中：技术设计文档、测试计划、类型 Playbook 写作模板、工具条目模板（见设计文档 §7）。
+| 模板 | 用途 |
+| --- | --- |
+| [一页纸立项书](one-pager.md) | 立项第一份文件：概念、范围与成功标准。 |
+| [GDD 精简版](gdd-mini.md) | 小体量项目的设计文档骨架。 |
+| [技术设计文档](tech-design-doc.md) | 一个系统或功能的技术方案模板。 |
+| [试玩测试计划](playtest-plan.md) | 测试目标、任务脚本与记录表。 |
+| [里程碑与排期](milestone-plan.md) | 阶段划分、出口标准与风险登记。 |
+| [项目复盘](postmortem.md) | 发布后的事后总结模板。 |

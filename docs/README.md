@@ -46,6 +46,7 @@
 
 ## 管线与深入（pipelines/）
 
+- [管线索引](pipelines/README.md)：版本控制、美术资产、本地化、构建发布、试玩测试、遥测六条管线。
 - [Mod 与 UGC 手册](pipelines/modding/README.md)
 - [联机与后端深入手册](pipelines/multiplayer-backend/README.md)
 
@@ -53,6 +54,10 @@
 
 - [AI 工作流手册](ai/README.md)
 - [案例研究集](postmortems/README.md)
+
+## 实践手册（playbooks/）
+
+- [实践手册索引](../playbooks/README.md)：Game Jam、30 天 Demo、垂直切片、作品集求职、独立生存。
 
 ## 历史与人物（meta/）
 
@@ -62,4 +67,4 @@
 
 ## 建设中
 
-- 类型手册 P2 批次；管线区、实践手册与模板持续扩充。
+- 类型手册 P2 批次；模板与 catalog 扩充；示例区（examples/）筹备中。
