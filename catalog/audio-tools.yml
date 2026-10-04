@@ -1,0 +1,693 @@
+# Ludo Atlas · 音频工具（种子清单）
+# 字段规范见 schema.json；许可与价格均为快照，以官网最新声明为准
+- name: Audacity
+  homepage: https://www.audacityteam.org/
+  repo: https://github.com/audacity/audacity
+  description: 开源音频录制与编辑软件
+  category: audio-editor
+  tags: [editing, recording]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Wavosaur
+  homepage: https://www.wavosaur.com/
+  description: Windows 免费音频编辑器，支持 VST 与批处理
+  category: audio-editor
+  tags: [editing, windows]
+  license: 免费·闭源
+  platforms: [windows]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Ocenaudio
+  homepage: https://www.ocenaudio.com/
+  description: 轻量跨平台音频编辑器，实时预览效果
+  category: audio-editor
+  tags: [editing, analysis]
+  license: 免费·闭源
+  platforms: [windows, macos, linux]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: SoX
+  homepage: https://sox.sourceforge.net/
+  description: 命令行音频处理瑞士军刀，格式转换与批量处理
+  category: audio-editor
+  tags: [cli, processing]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Ardour
+  homepage: https://ardour.org/
+  repo: https://github.com/Ardour/ardour
+  description: 开源多轨录音与混音数字音频工作站
+  category: audio-daw
+  tags: [daw, mixing, midi]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp, c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: LMMS
+  homepage: https://lmms.io/
+  repo: https://github.com/LMMS/lmms
+  description: 开源数字音乐工作站，内置合成器与鼓机
+  category: audio-daw
+  tags: [music, daw]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Reaper
+  homepage: https://www.reaper.fm/
+  description: 轻量级商业数字音频工作站（60 天评估版）
+  category: audio-daw
+  tags: [daw, mixing]
+  license: 商业
+  platforms: [windows, macos, linux]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Renoise
+  homepage: https://www.renoise.com/
+  description: 现代商业音乐追踪器，内置采样器与效果链
+  category: audio-daw
+  tags: [tracker, daw]
+  license: 商业
+  platforms: [windows, macos, linux]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Qtractor
+  homepage: https://www.qtractor.org/
+  repo: https://github.com/rncbc/qtractor
+  description: Linux 平台的 Audio/MIDI 多轨音序器
+  category: audio-daw
+  tags: [daw, midi, linux]
+  license: GPL-2.0
+  platforms: [linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Zrythm
+  homepage: https://www.zrythm.org/
+  repo: https://github.com/zrythm/zrythm
+  description: 开源数字音频工作站，面向音乐制作工作流
+  category: audio-daw
+  tags: [daw, music]
+  license: AGPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp, c]
+  maturity: beta
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Rosegarden
+  homepage: https://www.rosegardenmusic.com/
+  description: Linux 上的 MIDI/音频作曲与编辑环境
+  category: audio-daw
+  tags: [daw, midi, linux]
+  license: GPL-2.0
+  platforms: [linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Bespoke Synth
+  homepage: https://www.bespokesynth.com/
+  repo: https://github.com/BespokeSynth/BespokeSynth
+  description: 节点式模块化音乐工作站
+  category: audio-daw
+  tags: [modular, daw]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Hydrogen
+  homepage: http://hydrogen-music.org/
+  repo: https://github.com/hydrogen-music/hydrogen
+  description: 开源鼓机与节奏音序器
+  category: audio-daw
+  tags: [drums, sequencing]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: OpenMPT
+  homepage: https://openmpt.org/
+  repo: https://github.com/OpenMPT/openmpt
+  description: Windows 上的老牌 MOD 音乐追踪器
+  category: audio-tracker
+  tags: [tracker, mod, windows]
+  license: BSD-3-Clause
+  platforms: [windows]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: MilkyTracker
+  homepage: https://milkytracker.org/
+  repo: https://github.com/milkytracker/MilkyTracker
+  description: 跨平台音乐追踪器，兼容 MOD/XM/S3M 等格式
+  category: audio-tracker
+  tags: [tracker, chiptune]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp, c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Furnace Tracker
+  homepage: https://tildearrow.org/furnace
+  repo: https://github.com/tildearrow/furnace
+  description: 多芯片系统 chiptune 追踪器，覆盖众多复古主机音源
+  category: audio-tracker
+  tags: [tracker, chiptune]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: DefleMask
+  homepage: https://www.deflemask.com/
+  description: 商业多系统 chiptune 音乐追踪器
+  category: audio-tracker
+  tags: [tracker, chiptune]
+  license: 商业
+  platforms: [windows, macos, linux, android, ios]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: SunVox
+  homepage: https://warmplace.ru/soft/sunvox/
+  description: 模块化合成器与音序器（桌面免费，移动端付费）
+  category: audio-tracker
+  tags: [tracker, modular, synth]
+  license: 免费·闭源
+  platforms: [windows, macos, linux, android, ios]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: VCV Rack
+  homepage: https://vcvrack.com/
+  repo: https://github.com/VCVRack/Rack
+  description: 开源虚拟模块化合成器（Eurorack 风格）
+  category: audio-synth
+  tags: [synth, modular, eurorack]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Surge XT
+  homepage: https://surge-synthesizer.github.io/
+  repo: https://github.com/surge-synthesizer/surge
+  description: 开源混合合成器（VST3/CLAP/LV2 插件与独立版）
+  category: audio-synth
+  tags: [synth, plugin]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Vital
+  homepage: https://vital.audio/
+  repo: https://github.com/mtytel/vital
+  description: 开源波表合成器，支持频谱扭曲调制
+  category: audio-synth
+  tags: [synth, wavetable, plugin]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Helm
+  homepage: https://tytel.org/helm/
+  repo: https://github.com/mtytel/helm
+  description: 开源复音合成器，提供独立版与插件版
+  category: audio-synth
+  tags: [synth, plugin]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: ZynAddSubFX
+  homepage: https://zynaddsubfx.sourceforge.io/
+  repo: https://github.com/zynaddsubfx/zynaddsubfx
+  description: 功能全面的开源软件合成器（加法/减法/垫底合成）
+  category: audio-synth
+  tags: [synth, plugin]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Dexed
+  homepage: https://asb2m10.github.io/dexed/
+  repo: https://github.com/asb2m10/dexed
+  description: 模拟 Yamaha DX7 的 FM 合成器与音色库管理工具
+  category: audio-synth
+  tags: [synth, fm, dx7]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Cardinal
+  homepage: https://cardinal.kx.studio/
+  repo: https://github.com/DISTRHO/Cardinal
+  description: 基于 VCV Rack 的插件版虚拟模块化合成器
+  category: audio-synth
+  tags: [synth, modular, plugin]
+  license: GPL-3.0
+  platforms: [windows, macos, linux, web]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: FluidSynth
+  homepage: https://www.fluidsynth.org/
+  repo: https://github.com/FluidSynth/fluidsynth
+  description: SoundFont 软件合成器与 MIDI 渲染库
+  category: audio-synth
+  tags: [synth, soundfont, library]
+  license: LGPL-2.1
+  platforms: [windows, macos, linux]
+  languages: [c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Bosca Ceoil
+  homepage: https://boscaceoil.net/
+  repo: https://github.com/TerryCavanagh/boscaceoil
+  description: 面向初学者的轻量作曲工具（复古音色）
+  category: audio-chiptune
+  tags: [chiptune, composition, beginner]
+  license: BSD-2-Clause-Views
+  platforms: [windows, macos, linux]
+  languages: [actionscript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: BeepBox
+  homepage: https://www.beepbox.co/
+  repo: https://github.com/johnnesky/beepbox
+  description: 浏览器内的简单作曲工具，曲谱保存于链接
+  category: audio-chiptune
+  tags: [chiptune, web, composition]
+  license: MIT
+  platforms: [web]
+  languages: [typescript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: FamiStudio
+  homepage: https://famistudio.org/
+  repo: https://github.com/BleuBleu/FamiStudio
+  description: NES/Famicom 音乐编辑器（支持导出 NSF 等格式）
+  category: audio-chiptune
+  tags: [chiptune, nes, editor]
+  license: MIT
+  platforms: [windows, macos, linux, android]
+  languages: [csharp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: SFXR
+  homepage: https://www.drpetter.se/project_sfxr.html
+  description: 经典 8-bit 音效生成器（Game Jam 常用）
+  category: audio-sfx
+  tags: [sfx, chiptune, generator]
+  license: MIT
+  platforms: [windows]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Bfxr
+  homepage: https://www.bfxr.net/
+  repo: https://github.com/increpare/bfxr
+  description: SFXR 改良版音效生成器，支持混音列表
+  category: audio-sfx
+  tags: [sfx, chiptune, generator]
+  license: Apache-2.0
+  platforms: [windows, macos, web]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: JSFXR
+  homepage: https://sfxr.me/
+  repo: https://github.com/chr15m/jsfxr
+  description: SFXR 的 HTML5 移植，浏览器内生成复古音效
+  category: audio-sfx
+  tags: [sfx, web, generator]
+  license: Unlicense
+  platforms: [web]
+  languages: [javascript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: ChipTone
+  homepage: https://sfbgames.com/chiptone/
+  description: 免费网页音效生成工具，含合成器与采样器
+  category: audio-sfx
+  tags: [sfx, web, chiptune]
+  license: 免费·闭源
+  platforms: [web, windows]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: LabChirp
+  homepage: https://labbed.net/software/labchirp/
+  description: 参数化音效生成器，适合游戏音效制作
+  category: audio-sfx
+  tags: [sfx, generator]
+  license: 免费·闭源
+  platforms: [windows, linux]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: rFXGen
+  homepage: https://raylibtech.itch.io/rfxgen
+  repo: https://github.com/raysan5/rfxgen
+  description: 轻量音效生成器（raylib 官方出品）
+  category: audio-sfx
+  tags: [sfx, generator, raylib]
+  license: zlib
+  platforms: [windows, macos, linux]
+  languages: [c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: MuseScore
+  homepage: https://musescore.org/
+  repo: https://github.com/musescore/MuseScore
+  description: 开源乐谱制作软件（MuseScore Studio）
+  category: audio-notation
+  tags: [notation, music]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: LilyPond
+  homepage: https://lilypond.org/
+  repo: https://gitlab.com/lilypond/lilypond
+  description: 文本输入的乐谱排版程序，出版级输出
+  category: audio-notation
+  tags: [notation, engraving]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp, scheme]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Frescobaldi
+  homepage: https://www.frescobaldi.org/
+  repo: https://github.com/frescobaldi/frescobaldi
+  description: LilyPond 乐谱编辑器与工作环境
+  category: audio-notation
+  tags: [notation, editor]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [python]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Sonic Pi
+  homepage: https://sonic-pi.net/
+  repo: https://github.com/sonic-pi-net/sonic-pi
+  description: 面向教育与现场演出的实时编码音乐环境
+  category: audio-livecoding
+  tags: [livecoding, music, education]
+  license: MIT
+  platforms: [windows, macos, linux]
+  languages: [ruby, cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Orca
+  homepage: https://100r.co/site/orca.html
+  repo: https://github.com/hundredrabbits/Orca
+  description: 二维深奥编程语言驱动的程序化音序器
+  category: audio-livecoding
+  tags: [livecoding, sequencer]
+  license: MIT
+  platforms: [windows, macos, linux]
+  languages: [javascript, c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Strudel
+  homepage: https://strudel.cc/
+  repo: https://github.com/tidalcycles/strudel
+  description: 浏览器内实时编码音乐环境（Tidal 模式语言移植）
+  category: audio-livecoding
+  tags: [livecoding, web, patterns]
+  license: AGPL-3.0
+  platforms: [web]
+  languages: [javascript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: TidalCycles
+  homepage: https://tidalcycles.org/
+  repo: https://github.com/tidalcycles/Tidal
+  description: Haskell 实时编码的算法模式音乐环境
+  category: audio-livecoding
+  tags: [livecoding, patterns, haskell]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [haskell]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Pure Data
+  homepage: https://puredata.info/
+  repo: https://github.com/pure-data/pure-data
+  description: 图形化实时音频编程环境（可视化数据流）
+  category: audio-programming
+  tags: [visual-programming, dsp]
+  license: BSD-3-Clause
+  platforms: [windows, macos, linux]
+  languages: [c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: SuperCollider
+  homepage: https://supercollider.github.io/
+  repo: https://github.com/supercollider/supercollider
+  description: 音频合成与算法作曲的编程平台
+  category: audio-programming
+  tags: [programming, dsp]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: ChucK
+  homepage: https://chuck.stanford.edu/
+  repo: https://github.com/ccrma/chuck
+  description: 强时序并发音频编程语言
+  category: audio-programming
+  tags: [programming, dsp]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Csound
+  homepage: https://csound.com/
+  repo: https://github.com/csound/csound
+  description: 老牌声音与音乐计算系统（脚本化合成）
+  category: audio-programming
+  tags: [programming, dsp]
+  license: LGPL-2.1
+  platforms: [windows, macos, linux]
+  languages: [c, cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: FMOD
+  homepage: https://www.fmod.com/
+  description: 商业游戏音频中间件，支持自适应音乐与混音
+  category: audio-middleware
+  tags: [middleware, games, audio-engine]
+  license: 商业
+  platforms: [windows, macos, linux, android, ios]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Wwise
+  homepage: https://www.audiokinetic.com/
+  description: 商业游戏音频中间件（Audiokinetic 出品）
+  category: audio-middleware
+  tags: [middleware, games, audio-engine]
+  license: 商业
+  platforms: [windows, macos, linux, android, ios]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Steam Audio
+  homepage: https://valvesoftware.github.io/steam-audio/
+  repo: https://github.com/ValveSoftware/steam-audio
+  description: Valve 的空间音频 SDK（HRTF、混响、遮挡）
+  category: audio-middleware
+  tags: [spatial-audio, games, sdk]
+  license: Apache-2.0
+  platforms: [windows, macos, linux, android, ios]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: SoLoud
+  homepage: http://soloud-audio.com/
+  repo: https://github.com/jarikomppa/soloud
+  description: 便携 C/C++ 游戏音频引擎（zlib 许可）
+  category: audio-lib
+  tags: [audio-engine, cpp, games]
+  license: zlib
+  platforms: [windows, macos, linux, android, ios, web]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: miniaudio
+  homepage: https://miniaud.io/
+  repo: https://github.com/mackron/miniaudio
+  description: 单文件 C 音频播放、采集与格式解码库
+  category: audio-lib
+  tags: [audio-engine, c, single-header]
+  license: public domain / MIT-0
+  platforms: [windows, macos, linux, android, ios, web]
+  languages: [c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: OpenAL Soft
+  homepage: https://openal-soft.org/
+  repo: https://github.com/kcat/openal-soft
+  description: OpenAL 3D 音频 API 的跨平台开源实现
+  category: audio-lib
+  tags: [3d-audio, library, games]
+  license: LGPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp, c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: PortAudio
+  homepage: https://portaudio.com/
+  repo: https://github.com/PortAudio/portaudio
+  description: 跨平台音频输入输出库
+  category: audio-lib
+  tags: [library, io]
+  license: MIT
+  platforms: [windows, macos, linux]
+  languages: [c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: libsndfile
+  homepage: https://libsndfile.github.io/libsndfile/
+  repo: https://github.com/libsndfile/libsndfile
+  description: 音频文件读写库（WAV/AIFF/FLAC 等）
+  category: audio-lib
+  tags: [library, formats]
+  license: LGPL-2.1
+  platforms: [windows, macos, linux]
+  languages: [c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Carla
+  homepage: https://kx.studio/carla
+  repo: https://github.com/falkTX/Carla
+  description: 音频插件宿主，加载 LV2/VST/CLAP 等格式
+  category: audio-host
+  tags: [plugin-host, lv2, vst]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active

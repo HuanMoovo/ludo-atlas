@@ -1,0 +1,471 @@
+# Ludo Atlas · 免费素材库（种子清单）
+# 字段规范见 schema.json；授权类型均为快照，以站点最新声明为准，使用前务必自行核对
+- name: Kenney
+  homepage: https://kenney.nl/
+  description: 免费游戏素材合集，含 2D 精灵、3D 模型与音效，全部 CC0
+  category: multi
+  tags: [sprites, 3d, audio, cc0]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Kenney 音频包
+  homepage: https://kenney.nl/
+  description: Kenney 出品的音效与音乐素材包，适合快速搭建原型音频
+  category: audio
+  tags: [audio, sfx, music, cc0]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: OpenGameArt
+  homepage: https://opengameart.org/
+  description: 社区游戏美术与音乐库，收录精灵、贴图、模型与音频
+  category: multi
+  tags: [community, sprites, textures, music]
+  license: 混合授权（CC0 / CC BY / CC BY-SA / GPL）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: OpenGameArt 音频区
+  homepage: https://opengameart.org/
+  description: OpenGameArt 的音效与音乐板块，适合独立游戏直接取用
+  category: audio
+  tags: [audio, sfx, music, community]
+  license: 混合授权（CC0 / CC BY / CC BY-SA 等）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: itch.io 免费素材区
+  homepage: https://itch.io/
+  description: 免费游戏素材频道，涵盖精灵、模型、音效与字体等类别
+  category: multi
+  tags: [game-assets, community, indie]
+  license: 混合授权（以各素材页为准）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Quaternius
+  homepage: https://quaternius.com/
+  description: 低多边形 3D 模型库，含角色、怪物、建筑与道具合集
+  category: art-3d
+  tags: [3d, low-poly, models, cc0]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Poly Pizza
+  homepage: https://poly.pizza/
+  description: 免费 3D 模型检索与下载站，模型逐条标注 CC0 或 CC BY
+  category: art-3d
+  tags: [3d, low-poly, search]
+  license: 混合授权（CC0 / CC BY）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Free3D
+  homepage: https://free3d.com/
+  description: 免费 3D 模型下载站，免费与付费模型并存
+  category: art-3d
+  tags: [3d, models]
+  license: 混合授权（以各模型页为准）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: TurboSquid 免费区
+  homepage: https://www.turbosquid.com/
+  description: TurboSquid 免费模型专区，各模型授权不同需逐一核对
+  category: art-3d
+  tags: [3d, models, stock]
+  license: 混合授权（免费专区）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Sketchfab 免费区
+  homepage: https://sketchfab.com/
+  description: 可下载 3D 模型社区，支持按 CC 授权与格式筛选
+  category: art-3d
+  tags: [3d, models, cc]
+  license: 混合授权（以各模型页为准）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Mixamo
+  homepage: https://www.mixamo.com/
+  description: Adobe 免费角色与动画库，支持自动绑骨与动作预览
+  category: art-3d
+  tags: [3d, character, animation, rigging]
+  license: 免费商用（需 Adobe 账户）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: MakeHuman
+  homepage: https://www.makehumancommunity.org/
+  description: 开源人体建模项目，可导出带骨骼参数的人体模型
+  category: art-3d
+  tags: [3d, character, human]
+  license: AGPL-3.0（软件）/ CC0（生成模型）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: VRoid Hub
+  homepage: https://hub.vroid.com/
+  description: VRM 虚拟形象分享平台，模型可下载用于游戏与视频
+  category: avatar
+  tags: [avatar, vrm, character]
+  license: 混合授权（以各模型页为准）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: BlenderKit
+  homepage: https://www.blenderkit.com/
+  description: Blender 官方集成资产库，含模型、材质与笔刷
+  category: art-3d
+  tags: [3d, blender, materials]
+  license: 混合授权（CC0 / 免版税）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: KayKit
+  homepage: https://kaylousberg.com/
+  description: Kay Lousberg 的低多边形素材包，含角色、地牢与节日主题
+  category: art-3d
+  tags: [3d, low-poly, cc0]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Poly Haven
+  homepage: https://polyhaven.com/
+  description: HDRI、PBR 贴图与模型库，全部 CC0 可商用
+  category: textures
+  tags: [hdri, textures, pbr, cc0]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: ambientCG
+  homepage: https://ambientcg.com/
+  description: 大型 CC0 贴图与 HDRI 库，适合写实渲染
+  category: textures
+  tags: [textures, hdri, pbr, cc0]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: cgbookcase
+  homepage: https://cgbookcase.com/
+  description: CC0 PBR 贴图站，主打木材、石材与织物材质
+  category: textures
+  tags: [textures, pbr, cc0]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: 3D Textures
+  homepage: https://3dtextures.me/
+  description: CC0 无缝 PBR 贴图站，含金属、石材与地面材质
+  category: textures
+  tags: [textures, pbr, cc0]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Textures.com
+  homepage: https://www.textures.com/
+  description: 老牌贴图站，免费账户每日额度有限，素材可商用
+  category: textures
+  tags: [textures, pbr, stock]
+  license: 免费账户（额度限制，可商用）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: ShareTextures
+  homepage: https://www.sharetextures.com/
+  description: CC0 贴图与模型库，含 PBR 材质与 HDRI
+  category: textures
+  tags: [textures, pbr, cc0]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: FreePBR
+  homepage: https://freepbr.com/
+  description: 免费 PBR 材质站，个人使用免费，商用需购买授权
+  category: textures
+  tags: [textures, pbr]
+  license: 免费非商用（商用需付费）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Freesound
+  homepage: https://freesound.org/
+  description: 社区音效库，环境音、拟音与循环素材丰富
+  category: audio
+  tags: [sfx, community, loops]
+  license: 混合授权（CC0 / CC BY / CC BY-NC）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Free Music Archive
+  homepage: https://freemusicarchive.org/
+  description: 创作共用音乐库，风格多样，支持下载与试听
+  category: music
+  tags: [music, cc, community]
+  license: 混合授权（CC 系列）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Incompetech
+  homepage: https://incompetech.com/
+  description: Kevin MacLeod 的配乐库，署名即可免费使用
+  category: music
+  tags: [music, cc-by, royalty-free]
+  license: CC BY 4.0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: ZapSplat
+  homepage: https://www.zapsplat.com/
+  description: 音效与音乐库，免费账户下载需署名
+  category: audio
+  tags: [sfx, music, royalty-free]
+  license: 免费（Basic 账户需署名）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: SoundBible
+  homepage: https://soundbible.com/
+  description: 免费音效站，含公共领域与 CC 授权声音
+  category: audio
+  tags: [sfx, public-domain, cc]
+  license: 混合授权（公共领域 / CC）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: FreePD
+  homepage: https://freepd.com/
+  description: 公共领域音乐库，适合游戏与视频配乐
+  category: music
+  tags: [music, cc0, public-domain]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Musopen
+  homepage: https://musopen.org/
+  description: 古典音乐录音与乐谱库，含公共领域资源
+  category: music
+  tags: [music, classical, public-domain]
+  license: 公有领域 / CC（部分需会员）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Sonniss
+  homepage: https://sonniss.com/
+  description: GDC 免费音效合集发布方，含数千条专业音频
+  category: audio
+  tags: [sfx, bundles, royalty-free]
+  license: 免版税（免费商用，无需署名）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: 99Sounds
+  homepage: https://99sounds.org/
+  description: 免费音效与采样库，多以免版税授权发布
+  category: audio
+  tags: [sfx, samples, royalty-free]
+  license: 免版税（个人与商用均可）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Pixabay
+  homepage: https://pixabay.com/
+  description: 免费图片、视频与音乐库，可商用且无需署名
+  category: photos
+  tags: [photos, video, music]
+  license: Pixabay 授权（免费商用）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Mixkit
+  homepage: https://mixkit.co/
+  description: 免费视频、音乐与音效库，含转场与模板
+  category: multi
+  tags: [video, music, sfx]
+  license: Mixkit 授权（免费商用）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Pexels
+  homepage: https://www.pexels.com/
+  description: 免费图片与视频库，可商用、无需署名
+  category: photos
+  tags: [photos, video, stock]
+  license: Pexels 授权（免费商用）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Unsplash
+  homepage: https://unsplash.com/
+  description: 高分辨率图片库，适合封面、概念图与氛围参考
+  category: photos
+  tags: [photos, stock]
+  license: Unsplash 授权（免费使用）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: StockSnap
+  homepage: https://stocksnap.io/
+  description: CC0 图片库，题材以生活与职场场景为主
+  category: photos
+  tags: [photos, cc0, stock]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Coverr
+  homepage: https://coverr.co/
+  description: 免费视频素材库，含背景片段与空镜头
+  category: video
+  tags: [video, stock]
+  license: 免费商用（自有授权）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Openverse
+  homepage: https://openverse.org/
+  description: CC 与公共领域媒体搜索引擎，覆盖图片与音频
+  category: multi
+  tags: [search, cc, public-domain]
+  license: 混合授权（CC / 公共领域）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Wikimedia Commons
+  homepage: https://commons.wikimedia.org/
+  description: 维基媒体自由媒体库，含照片、音频与矢量图
+  category: multi
+  tags: [media, cc, public-domain]
+  license: 混合自由许可（CC / 公共领域）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Openclipart
+  homepage: https://openclipart.org/
+  description: 公共领域矢量剪贴画库，可自由用于 UI 与原型
+  category: art-2d
+  tags: [vector, clipart, cc0]
+  license: CC0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Universal LPC Spritesheet
+  homepage: https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/
+  repo: https://github.com/LiberatedPixelCup/Universal-LPC-Spritesheet-Character-Generator
+  description: LPC 风格角色精灵生成器，输出多职业像素角色图集
+  category: art-2d
+  tags: [sprites, pixel-art, character, lpc]
+  license: 混合授权（CC BY-SA 3.0 / GPL 3.0 为主）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Liberated Pixel Cup
+  homepage: https://lpc.opengameart.org/
+  description: LPC 像素美术规范与素材池，统一授权便于混用
+  category: art-2d
+  tags: [sprites, pixel-art, lpc, community]
+  license: CC BY-SA 3.0 / GPL 3.0（双授权）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Game-icons.net
+  homepage: https://game-icons.net/
+  description: 数千枚游戏图标，涵盖技能、道具与 UI 题材
+  category: icons
+  tags: [icons, game-icons, ui]
+  license: CC BY 3.0
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Google Fonts
+  homepage: https://fonts.google.com/
+  description: 开源字体库，支持网页嵌入，含多语言与中文家族
+  category: fonts
+  tags: [fonts, webfonts, ofl]
+  license: 混合授权（OFL / Apache 等）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Font Awesome
+  homepage: https://fontawesome.com/
+  description: 图标字体与 SVG 图标库，提供免费与 Pro 层级
+  category: icons
+  tags: [icons, svg, font]
+  license: 混合授权（CC BY 4.0 / OFL 1.1）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Open Font Library
+  homepage: https://fontlibrary.org/
+  description: 自由字体托管与分享平台，字体多以开放许可发布
+  category: fonts
+  tags: [fonts, ofl]
+  license: 混合授权（以 OFL 等开放许可为主）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Font Squirrel
+  homepage: https://www.fontsquirrel.com/
+  description: 精选免费商用字体库，附字体识别与生成工具
+  category: fonts
+  tags: [fonts, commercial-use]
+  license: 混合授权（以免费商用为主）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: DaFont
+  homepage: https://www.dafont.com/
+  description: 海量字体下载站，下载前注意作者标注的授权范围
+  category: fonts
+  tags: [fonts, display]
+  license: 混合授权（部分仅限个人使用）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Lucide
+  homepage: https://lucide.dev/
+  description: 开源线性图标库，提供多框架组件与 SVG 源文件
+  category: icons
+  tags: [icons, svg, open-source]
+  license: ISC
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Bootstrap Icons
+  homepage: https://icons.getbootstrap.com/
+  description: Bootstrap 官方图标集，提供 SVG 与图标字体
+  category: icons
+  tags: [icons, svg, bootstrap]
+  license: MIT
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Heroicons
+  homepage: https://heroicons.com/
+  description: Tailwind 团队出品的 SVG 图标集，风格简洁
+  category: icons
+  tags: [icons, svg, tailwind]
+  license: MIT
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Iconify
+  homepage: https://iconify.design/
+  description: 聚合上百个开源图标集的检索与组件方案
+  category: icons
+  tags: [icons, search, svg]
+  license: 混合开源许可（各图标集不同）
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active

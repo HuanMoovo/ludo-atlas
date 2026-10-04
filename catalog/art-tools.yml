@@ -1,0 +1,613 @@
+# Ludo Atlas · 美术与设计工具（种子清单）
+# 字段规范见 schema.json；许可与价格均为快照，以官网最新声明为准
+- name: Blender
+  homepage: https://www.blender.org/
+  repo: https://projects.blender.org/blender/blender
+  description: 全流程 3D 创作套件（建模/雕刻/动画/渲染）
+  category: art-3d
+  tags: [3d, modeling, sculpting, animation, rendering]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [c, cpp, python]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Bforartists
+  homepage: https://www.bforartists.de/
+  repo: https://github.com/Bforartists/Bforartists
+  description: Blender 分支，面向美术易用性优化
+  category: art-3d
+  tags: [3d, modeling, animation]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [c, cpp, python]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Wings3D
+  homepage: http://www.wings3d.com/
+  repo: https://github.com/dgud/wings
+  description: 轻量细分曲面建模工具
+  category: art-3d
+  tags: [3d, modeling, subdivision]
+  license: BSD
+  platforms: [windows, macos, linux]
+  languages: [erlang]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Dust3D
+  homepage: https://dust3d.org/
+  repo: https://github.com/huxingyi/dust3d
+  description: 角色建模与骨骼绑定工具
+  category: art-3d
+  tags: [3d, modeling, rigging, character]
+  license: MIT
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: beta
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Blockbench
+  homepage: https://www.blockbench.net/
+  repo: https://github.com/JannisX11/blockbench
+  description: 方块与低多边形风格 3D 建模工具
+  category: art-3d
+  tags: [3d, modeling, low-poly, minecraft]
+  license: GPL-3.0
+  platforms: [windows, macos, linux, web]
+  languages: [javascript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Crocotile 3D
+  homepage: https://crocotile3d.com/
+  description: 用 2D 瓦片搭建 3D 场景的编辑器
+  category: art-3d
+  tags: [3d, tileset, retro]
+  license: 商业
+  platforms: [windows, macos, linux]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: MeshLab
+  homepage: https://www.meshlab.net/
+  repo: https://github.com/cnr-isti-vclab/meshlab
+  description: 三维网格处理与清理工具
+  category: art-3d
+  tags: [3d, mesh, cleanup]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: MagicaVoxel
+  homepage: https://ephtracy.github.io/
+  description: 体素建模与渲染工具（免费）
+  category: voxel
+  tags: [voxel, 3d, modeling, rendering]
+  license: 免费（闭源）
+  platforms: [windows, macos]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Goxel
+  homepage: https://goxel.xyz/
+  repo: https://github.com/guillaumechereau/goxel
+  description: 开源体素编辑器（桌面与移动端）
+  category: voxel
+  tags: [voxel, 3d]
+  license: GPL-3.0
+  platforms: [windows, macos, linux, android, ios]
+  languages: [c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Krita
+  homepage: https://krita.org/
+  repo: https://invent.kde.org/graphics/krita
+  description: 数字绘画软件（概念图与贴图）
+  category: art-2d
+  tags: [painting, concept-art, animation]
+  license: GPL-3.0
+  platforms: [windows, macos, linux, android]
+  languages: [cpp, python]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: GIMP
+  homepage: https://www.gimp.org/
+  repo: https://gitlab.gnome.org/GNOME/gimp
+  description: 开源位图编辑软件（修图与合成）
+  category: art-2d
+  tags: [raster, photo-editing, compositing]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [c, python]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Inkscape
+  homepage: https://inkscape.org/
+  repo: https://gitlab.com/inkscape/inkscape
+  description: 矢量绘图软件（UI 与图标）
+  category: art-2d
+  tags: [vector, ui, icons]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp, python]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: MyPaint
+  homepage: https://mypaint.app/
+  repo: https://github.com/mypaint/mypaint
+  description: 无限画布数字绘画工具
+  category: art-2d
+  tags: [painting, raster]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [python, c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Pinta
+  homepage: https://pinta-project.com/
+  repo: https://github.com/PintaProject/Pinta
+  description: 轻量开源位图编辑软件
+  category: art-2d
+  tags: [raster, photo-editing]
+  license: MIT
+  platforms: [windows, macos, linux]
+  languages: [csharp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Paint.NET
+  homepage: https://www.getpaint.net/
+  description: Windows 平台图像与照片编辑软件
+  category: art-2d
+  tags: [raster, photo-editing, windows]
+  license: 免费（闭源）
+  platforms: [windows]
+  languages: [csharp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: FireAlpaca
+  homepage: https://firealpaca.com/
+  description: 免费数字绘画软件（轻量易用）
+  category: art-2d
+  tags: [painting, raster]
+  license: 免费（闭源）
+  platforms: [windows, macos]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Photopea
+  homepage: https://www.photopea.com/
+  description: 网页版图像编辑工具（兼容 PSD）
+  category: art-2d
+  tags: [raster, web, photo-editing]
+  license: 免费（含广告）
+  platforms: [web]
+  languages: [javascript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Clip Studio Paint
+  homepage: https://www.clipstudio.net/
+  description: 商业绘画软件（漫画与插画）
+  category: art-2d
+  tags: [painting, comics, illustration]
+  license: 商业
+  platforms: [windows, macos, android, ios]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Aseprite
+  homepage: https://www.aseprite.org/
+  repo: https://github.com/aseprite/aseprite
+  description: 像素画编辑器（付费，源码公开）
+  category: pixel-art
+  tags: [pixel-art, sprite, animation]
+  license: 源码可见·付费二进制
+  platforms: [windows, macos, linux]
+  languages: [cpp, lua]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: LibreSprite
+  homepage: https://libresprite.github.io/
+  repo: https://github.com/LibreSprite/LibreSprite
+  description: 开源像素画编辑器（Aseprite 旧版分支）
+  category: pixel-art
+  tags: [pixel-art, sprite]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: beta
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Pixelorama
+  homepage: https://orama-interactive.itch.io/pixelorama
+  repo: https://github.com/Orama-Interactive/Pixelorama
+  description: 开源像素画工具（Godot 制作）
+  category: pixel-art
+  tags: [pixel-art, sprite]
+  license: MIT
+  platforms: [windows, macos, linux, web]
+  languages: [gdscript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Piskel
+  homepage: https://www.piskelapp.com/
+  repo: https://github.com/piskelapp/piskel
+  description: 网页版像素画编辑器（简单易用）
+  category: pixel-art
+  tags: [pixel-art, web, sprite]
+  license: Apache-2.0
+  platforms: [web]
+  languages: [javascript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Material Maker
+  homepage: https://www.materialmaker.org/
+  repo: https://github.com/RodZill4/material-maker
+  description: 节点式程序化材质制作工具
+  category: texture
+  tags: [texture, procedural, pbr, node-based]
+  license: MIT
+  platforms: [windows, macos, linux]
+  languages: [gdscript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: ArmorPaint
+  homepage: https://armorpaint.org/
+  repo: https://github.com/armory3d/armorpaint
+  description: 基于物理的 3D 纹理绘制工具
+  category: texture
+  tags: [texture, pbr, painting]
+  license: 源码可见·付费二进制
+  platforms: [windows, macos, linux]
+  languages: [haxe]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Materialize
+  homepage: https://boundingboxsoftware.com/materialize/
+  repo: https://github.com/BoundingBoxSoftware/Materialize
+  description: 材质贴图生成工具（法线与粗糙度等）
+  category: texture
+  tags: [texture, pbr]
+  license: GPL-3.0
+  platforms: [windows]
+  languages: [csharp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: TexturePacker
+  homepage: https://www.codeandweb.com/texturepacker
+  description: 商业纹理图集打包工具（多引擎导出）
+  category: sprite-tool
+  tags: [texture-atlas, sprite-sheet, packing]
+  license: 商业
+  platforms: [windows, macos, linux]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Free Texture Packer
+  homepage: https://free-tex-packer.com/
+  repo: https://github.com/odrick/free-tex-packer
+  description: 免费纹理图集打包工具（多格式导出）
+  category: sprite-tool
+  tags: [texture-atlas, sprite-sheet, packing]
+  license: MIT
+  platforms: [windows, macos, linux, web]
+  languages: [javascript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: ShoeBox
+  homepage: https://renderhjs.net/shoebox/
+  description: 雪碧图与位图字体小工具集（免费）
+  category: sprite-tool
+  tags: [sprite-sheet, bitmap-font, utilities]
+  license: 免费（闭源）
+  platforms: [windows, macos]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Tiled
+  homepage: https://www.mapeditor.org/
+  repo: https://github.com/mapeditor/tiled
+  description: 老牌 2D 地图编辑器
+  category: level-editor
+  tags: [2d, tilemap, level]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: LDtk
+  homepage: https://ldtk.io/
+  repo: https://github.com/deepnight/ldtk
+  description: 现代 2D 关卡编辑器
+  category: level-editor
+  tags: [2d, level, tilemap]
+  license: MIT
+  platforms: [windows, macos, linux]
+  languages: [haxe]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Ogmo Editor
+  homepage: https://ogmo-editor-3.github.io/
+  repo: https://github.com/Ogmo-Editor-3/OgmoEditor3-CE
+  description: 免费 2D 关卡编辑器（可扩展）
+  category: level-editor
+  tags: [2d, level, tilemap]
+  license: MIT
+  platforms: [windows, macos, linux, web]
+  languages: [haxe]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: TrenchBroom
+  homepage: https://trenchbroom.github.io/
+  repo: https://github.com/TrenchBroom/TrenchBroom
+  description: Quake 系关卡编辑器（现代工作流）
+  category: level-editor
+  tags: [level, quake]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: GtkRadiant
+  homepage: https://icculus.org/gtkradiant/
+  repo: https://github.com/TTimo/GtkRadiant
+  description: idTech 系经典关卡编辑器
+  category: level-editor
+  tags: [level, quake, idtech]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [c, cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Synfig Studio
+  homepage: https://www.synfig.org/
+  repo: https://github.com/synfig/synfig
+  description: 开源 2D 矢量动画软件
+  category: animation
+  tags: [2d, animation, vector]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [cpp, python]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: OpenToonz
+  homepage: https://opentoonz.github.io/
+  repo: https://github.com/opentoonz/opentoonz
+  description: 开源 2D 动画软件（Toonz 开源版）
+  category: animation
+  tags: [2d, animation, cutout]
+  license: BSD
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Tahoma2D
+  homepage: https://tahoma2d.org/
+  repo: https://github.com/Tahoma2D/tahoma2d
+  description: 免费 2D 与定格动画软件（OpenToonz 分支）
+  category: animation
+  tags: [2d, animation, stop-motion]
+  license: BSD
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Pencil2D
+  homepage: https://www.pencil2d.org/
+  repo: https://github.com/pencil2d/pencil
+  description: 开源 2D 手绘动画软件
+  category: animation
+  tags: [2d, animation, hand-drawn]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Wick Editor
+  homepage: https://www.wickeditor.com/
+  repo: https://github.com/Wicklets/wick-editor
+  description: 网页版 2D 动画与游戏创作工具
+  category: animation
+  tags: [2d, animation, web]
+  license: GPL-3.0
+  platforms: [web, windows, macos, linux]
+  languages: [javascript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: DragonBones
+  homepage: https://dragonbones.github.io/
+  repo: https://github.com/DragonBones/DragonBonesJS
+  description: 2D 骨骼动画创作工具与运行时
+  category: animation
+  tags: [2d, animation, skeleton]
+  license: 免费（运行时 MIT）
+  platforms: [web, windows, macos]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Spine
+  homepage: https://esotericsoftware.com/
+  description: 商业 2D 骨骼动画制作工具
+  category: animation
+  tags: [2d, animation, skeleton]
+  license: 商业
+  platforms: [windows, macos, linux]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Rive
+  homepage: https://rive.app/
+  description: 实时交互动画设计与运行工具
+  category: animation
+  tags: [animation, interactive, runtime, web]
+  license: 商业（含免费版）
+  platforms: [web, windows, macos]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Cascadeur
+  homepage: https://cascadeur.com/
+  description: 物理辅助 3D 动画与摆姿工具
+  category: animation
+  tags: [3d, animation, physics, rigging]
+  license: 商业（含免费版）
+  platforms: [windows]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Mixamo
+  homepage: https://www.mixamo.com/
+  description: 免费角色动画库与自动绑定服务（Adobe）
+  category: character
+  tags: [3d, animation, rigging, character]
+  license: 免费（需 Adobe 账号）
+  platforms: [web]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: MakeHuman
+  homepage: https://makehuman.org/
+  repo: https://github.com/makehumancommunity/makehuman
+  description: 开源 3D 人类角色建模工具
+  category: character
+  tags: [3d, character, modeling]
+  license: AGPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [python, c]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: VRoid Studio
+  homepage: https://vroid.com/en/studio
+  description: 免费 3D 动漫角色创建软件（VRM）
+  category: character
+  tags: [3d, character, anime, vrm]
+  license: 免费（闭源）
+  platforms: [windows, macos, android, ios]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: FontForge
+  homepage: https://fontforge.org/
+  repo: https://github.com/fontforge/fontforge
+  description: 开源字体编辑器
+  category: font
+  tags: [font, typography]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  languages: [c, python]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: BirdFont
+  homepage: https://birdfont.org/
+  repo: https://github.com/johanmattssonm/birdfont
+  description: 开源字体编辑器（绘制与导出）
+  category: font
+  tags: [font, typography]
+  license: GPL-3.0
+  platforms: [windows, macos, linux]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Penpot
+  homepage: https://penpot.app/
+  repo: https://github.com/penpot/penpot
+  description: 开源设计与原型工具（Figma 替代）
+  category: design
+  tags: [design, ui, prototyping]
+  license: MPL-2.0
+  platforms: [web]
+  languages: [clojure, clojurescript]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active
+- name: Natron
+  homepage: https://natrongithub.github.io/
+  repo: https://github.com/NatronGitHub/Natron
+  description: 开源节点式合成软件
+  category: compositing
+  tags: [compositing, vfx, node-based]
+  license: GPL-2.0
+  platforms: [windows, macos, linux]
+  languages: [cpp, python]
+  maturity: production
+  added: 2026-10-04
+  reviewed: 2026-10-04
+  status: active

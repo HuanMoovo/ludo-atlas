@@ -37,7 +37,7 @@
 | [自走棋](auto-battler/README.md) | 经济利息、共享牌池与站位克制。 |
 | [沙盒建造](sandbox-building/README.md) | 工具即游戏、规则组合与分享机制。 |
 
-## P2 批次（已完成 · 10 类）
+## P2 批次（已完成 · 16 类）
 
 | 类型 | 一句话定位 |
 | --- | --- |
@@ -51,6 +51,12 @@
 | [社交推理](social-deduction/README.md) | 信息不对称、讨论节奏与反作弊。 |
 | [叙事探索](walking-sim/README.md) | 环境叙事、玩家契约与演出成本。 |
 | [密室逃脱](escape-room/README.md) | 谜题图、分级提示与多人协作。 |
+| [大逃杀](battle-royale/README.md) | 缩圈节奏、物资经济与联机门槛的现实核算。 |
+| [MOBA](moba/README.md) | 兵线经济、英雄克制与赛事生态。 |
+| [潜行](stealth/README.md) | 感知系统、双路径设计与失败宽容。 |
+| [恐怖](horror/README.md) | 恐惧资源模型、氛围与声音设计。 |
+| [侦探推理](detective/README.md) | 线索冗余、推理交互与顿悟设计。 |
+| [解谜平台](puzzle-platformer/README.md) | 机制耦合、教考变奏与防挫败。 |
 
 ## 其余类型（持续扩充）
 

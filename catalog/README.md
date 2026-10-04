@@ -12,6 +12,9 @@
 
 - [`engines.yml`](engines.yml) — 开源引擎（种子）
 - [`tools.yml`](tools.yml) — 开源工具（种子）
+- [`art-tools.yml`](art-tools.yml) — 美术与设计工具（49 条）
+- [`audio-tools.yml`](audio-tools.yml) — 音频工具（55 条）
+- [`assets-free.yml`](assets-free.yml) — 免费素材库（52 条）
 
 ## 贡献
 
