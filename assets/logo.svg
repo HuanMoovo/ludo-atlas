@@ -1,13 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 18 18" width="512" height="512" shape-rendering="crispEdges" role="img" aria-label="Ludo Atlas logo (explorer)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Ludo Atlas logo">
 <title>Ludo Atlas</title>
-<path fill="#1B2B20" d="M6 0h4v1h-4zM5 1h1v1h-1zM10 1h1v1h-1zM4 2h1v1h-1zM11 2h1v1h-1zM3 3h1v1h-1zM12 3h1v1h-1zM4 4h1v1h-1zM11 4h1v1h-1zM3 5h1v1h-1zM12 5h1v1h-1zM2 6h1v1h-1zM13 6h1v1h-1zM2 7h1v1h-1zM13 7h1v1h-1zM1 8h1v1h-1zM14 8h1v1h-1zM1 9h1v1h-1zM5 9h2v1h-2zM10 9h1v1h-1zM14 9h1v1h-1zM1 10h1v1h-1zM14 10h1v1h-1zM1 11h1v1h-1zM6 11h1v1h-1zM9 11h1v1h-1zM14 11h1v1h-1zM1 12h1v1h-1zM6 12h1v1h-1zM9 12h1v1h-1zM14 12h1v1h-1zM1 13h1v1h-1zM6 13h1v1h-1zM9 13h1v1h-1zM14 13h1v1h-1zM2 14h1v1h-1zM13 14h1v1h-1zM3 15h10v1h-10z"/>
-<path fill="#D6B46A" d="M6 1h4v1h-4zM5 2h6v1h-6z"/>
-<path fill="#846232" d="M4 3h8v1h-8z"/>
-<path fill="#C2F7B3" d="M5 4h2v1h-2zM4 5h2v1h-2zM3 6h1v1h-1z"/>
-<path fill="#48D64F" d="M7 4h4v1h-4zM6 5h6v1h-6zM4 6h9v1h-9zM3 7h10v1h-10zM2 8h7v1h-7zM11 8h3v1h-3zM2 9h3v1h-3zM7 9h2v1h-2zM11 9h3v1h-3zM2 10h12v1h-12zM2 11h1v1h-1zM5 11h1v1h-1zM10 11h1v1h-1zM13 11h1v1h-1zM2 12h4v1h-4zM10 12h4v1h-4zM2 13h4v1h-4zM10 13h4v1h-4z"/>
-<path fill="#FFFFFF" d="M9 8h2v1h-2zM9 9h1v1h-1z"/>
-<path fill="#FF9FB5" d="M3 11h2v1h-2zM11 11h2v1h-2z"/>
-<path fill="#8C2743" d="M7 11h2v1h-2zM7 12h2v1h-2z"/>
-<path fill="#FF7E9D" d="M7 13h2v1h-2zM7 14h2v1h-2z"/>
-<path fill="#28A63C" d="M3 14h4v1h-4zM9 14h4v1h-4z"/>
+<defs>
+<linearGradient id="g-body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8AF49E"/><stop offset="0.5" stop-color="#4FDC60"/><stop offset="1" stop-color="#2FB84A"/></linearGradient>
+<radialGradient id="g-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#63E676" stop-opacity="0.38"/><stop offset="1" stop-color="#63E676" stop-opacity="0"/></radialGradient>
+<clipPath id="c-body"><path d="M256 112 C146 112 82 206 82 322 C82 382 108 416 158 422 L354 422 C402 416 428 382 428 322 C428 206 362 112 256 112 Z"/></clipPath>
+<path id="p-star" d="M0 -18 C2.4 -4.8 4.8 -2.4 18 0 C4.8 2.4 2.4 4.8 0 18 C-2.4 4.8 -4.8 2.4 -18 0 C-4.8 -2.4 -2.4 -4.8 0 -18 Z"/>
+</defs>
+<circle cx="256" cy="288" r="214" fill="url(#g-glow)"/>
+<path d="M256 112 C146 112 82 206 82 322 C82 382 108 416 158 422 L354 422 C402 416 428 382 428 322 C428 206 362 112 256 112 Z" fill="url(#g-body)"/>
+<g clip-path="url(#c-body)">
+<ellipse cx="256" cy="474" rx="240" ry="62" fill="#1E8A38" opacity="0.42"/>
+<ellipse cx="200" cy="162" rx="150" ry="62" fill="#C8FFD2" opacity="0.30"/>
+</g>
+<ellipse cx="256" cy="150" rx="94" ry="30" fill="#FFFFFF" opacity="0.18"/>
+<path d="M164 258 C152 208 176 172 218 162" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" fill="none" opacity="0.4"/>
+<circle cx="184" cy="194" r="9" fill="#FFFFFF" opacity="0.9"/>
+<ellipse cx="368" cy="298" rx="20" ry="42" fill="#FFFFFF" opacity="0.16" transform="rotate(18 368 298)"/>
+<ellipse cx="152" cy="318" rx="25" ry="13" fill="#FF9FB5" opacity="0.9"/>
+<ellipse cx="360" cy="318" rx="25" ry="13" fill="#FF9FB5" opacity="0.9"/>
+<circle cx="198" cy="276" r="26" fill="#17301E"/><circle cx="314" cy="276" r="26" fill="#17301E"/>
+<circle cx="189" cy="267" r="7.5" fill="#FFFFFF"/><circle cx="203" cy="282" r="3.8" fill="#FFFFFF" opacity="0.92"/>
+<circle cx="305" cy="267" r="7.5" fill="#FFFFFF"/><circle cx="319" cy="282" r="3.8" fill="#FFFFFF" opacity="0.92"/>
+<path d="M232 322 Q256 346 280 322" fill="none" stroke="#17301E" stroke-width="11" stroke-linecap="round"/>
+<use href="#p-star" transform="translate(256 56) scale(0.85)" fill="#FFD75E" opacity="0.95"/>
+<use href="#p-star" transform="translate(110 92) scale(1.1)" fill="#FFD75E" opacity="0.95"/>
+<use href="#p-star" transform="translate(404 168) scale(0.7)" fill="#FFD75E" opacity="0.9"/>
+<use href="#p-star" transform="translate(86 336) scale(0.45)" fill="#FFD75E" opacity="0.85"/>
+<circle cx="426" cy="252" r="6" fill="#FFD75E" opacity="0.8"/>
+<use href="#p-star" transform="translate(392 244) scale(0.4)" fill="#FFFFFF" opacity="0.85"/>
 </svg>
