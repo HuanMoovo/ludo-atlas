@@ -27,8 +27,12 @@
 - 引擎轨道七页：Godot、Unity、Unreal、Bevy、Web 游戏、轻量框架、Cocos。
 - 团队与规模三页：单人开发、小团队、工作室。
 
+## v1.5 — 类型手册 P1 前 10 类（2026-10-04）
+
+- 动作 RPG、JRPG、双摇杆射击、FPS、弹幕射击、模拟经营、城市建造、殖民模拟、卡牌构筑、RTS。
+
 ## 规划（v1.0 后）
 
-- 112 类型 Playbook 与 12 引擎轨道的实体化（见 `docs/meta/design.md`）：类型 P0 十类已完成，P1 批量推进中；引擎轨道 7/12 已完成（余 Ren’Py、RPG Maker、GameMaker、Defold、MonoGame/FNA）。
+- 112 类型 Playbook 与 12 引擎轨道的实体化（见 `docs/meta/design.md`）：类型 P0 十类与 P1 前 10 类已完成（共 20 类落盘，P1 余 5 类）；引擎轨道 7/12 已完成（余 Ren’Py、RPG Maker、GameMaker、Defold、MonoGame/FNA）。
 - catalog YAML 单源化：表格与站点由数据生成。
 - 英文版与示例代码仓库。
