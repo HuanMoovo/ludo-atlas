@@ -967,6 +967,7 @@
 **2026-10-05 expansion check**: ~130 links added (AI agents & skill resources, the new narrative & dialogue tools column, plus supplements across engines, tools, learning, communities, assets, publishing, services and compliance; 3 historical duplicate rows merged). Full dual-channel re-check (direct → proxy fallback): the large majority are directly reachable; a few are anti-scraping protection or local-network restrictions (Google / Adobe class, browser-accessible), or were removed as dead entries — details in the log.
 
 **2026-10-05 new columns**: added "Open-Source Agents & Desktop Clients" and "Must-Have Game Dev Skill Repositories" — 31 links (29 directly reachable · 2 anti-scraping protection; none dead).
+
 **Pitfalls & Anti-patterns supplement check (2026-10-04)**: 63 new international-segment links, all reachable (60 directly reachable · 3 anti-scraping protection, browser-accessible); no dead entries (2 candidates excluded because their sites were down).
 
 Anomaly handling details (15 items):
