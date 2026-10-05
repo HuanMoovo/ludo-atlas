@@ -144,7 +144,7 @@ Device tiering (low/mid/high end); thermal strategy (a plan for thermal throttli
 
 ## 7. Code Quality & Collaboration
 
-- **Review checklist**: does it follow the project's naming/structure conventions? Error handling and edge cases? Are performance-sensitive paths backed by measurement? Testability? License check for newly added dependencies (see the Legal, Patents & Competition Handbook)?
+- **Review checklist**: does it follow the project's naming/structure conventions? Error handling and edge cases? Are performance-sensitive paths backed by measurement? Testability? License check for newly added dependencies (see the Legal, Patents & Competition)?
 - **Naming and organization**: a domain glossary (consistent game terms: Enemy/Turret/Projectile), directories by domain rather than type (`combat/` over `scripts/`).
 - **ADR (architecture decision record)**: one page per major technical choice (context / options / decision / consequences); six months from now, you'll thank yourself.
 - **Boundaries of AI-assisted programming**: generated code must pass review and tests; core systems must be explainable; for the toolchain and permissions see design doc §14 (including the engine MCP security model).

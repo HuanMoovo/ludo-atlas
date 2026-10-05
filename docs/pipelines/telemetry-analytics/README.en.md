@@ -1,7 +1,7 @@
 # Ludo Atlas · Pipelines · Telemetry & Analytics
 
 > **Pipelines & Workflows**. Positioning: turning "how players actually play" into queryable, trustworthy, actionable data — a complete data pipeline covering event design, collection, governance, dashboards and privacy minimization.
-> Companions: Live-Ops & Growth · Legal, Patents & Competition Handbook · Production Handbook · Pitfalls & Anti-patterns.
+> Companions: Live-Ops & Growth · Legal, Patents & Competition · Production Handbook · Pitfalls & Anti-patterns.
 > Audience: minimum event tracking (crashes, sessions, the core funnel) should be in place as soon as you reach playable testing; small single-player titles can trim it, but the event dictionary and data minimization are the two things you never cut. Boundary with the Live-Ops & Growth: that handbook is about using the numbers to make live-ops decisions; this page is about where the numbers come from and whether they can be trusted.
 
 ---
@@ -88,13 +88,13 @@ The dictionary lives in the same repo as the code and changes go through review;
 
 ### 3.3 Data Minimization and Privacy Compliance
 
-The principle in one sentence: as long as the questions can still be answered, collect as little as possible. For the full list of regulations and platform rules, see the Legal, Patents & Competition Handbook (Legal, Patents & Competition Handbook §6.1, covering GDPR, CCPA, COPPA, PIPL and store privacy labels); this section lists only the actions the pipeline side must implement:
+The principle in one sentence: as long as the questions can still be answered, collect as little as possible. For the full list of regulations and platform rules, see the Legal, Patents & Competition (Legal, Patents & Competition §6.1, covering GDPR, CCPA, COPPA, PIPL and store privacy labels); this section lists only the actions the pipeline side must implement:
 
 - Minimum by default: for every field, first ask "without it, can the question still be answered"; if it can, don't collect it; profile fields such as age and gender are optional and skippable.
 - Identifier discipline: device-level anonymous IDs are stored separately from account IDs, resettable and unlinkable; don't request system permissions unrelated to the game — contacts, photo library, precise location and clipboard stay untouched.
 - Consent and toggles: the privacy notice on first launch matches actual collection item by item; provide a switch that turns data collection off, and the game keeps working with it off.
 - Lifecycle: every data category gets a retention period and is purged when it expires; account deletion and erasure requests must reach the detail store, the aggregate store and the backups — if you can't actually delete it, it isn't compliant.
-- Children and teens: for genres aimed at children or likely to reach them, parental consent and minimization standards are stricter — run the plan past the children's-data clauses in the Legal, Patents & Competition Handbook first.
+- Children and teens: for genres aimed at children or likely to reach them, parental consent and minimization standards are stricter — run the plan past the children's-data clauses in the Legal, Patents & Competition first.
 - SDK ledger: register every third-party collection SDK — what is installed, what it collects, where it sends it; store privacy labels and data-safety forms must match the ledger item by item. A mismatch is a takedown-level risk, not a copywriting problem.
 
 ### 3.4 Collection Discipline and Data Quality
@@ -141,7 +141,7 @@ The pipeline's own four metrics: event arrival rate, schema violation count, the
 
 1. **Copycat tracking**: collecting whatever others collect, with nobody looking at it afterward. For each event, write down the question it answers and who consumes it first; if you can't, don't collect it (§3.1).
 2. **Metrics without action**: the dashboard refreshes daily and no number has ever triggered an action. Going on the board means fixing the owner, threshold and action; if you can't, leave it off (§3.5).
-3. **Privacy overreach**: casually collecting device information and user profiles because "it might be useful later". Minimization is the default; children's data goes through the regulations first (§3.3, Legal, Patents & Competition Handbook).
+3. **Privacy overreach**: casually collecting device information and user profiles because "it might be useful later". Minimization is the default; children's data goes through the regulations first (§3.3, Legal, Patents & Competition).
 4. **Numbers without players**: retention dips, the reports show no reason, and the only move is to throw rewards at the problem. Numbers set the range, players explain the reason — walk on both legs (§3.1).
 5. **Naming and definitions each going their own way**: engineers rename after the fact, live-ops works to its own definitions, and two numbers fight it out in the meeting. The dictionary is the single source; definition changes go through the same review (§3.2).
 6. **Tracking that eats frames**: reporting waits on the network synchronously and the stutter shows up in players' faces. Collection is asynchronous, batched, droppable (§3.4).
@@ -153,6 +153,6 @@ The pipeline's own four metrics: event arrival rate, schema violation count, the
 ## Further Reading
 
 - Live-Ops & Growth: the consumer side of metric definitions and live-ops decisions; that handbook handles using numbers to make decisions, while this page handles where the numbers come from and whether they can be trusted.
-- Legal, Patents & Competition Handbook: privacy regulations, platform privacy labels and children's-data clauses — the legal drafting source behind §3.3 (§6.1).
+- Legal, Patents & Competition: privacy regulations, platform privacy labels and children's-data clauses — the legal drafting source behind §3.3 (§6.1).
 - Production Handbook: event tracking and dashboards are scheduling items too; the postmortem methods explain how data is used in project postmortems (§9).
 - Pitfalls & Anti-patterns: a list of concrete cases around telemetry, data and privacy, to read alongside §5.

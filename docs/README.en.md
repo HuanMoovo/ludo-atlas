@@ -39,9 +39,9 @@ Start here: [Preface](preface.md) (why this project exists).
 
 ## Publishing & Platforms (publishing/)
 
-- [Live-Ops & Growth Handbook](publishing/live-ops/README.md)
+- [Live-Ops & Growth](publishing/live-ops/README.md)
 - [Mini-Game Development](publishing/minigame/README.md)
-- [Console Development Handbook](publishing/console/README.md)
+- [Console Development](publishing/console/README.md)
 - [VR/AR Development Handbook](publishing/xr/README.md)
 - [Esports & Competitive Design Handbook](publishing/esports/README.md)
 - [Multi-platform Launch Playbook](../playbooks/platform-launch/README.md) (incl. online-game specifics)
@@ -49,8 +49,8 @@ Start here: [Preface](preface.md) (why this project exists).
 ## Pipelines & Deep Dives (pipelines/)
 
 - [Pipeline Index](pipelines/README.md): six pipelines — version control, art assets, localization, build & release, playtesting, telemetry.
-- [Modding & UGC Handbook](pipelines/modding/README.md)
-- [Multiplayer & Backend Deep Dive](pipelines/multiplayer-backend/README.md)
+- [Modding & UGC](pipelines/modding/README.md)
+- [Multiplayer & Backend](pipelines/multiplayer-backend/README.md)
 
 ## AI & Case Studies
 

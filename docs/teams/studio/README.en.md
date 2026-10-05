@@ -141,7 +141,7 @@ Tools are where process becomes permanent; set the process first, then choose to
 | Builds and CI | Jenkins / GitHub Actions / self-hosted build machines | Daily automated builds, distributed to test machines |
 | Defect management | The same system as tasks, with S1–S4 severities | Severity definitions in Production Handbook §5 |
 | Communication | IM plus the weekly build brief and screen-recorded reviews | Key meetings must have minutes |
-| Telemetry (post-launch) | Self-built or third-party analytics services | Event design comes first; for privacy compliance see the Legal, Patents & Competition Handbook |
+| Telemetry (post-launch) | Self-built or third-party analytics services | Event design comes first; for privacy compliance see the Legal, Patents & Competition |
 
 The hard criterion for tool selection: can it automatically validate assets and builds? Any step that relies on manual checking will inevitably fail once scale arrives.
 

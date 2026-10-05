@@ -1,7 +1,7 @@
 # Ludo Atlas · Teams & Scale · Solo Dev
 
 > **Teams & Scale**. Positioning: breaks "one person finishing a whole game" down into actionable scope discipline, a weekly cadence and mental expectations, covering the full path from a one-sentence kickoff to post-launch updates.
-> Companions: Production Handbook · Indie Survival · AI Workflows Handbook · Game Design Handbook.
+> Companions: Production Handbook · Indie Survival · AI Workflows · Game Design Handbook.
 
 ---
 
@@ -122,7 +122,7 @@ For timing, see Indie Survival: wait until your own quality or speed has become 
 ### 4.2 How to Find Collaborators
 
 - Channels: game jams, developer communities, paid tests on outsourcing platforms, former colleagues. Start a long-term collaboration with one small task, then talk about continuing.
-- Prefer paid buyout work with clear ownership; for revenue-share collaborations, the workload, timeline and exit conditions must be put in writing — for contracts, see the Legal, Patents & Competition Handbook.
+- Prefer paid buyout work with clear ownership; for revenue-share collaborations, the workload, timeline and exit conditions must be put in writing — for contracts, see the Legal, Patents & Competition.
 - Inputs to collaborators are always documents, never verbal paraphrase: "the way it is in my head" is the number-one source of outsourced rework.
 
 ### 4.3 How One Person Covers Art and Audio
@@ -138,11 +138,11 @@ Skipping audio entirely is not recommended: a minimal setup of a sound-effect pa
 
 ### 4.4 Boundaries of Treating AI as a "Team Member"
 
-- Positioning: AI is an accelerator; judgment and sign-off stay with you (the overarching premise of the AI Workflows Handbook).
+- Positioning: AI is an accelerator; judgment and sign-off stay with you (the overarching premise of the AI Workflows).
 - Safe to use: boilerplate code, tool scripts, configuration, batch conversion, placeholder assets, first-draft copy.
 - Human pass required: translation drafts, marketing copy, art assets that need finishing; verify every number and conclusion item by item.
 - Do not use directly: game-feel decisions for core gameplay, unprocessed final art, any output that recreates someone else's work.
-- Keep a paper trail: maintain an AI usage log (tool, stage, purpose of the output) — platform disclosures and postmortems both need it; for disclosure requirements see the AI Workflows Handbook §4.5, §8.
+- Keep a paper trail: maintain an AI usage log (tool, stage, purpose of the output) — platform disclosures and postmortems both need it; for disclosure requirements see the AI Workflows §4.5, §8.
 
 ## 5. Tools and Tech Stack Recommendations
 
@@ -175,5 +175,5 @@ The good-enough launch-channel setup: for PC, start with "itch.io for the demo, 
 
 - Production Handbook: kickoff packages, estimation and scheduling, scope control, and a dedicated solo-development chapter — the full expansion of sections 2 and 3 here.
 - Indie Survival: mode selection, runway math, funding sources and decision checkpoints.
-- AI Workflows Handbook: the AI suitability decision table, disclosure requirements and the red-line list.
+- AI Workflows: the AI suitability decision table, disclosure requirements and the red-line list.
 - Game Design Handbook: the base document for core loops and system trade-offs.

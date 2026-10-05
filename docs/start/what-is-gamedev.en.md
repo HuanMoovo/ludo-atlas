@@ -80,7 +80,7 @@ The larger the scale, the more it depends on process and documentation; the smal
 3. "Pick the wrong engine and it's over": any mainstream engine can get a game finished. The cost of switching is far lower than the cost of never building anything.
 4. "Indie development is free and easy": the freedom is real, the ease is not. It is high-intensity self-management.
 5. "Coming up with a hit idea comes first": ideas are cheap; building it and pushing it out is what's valuable.
-6. "AI is here, one person can make AAA": AI significantly speeds up coding and asset production, but it doesn't make your trade-offs for you. See the [AI Workflows Handbook](../ai/README.md).
+6. "AI is here, one person can make AAA": AI significantly speeds up coding and asset production, but it doesn't make your trade-offs for you. See the [AI Workflows](../ai/README.md).
 
 ## 7. Where You Are Now
 

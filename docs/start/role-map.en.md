@@ -44,7 +44,7 @@ Decides everything you see in the game.
 | UI artist | Interface visuals and interaction mockups | Typography, component specs, motion design |
 | Technical artist (TA) | The bridge between art and programming | Shaders, scripting, pipeline tools |
 
-A portfolio matters more than a degree: 3–5 complete works, each of which you can explain clearly in terms of "goal, approach, result". For using AI-assisted tools, see the [AI Workflows Handbook](../ai/README.md).
+A portfolio matters more than a degree: 3–5 complete works, each of which you can explain clearly in terms of "goal, approach, result". For using AI-assisted tools, see the [AI Workflows](../ai/README.md).
 
 ## 4. Audio Track
 

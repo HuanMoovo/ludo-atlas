@@ -65,7 +65,7 @@
 
 ### 4.3 Outsourcing Management Process
 
-1. Requirements package (reference images + spec sheet + acceptance criteria + delivery format) → 2. Quotes and paid tests → 3. Milestone contract (staged payments) → 4. Staged acceptance (draft → final) → 5. Source-file and license archiving (for compliance see the Legal, Patents & Competition Handbook).
+1. Requirements package (reference images + spec sheet + acceptance criteria + delivery format) → 2. Quotes and paid tests → 3. Milestone contract (staged payments) → 4. Staged acceptance (draft → final) → 5. Source-file and license archiving (for compliance see the Legal, Patents & Competition).
 
 - Acceptance criteria must be **quantifiable** (dimensions/style comparison images/animation durations); no "it just doesn't feel right" back-and-forth.
 
@@ -95,7 +95,7 @@
 | Engine/platform technical pitfalls (e.g. a platform export fails) | Medium | Medium | Early technical validation (spikes; see the design doc §19 plan) |
 | Approval/game license delays (mainland China) | Medium | High | Plan 6–12 months ahead; keep an overseas release as a backup |
 | Running out of money (full-time development) | Medium | Very high | Set aside 6–12 months of living expenses; bridge with outsourcing/part-time work |
-| A competitor launches first or copies you | Low | Medium | Speed + community + differentiation (Legal, Patents & Competition Handbook §7.5) |
+| A competitor launches first or copies you | Low | Medium | Speed + community + differentiation (Legal, Patents & Competition §7.5) |
 
 - Every risk has a "trigger condition" (e.g. "slice takes 50% longer than estimated" → start the feature-cut contingency); when it trips, execute — no debate.
 

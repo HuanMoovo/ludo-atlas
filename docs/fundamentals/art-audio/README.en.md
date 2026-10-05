@@ -84,7 +84,7 @@
 1. **Requirements package**: reference images + spec sheet (size/format/layers/naming) + delivery format + acceptance criteria (quantifiable: e.g. "three-view proportions consistent, palette matches the Art Bible").
 2. **Paid test**: order one test piece first (paid); go to batch production only once style and communication pass.
 3. **Milestones and acceptance**: staggered delivery (draft → line art → coloring → final), confirm each stage before continuing; source files (PSD/Blender) must be handed over.
-4. **Archiving**: an asset ledger (source/author/license/modification record), including AI-generation records (see the Legal, Patents & Competition Handbook / Pitfalls & Anti-patterns).
+4. **Archiving**: an asset ledger (source/author/license/modification record), including AI-generation records (see the Legal, Patents & Competition / Pitfalls & Anti-patterns).
 
 - Using asset sites (Kenney/Aigei, etc.) → Resources §5; **check the license of every asset and keep the proof**.
 
@@ -108,7 +108,7 @@
 - **Structure**: loops (seamless head-to-tail) · transition stingers (event-triggered) · layers (base/tension/combat, stacked).
 - **Three modes of adaptive music**: vertical layering (stacking within the same track), horizontal re-sequencing (switching section order), transition bridges (in/out points); build the simplest layering first, and complicate it only after validating.
 - **Tied to gameplay**: music intensity follows combat/exploration state (parameterized, not hard cuts); reserve "phase transition" sections in boss music.
-- **Production options compared**: custom composition (best quality and fit) · royalty-free libraries (fast, cheap, prone to duplicate tracks) · AI generation (fast; mind licensing and disclosure, see the Legal, Patents & Competition Handbook). **The license must cover: worldwide/perpetual/commercial/editable**.
+- **Production options compared**: custom composition (best quality and fit) · royalty-free libraries (fast, cheap, prone to duplicate tracks) · AI generation (fast; mind licensing and disclosure, see the Legal, Patents & Competition). **The license must cover: worldwide/perpetual/commercial/editable**.
 
 ## 9. Audio Implementation (the interface between programming and audio)
 

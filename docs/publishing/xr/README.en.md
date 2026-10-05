@@ -1,7 +1,7 @@
 # Ludo Atlas · VR/AR Development
 
 > XR development and shipping in practice: platform landscape, store requirements, interaction design, comfort, performance budgets.
-> Companions: Multi-platform Launch Playbook · Console Development · Programming Handbook · Art & Audio Handbook · AI Workflows Handbook.
+> Companions: Multi-platform Launch Playbook · Console Development · Programming Handbook · Art & Audio Handbook · AI Workflows.
 > **Freshness note**: XR hardware and platform rules update extremely fast; this document was verified in 2026-10. Before you act, defer to the platforms' official documentation.
 
 ---
@@ -60,7 +60,7 @@ Standalone headsets like Quest and PICO are essentially mobile chips doing dual-
 - **Fill rate is king**: large semi-transparent effects, full-screen particles and overly dense scene depth all collapse on fill rate. Budget your overdraw.
 - **Use the official techniques well**: multisample anti-aliasing (MSAA) beats post-process sharpening; fixed foveated rendering (FFR) is free compute; baked lighting beats real-time.
 - **Thermal throttling**: chips throttle after 20 minutes of continuous play — holding frame rate then is the real test. Test over long sessions; don't test only a cold device.
-- **Toolchain**: Meta has performance-capture tools like OVR Metrics; Meta XR Simulator lets you iterate without deploying to a device. In 2026 Meta also introduced MCP-compatible AI agent tools such as XR Operator, which can drive an app running in the simulator to run build, test and verify loops (for the approach, see the AI Workflows Handbook).
+- **Toolchain**: Meta has performance-capture tools like OVR Metrics; Meta XR Simulator lets you iterate without deploying to a device. In 2026 Meta also introduced MCP-compatible AI agent tools such as XR Operator, which can drive an app running in the simulator to run build, test and verify loops (for the approach, see the AI Workflows).
 
 ## 6. Engineering Stack
 

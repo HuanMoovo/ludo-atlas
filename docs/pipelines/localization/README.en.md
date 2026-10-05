@@ -43,7 +43,7 @@ Selection revolves around four actions: export, collaboration, backfill, validat
 | Source text management | Engine string systems | Unity Localization, Unreal String Table, Godot translation resources, Ren'Py translate | Runtime language switching, plural and variable support, bulk export/import |
 | Translation collaboration | Translation platforms | Crowdin, Lokalise, Weblate, Transifex, Phrase | Translation memory, glossary, context screenshots, review workflow, API |
 | Exchange formats | Spreadsheets and standard formats | CSV, PO, XLIFF, JSON | Fixed column conventions, diffable, verifiable by scripts |
-| MT assistance | MT engines and language models | General-purpose MT and mainstream LLMs | Terms can be preloaded, batchable; for boundaries see the AI Workflows Handbook |
+| MT assistance | MT engines and language models | General-purpose MT and mainstream LLMs | Terms can be preloaded, batchable; for boundaries see the AI Workflows |
 | Fonts | Fonts and subsetting tools | Commercial and open-source CJK fonts, subsetting scripts | Commercial licensing, character coverage, fallback chain configuration |
 | Validation | Pseudo-localization and static checks | Engine built-in flows, purpose-built scripts | Surface missing keys, placeholders and overlong text in one sweep |
 
@@ -84,7 +84,7 @@ The three modes can mix within one pipeline, but they must be layered by languag
 | Hybrid | MT first draft plus human proofreading and polish | Upper-middle | Medium | Long-tail languages, system and UI text |
 | Raw MT | Machine output straight into the build | Unstable | Lowest | Internal validation only, never as a shipping language |
 
-- MT is positioned as a first-draft tool, not a finished product: terminology and tone must pass human review, and jokes, puns and cultural references never go through raw MT. For boundaries and the verification process, see the AI Workflows Handbook.
+- MT is positioned as a first-draft tool, not a finished product: terminology and tone must pass human review, and jokes, puns and cultural references never go through raw MT. For boundaries and the verification process, see the AI Workflows.
 - Test-translate each language first: one terminology-dense passage, one colloquial passage, one variable-bearing passage and one length-constrained passage; scale up only after they pass acceptance.
 - Three quality gates: translation and proofreading are separate roles, the project side runs consistency validation, and native-speaker LQA spot-checks the finished product.
 - Languages can be tiered: human translation for primary launch languages, the hybrid mode for the long tail; put languages the data does not support on a watch list rather than padding the language count.
@@ -183,5 +183,5 @@ The three modes can mix within one pipeline, but they must be layered by languag
 - [Production Handbook](../../fundamentals/production/README.md): outsourcing management, estimation and scheduling — the methodology behind language batch scheduling.
 - [Multi-platform Launch Playbook](../../../playbooks/platform-launch/README.md): store submission and language metadata requirements; read alongside §3.6.
 - [Pitfalls & Anti-patterns](../../pitfalls/README.md): text, UI and localization pitfalls; cross-reference with §5.
-- [AI Workflows Handbook](../../ai/README.md): the boundaries of MT and AI assistance, and the human verification process.
+- [AI Workflows](../../ai/README.md): the boundaries of MT and AI assistance, and the human verification process.
 - [Visual Novel Handbook](../../genres/visual-novel/README.md): localization prerequisites for text-heavy projects; see its §4.3.

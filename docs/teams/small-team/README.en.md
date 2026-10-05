@@ -140,7 +140,7 @@ The process is five fixed steps; details in the Production Handbook §4.3:
 `Requirements package (reference images, spec sheet, acceptance criteria, delivery format) → paid test (small batch to validate style and throughput) → milestone contract (staged payments) → staged acceptance (draft to final) → source-file and license archiving`
 
 - Acceptance criteria must be quantifiable: dimensions, poly count, style reference images, animation timing, naming and layer conventions. No vague "this feels off" back-and-forth; batch feedback into one list and send it in one go — no fragmentation bombardment.
-- Payments are tied to acceptance checkpoints, commonly in three stages: upfront payment, draft approval, final delivery; source files and commercial licenses are archived at each batch's acceptance — waiting until project wrap-up to ask often ends with missing files or missing people. For contracts, copyright and non-compete clauses, see the Legal, Patents & Competition Handbook.
+- Payments are tied to acceptance checkpoints, commonly in three stages: upfront payment, draft approval, final delivery; source files and commercial licenses are archived at each batch's acceptance — waiting until project wrap-up to ask often ends with missing files or missing people. For contracts, copyright and non-compete clauses, see the Legal, Patents & Competition.
 
 ## 5. Tools and Tech Stack Recommendations
 
