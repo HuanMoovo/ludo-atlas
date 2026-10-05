@@ -45,6 +45,13 @@
 | O3DE | https://o3de.org/ | 亚马逊开源 3D 引擎 |
 | Flax Engine | https://flaxengine.com/ | C#/C++ 开源向 3D 引擎 |
 | CryEngine | https://www.cryengine.com/ | 免费商业引擎，画质强悍 |
+| Cocos2d-x | https://www.cocos2d-x.org/ | 开源 C++ 2D 引擎（Cocos 系经典分支） |
+| Fyrox | https://fyrox.rs/ | Rust 开源 3D 引擎（编辑器内置） |
+| OpenFL | https://www.openfl.org/ | Haxe 跨平台 2D 框架（Flash 血脉） |
+| PICO-8 | https://www.lexaloffle.com/pico-8.php | 幻想主机，限制式像素开发环境 |
+| Pyxel | https://github.com/kitao/pyxel | Python 幻想主机（复古规格） |
+| Adventure Game Studio | https://www.adventuregamestudio.co.uk/ | 点击式冒险专用开源工具 |
+| Unigine | https://unigine.com/ | 商业 3D 引擎（仿真与高画质向） |
 
 ### 1.2 国内引擎、平台与小游戏生态
 
@@ -83,6 +90,10 @@
 | Xcode | https://developer.apple.com/xcode/ | iOS/macOS 开发必备（需 macOS） |
 | Android Studio | https://developer.android.com/studio | Android 打包与调试 |
 | 微信开发者工具 | https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html | 微信小游戏/小程序调试必备 |
+| Zed | https://zed.dev/ | 高性能协作编辑器（Rust 开发） |
+| Sublime Text | https://www.sublimetext.com/ | 轻量快速编辑器，老牌口碑 |
+| Neovim | https://neovim.io/ | 现代 Vim 分支，终端党主力 |
+| HBuilderX | https://www.dcloud.io/hbuilderx.html | DCloud 出品，uni-app 与小游戏开发常用 |
 
 ### 2.2 2D 美术、像素与 UI 设计
 
@@ -105,6 +116,11 @@
 | 即时设计 | https://js.design/ | 国内在线 UI 设计工具 |
 | MasterGo | https://mastergo.com/ | 国内 UI 设计协作平台 |
 | 蓝湖 | https://lanhuapp.com/ | 国内设计交付与协作平台 |
+| Adobe Illustrator | https://www.adobe.com/products/illustrator.html | 矢量设计行业标准（付费） |
+| FontForge | https://fontforge.org/ | 开源字体编辑器（做像素/位图字体也常用） |
+| GraphicsGale | https://graphicsgale.com/us/ | 老牌像素动画工具（免费版可用） |
+| Pyxel Edit | https://pyxeledit.com/ | 像素瓦片与动画编辑器（付费） |
+| Lospec | https://lospec.com/ | 像素色板与工具集散地，海量调色板 |
 
 ### 2.3 3D 建模、材质与资产创作
 
@@ -123,6 +139,9 @@
 | Blockbench | https://www.blockbench.net/ | 方块/低模编辑器（Minecraft 生态常用） |
 | MagicaVoxel | https://ephtracy.github.io/ | 体素创作工具（免费） |
 | Mixamo | https://www.mixamo.com/ | Adobe 免费角色动画库与自动绑定 |
+| SpeedTree | https://www.speedtree.com/ | 树木植被生成，行业标准工具 |
+| Gaea | https://quadspinner.com/ | 程序化地形生成 |
+| 3D-Coat | https://3dcoat.com/ | 雕刻与手绘贴图一体 |
 
 ### 2.4 动画与绑定工具
 
@@ -136,6 +155,9 @@
 | OpenToonz | https://opentoonz.github.io/ | 开源 2D 逐帧动画（吉卜力系） |
 | EmberGen | https://jangafx.com/ | 实时火焰/烟雾 VFX 生成 |
 | Effekseer | https://effekseer.github.io/en/ | 开源特效编辑器 |
+| Toon Boom Harmony | https://www.toonboom.com/products/harmony | 2D 动画行业标准（影视与游戏） |
+| Cartoon Animator | https://www.reallusion.com/cartoon-animator/ | 2D 角色动画快速制作 |
+| Moho | https://moho.lostmarble.com/ | 2D 骨骼动画（原 Anime Studio） |
 
 ### 2.5 关卡、地图与数据编辑
 
@@ -144,6 +166,7 @@
 | Tiled | https://www.mapeditor.org/ | 通用 2D 关卡地图编辑器（免费开源） |
 | LDtk | https://ldtk.io/ | 现代 2D 关卡编辑器（免费开源） |
 | Ogmo Editor | https://ogmo-editor-3.github.io/ | 轻量关卡编辑器（免费开源） |
+| RexPaint | https://www.gridsagegames.com/rexpaint/ | Roguelike ASCII 地图编辑器 |
 
 ### 2.6 音频工具与中间件
 
@@ -167,6 +190,10 @@
 | OpenMPT | https://openmpt.org/ | 模块音乐（Tracker）制作 |
 | SunVox | https://warmplace.ru/soft/sunvox/ | 模块化音乐创作 |
 | ACE Studio | https://acestudio.ai/ | AI 歌声合成（中文人声强） |
+| Bfxr | https://www.bfxr.net/ | 网页版 8-bit 音效生成（sfxr 系） |
+| LabChirp | https://labchirp.com/ | 免费芯片音效生成器 |
+| Cakewalk | https://www.bandlab.com/cakewalk | Windows 免费专业 DAW（BandLab 出品） |
+| iZotope RX | https://www.izotope.com/en/products/rx.html | 音频修复与清理标准工具（付费） |
 
 ### 2.7 版本控制、协作与项目管理
 
@@ -188,6 +215,11 @@
 | Obsidian | https://obsidian.md/ | 本地知识库（写 GDD/设定集好用） |
 | HacknPlan | https://hacknplan.com/ | 游戏项目管理专用（看板+设计模型） |
 | Codecks | https://www.codecks.io/ | 游戏项目管理（卡牌隐喻） |
+| Unity Version Control | https://unity.com/solutions/version-control | 原 Plastic SCM，游戏大文件友好 |
+| Jira | https://www.atlassian.com/software/jira | 缺陷与任务管理行业标准 |
+| Trello | https://trello.com/ | 看板式轻量任务管理 |
+| Linear | https://linear.app/ | 现代敏捷问题跟踪 |
+| Anchorpoint | https://www.anchorpoint.app/ | 游戏资产版本管理（面向美术工作流） |
 
 ### 2.8 构建、调试、性能与测试
 
@@ -209,8 +241,13 @@
 | GUT | https://github.com/bitwes/Gut | Godot 测试框架（老牌） |
 | AltTester | https://alttester.com/ | Unity 自动化测试（注意许可条款） |
 | Airtest | https://airtest.netease.com/ | 网易开源 UI 自动化（游戏测试常用） |
+| Incredibuild | https://www.incredibuild.com/ | 分布式编译加速（大项目 C++ 常用） |
+| FASTBuild | https://www.fastbuild.org/ | 开源分布式构建工具 |
+| Superluminal | https://superluminal.eu/ | Windows 性能分析器（游戏业内常用） |
+| Docker | https://www.docker.com/ | 构建与 CI 环境容器化 |
+| steamcmd | https://developer.valvesoftware.com/wiki/SteamCMD | Steam 命令行上传工具（butler 之外的另一条路） |
 
-### 2.9 AI 开发工具（官网）
+### 2.9 AI 开发工具、智能体与 Skill 资源（官网）
 
 | 名称 | 官网 | 说明 |
 | --- | --- | --- |
@@ -249,6 +286,25 @@
 | godot-mcp（mkdevkit） | https://github.com/mkdevkit/godot-mcp | Godot MCP（173 命令） |
 | Unity AI MCP 指南 | https://unity.com/blog/unity-ai-mcp-how-to-get-started | Unity 官方 MCP 接入说明 |
 | Blender MCP | https://github.com/ahujasid/blender-mcp | Blender MCP 服务 |
+| Windsurf | https://windsurf.com/ | AI 编辑器（编辑器代理代表之一） |
+| OpenHands | https://github.com/All-Hands-AI/OpenHands | 开源自主编码智能体 |
+| Trae | https://www.trae.ai/ | 字节 AI 编辑器（含中文生态） |
+| 通义灵码 | https://lingma.aliyun.com/ | 阿里 AI 编码助手（国内主流） |
+| Model Context Protocol（MCP） | https://modelcontextprotocol.io/ | 智能体连接外部工具的标准协议（引擎/Blender 等 MCP 的基础） |
+| awesome-mcp-servers | https://github.com/punkpeye/awesome-mcp-servers | MCP 服务大清单（找工具的第一入口） |
+| Agent Skills（Anthropic 官方仓库） | https://github.com/anthropics/skills | 「技能包」机制的官方示例（SKILL.md 结构可参考） |
+| Serena | https://github.com/oraios/serena | 编码智能体的语义代码工具 MCP |
+| Context7 | https://github.com/upstash/context7 | 给智能体提供最新文档的 MCP |
+
+### 2.10 叙事与对话工具
+
+| 名称 | 官网 | 说明 |
+| --- | --- | --- |
+| Twine | https://twinery.org/ | 开源互动叙事工具，超文本分叉事实标准 |
+| ink | https://www.inklestudios.com/ink/ | inkle 的开源叙事脚本语言（《80 Days》同款） |
+| Yarn Spinner | https://yarnspinner.dev/ | 面向游戏的对话脚本系统（Unity 生态常用） |
+| articy:draft | https://www.articy.com/ | 商业叙事设计与对话编辑器 |
+| Dialogic | https://github.com/dialogic-godot/dialogic | Godot 对话系统插件（开源） |
 
 ---
 
@@ -285,9 +341,12 @@
 | GameDiscoverCo | https://gamediscover.co/ | 平台数据与发行趋势通讯 |
 | Handmade Network | https://handmade.network/ | 手写软件社区（Handmade 生态） |
 | How to Market a Game | https://howtomarketagame.com/ | 独立游戏营销方法（Chris Zukowski） |
-| GameDiscoverCo | https://gamediscover.co/ | 平台数据与发行趋势通讯 |
-| How to Market a Game | https://howtomarketagame.com/ | 独立游戏营销方法（Chris Zukowski） |
 | Brackeys（存档频道） | https://www.youtube.com/@Brackeys | Unity 入门经典（已停更，存档价值高） |
+| Coding Math | https://www.youtube.com/user/codingmath | 游戏开发需要的数学视频课（系列完整） |
+| Pikuma | https://pikuma.com/ | 游戏引擎与图形学课程（口碑好） |
+| RogueBasin | http://www.roguebasin.com/ | Roguelike 开发知识库（教程与源码索引） |
+| Game AI Pro | https://www.gameaipro.com/ | 游戏 AI 论文集全套免费在线阅读 |
+| Nature of Code | https://natureofcode.com/ | 用代码理解自然系统（模拟与生成艺术基础） |
 
 ### 3.2 国内学习平台与教程
 
@@ -307,6 +366,8 @@
 | 稀土掘金 | https://juejin.cn/ | 中文开发者社区 |
 | SegmentFault 思否 | https://segmentfault.com/ | 中文开发者问答 |
 | 微信开放社区 | https://developers.weixin.qq.com/community/ | 微信生态开发者官方社区 |
+| siki 学院 | https://www.sikiedu.com/ | Unity/Cocos 等引擎视频课程 |
+| GGAC | https://www.ggac.net/ | 游戏美术社区与赛事平台（国内） |
 
 ### 3.3 文档、知识库与在线书籍
 
@@ -324,6 +385,9 @@
 | Learn C++ | https://www.learncpp.com/ | 最适合入门 C++ 的系统教程 |
 | Riot Games 技术博客 | https://technology.riotgames.com/ | 大型在线游戏架构与工程实践 |
 | GDC 官方频道 | https://www.youtube.com/@GDC | GDC 演讲免费合集 |
+| Ray Tracing Gems | https://www.realtimerendering.com/raytracinggems/ | 实时光追实践文集（NVIDIA 出版，免费在线） |
+| GPU Gems | https://developer.nvidia.com/gpugems/gpugems/contributors | 经典 GPU 技术文集全套在线 |
+| Learn Wgpu | https://sotrh.github.io/learn-wgpu/ | Rust WebGPU 图形教程 |
 
 ---
 
@@ -350,6 +414,9 @@
 | IGDA | https://igda.org/ | 国际游戏开发者协会 |
 | Godot 社区页 | https://godotengine.org/community | 官方社区入口（含 Discord） |
 | r/IndieDev | https://www.reddit.com/r/IndieDev/ | 独立开发者板块 |
+| r/gameenginedevs | https://www.reddit.com/r/gameenginedevs/ | 引擎开发子版（底层技术讨论） |
+| r/incremental_games | https://www.reddit.com/r/incremental_games/ | 放置/增量游戏社区（垂类玩家聚集） |
+| r/IndieGaming | https://www.reddit.com/r/IndieGaming/ | 独立游戏展示与交流子版 |
 
 ### 4.2 国内社区与组织
 
@@ -361,6 +428,8 @@
 | 奶牛关 | https://cowlevel.net/ | 中文游戏爱好者/开发者社区 |
 | 机核 GCORES | https://www.gcores.com/ | 中文游戏文化社区（开发者访谈/电台） |
 | TapTap 开发者中心 | https://developer.taptap.cn/ | TapTap 开发者社区与服务（详见 §6） |
+| GameRes 游资网 | https://www.gameres.com/ | 国内老牌游戏开发资讯与资源站 |
+| Unity 中国开发者社区 | https://developer.unity.cn/ | Unity 中国官方开发者社区 |
 
 ### 4.3 国际行业媒体与数据
 
@@ -390,6 +459,9 @@
 | Splattercatgaming（YouTube） | https://www.youtube.com/@Splattercatgaming | 独立游戏报道频道（推广触达） |
 | Wanderbots（YouTube） | https://www.youtube.com/@Wanderbots | 独立游戏试玩频道 |
 | Retromation（YouTube） | https://www.youtube.com/@Retromation | Roguelite 报道频道 |
+| NAAVIK | https://naavik.co/ | 游戏行业深度分析与研究 |
+| Deconstructor of Fun | https://www.deconstructoroffun.com/ | 手游与商业化拆解博客 |
+| PocketGamer.biz | https://www.pocketgamer.biz/ | 移动游戏行业新闻与榜单 |
 
 > 说明：GDC 演讲资料见 §3.1「GDC Vault」，大会官网见 §7.1。
 
@@ -407,6 +479,8 @@
 | 点点数据 | https://www.diandian.com/ | 移动应用/游戏数据平台 |
 | DataEye | https://www.dataeye.com/ | 买量与市场数据 |
 | 蝉大师 | https://www.chandashi.com/ | ASO 优化与榜单数据 |
+| 竞核 | https://www.jinghooo.com/ | 游戏产业深度报道 |
+| 手游那点事 | https://www.sykong.com/ | 手游行业资讯与买量观察 |
 
 ---
 
@@ -424,6 +498,7 @@
 | The Base Mesh | https://www.thebasemesh.com/ | 干净基础网格模型（CC0） |
 | Smithsonian Open Access | https://www.si.edu/openaccess | 史密森尼博物馆开放资源（CC0） |
 | NASA 3D Resources | https://nasa3d.arc.nasa.gov/ | NASA 官方 3D 模型 |
+| KayKit | https://kaylousberg.itch.io/ | CC0 低多边形 3D 资产包（Kay Lousberg） |
 
 ### 5.2 综合素材站（国内）
 
@@ -444,6 +519,9 @@
 | 魔顿网 | https://www.modown.cn/ | C4D/3D 资源（国内） |
 | 站酷 ZCOOL | https://www.zcool.com.cn/ | 设计师社区（作品/素材/约稿，见 §10） |
 | 花瓣网 | https://huaban.com/ | 灵感采集与素材整理 |
+| UI 中国 | https://www.ui.cn/ | 国内设计师素材与作品社区 |
+| 图精灵 | https://616pic.com/ | 免费 PNG 素材与设计元素 |
+| 稿定设计 | https://www.gaoding.com/ | 在线设计模板与素材站 |
 
 ### 5.3 2D、UI、图标与矢量
 
@@ -461,6 +539,12 @@
 | Pixabay | https://pixabay.com/ | 免费图库/视频/音频 |
 | Openclipart | https://openclipart.org/ | 公共领域矢量剪贴画 |
 | 优设 | https://www.uisdc.com/ | 设计师学习与资源站（国内） |
+| Streamline | https://www.streamlinehq.com/ | 成套 UI 图标库（含免费档） |
+| Noun Project | https://thenounproject.com/ | 图标库（大量免费档，注意授权） |
+| Iconscout | https://iconscout.com/ | 图标、插画与 3D 小素材库 |
+| SVG Repo | https://www.svgrepo.com/ | 海量开源 SVG 图标与矢量 |
+| LottieFiles | https://lottiefiles.com/ | Lottie 动画素材与播放器（UI 动效常用） |
+| Material Icons | https://fonts.google.com/icons | 谷歌官方图标集（免费商用） |
 
 ### 5.4 3D 模型、纹理与环境
 
@@ -472,6 +556,9 @@
 | Sketchfab | https://sketchfab.com/ | 3D 模型浏览与交易（大量免费） |
 | TurboSquid | https://www.turbosquid.com/ | 大型商业模型市场 |
 | CGTrader | https://www.cgtrader.com/ | 3D 模型市场（含免费区） |
+| Quixel Megascans | https://quixel.com/megascans | 扫描级材质与环境库（现属 Fab 生态） |
+| BlenderKit | https://www.blenderkit.com/ | Blender 内嵌资产库（模型/材质/笔刷） |
+| 3D Warehouse | https://3dwarehouse.sketchup.com/ | SketchUp 模型库（场景堆料用） |
 
 > 说明：Epic 统一素材市场 Fab（含 Megascans 免费区）见 §5.7。
 
@@ -488,6 +575,8 @@
 | Free Music Archive | https://freemusicarchive.org/ | 免费音乐库 |
 | 淘声网 toSound | https://www.tosound.com/ | 国内声音素材聚合平台 |
 | 耳聆网 ear0 | https://www.ear0.com/ | 国内声音分享社区（实地录音） |
+| Bensound | https://www.bensound.com/ | 免费背景音乐（注意授权档位） |
+| Mixkit | https://mixkit.co/ | 免费音乐、音效与视频素材 |
 
 ### 5.6 字体（含中文开源字体）
 
@@ -506,6 +595,10 @@
 | 霞鹜文楷 | https://github.com/lxgw/LxgwWenKai | 开源中文楷体（文学风） |
 | 更纱黑体 | https://github.com/be5invis/Sarasa-Gothic | 开源中文黑体（编程友好） |
 | Fontshare | https://www.fontshare.com/ | 免费商用字体库（ITF） |
+| Adobe Fonts | https://fonts.adobe.com/ | Adobe 字体库（订阅内含大量商用授权） |
+| 得意黑（Smiley Sans） | https://github.com/atelier-anchor/smiley-sans | 免费商用中文标题字体（倾斜窄体风格） |
+| 未来荧黑 | https://github.com/welai/glow-sans | 免费商用中文字体（多字重圆润黑体） |
+| HarmonyOS Sans | https://developer.harmonyos.com/cn/design/resource | 鸿蒙系统字体，免费商用 |
 
 ### 5.7 素材商店
 
@@ -516,6 +609,8 @@
 | Godot Asset Library | https://godotengine.org/asset-library/ | Godot 官方插件/资源库 |
 | Cocos Store | https://store.cocos.com/ | Cocos 官方插件/资源商店 |
 | Gumroad | https://gumroad.com/ | 独立作者直接售卖（素材/工具） |
+| CraftPix | https://craftpix.net/ | 2D 游戏素材商店（含免费区） |
+| GameDev Market | https://www.gamedevmarket.net/ | 独立开发者素材交易市场 |
 
 ---
 
@@ -540,6 +635,9 @@
 | Green Man Gaming | https://www.greenmangaming.com/ | 数字零售（Keys 分销） |
 | Humble Bundle | https://www.humblebundle.com/ | 捆绑包与商店（发行合作） |
 | Fanatical | https://www.fanatical.com/ | 数字零售与捆绑包 |
+| Microsoft Store | https://partner.microsoft.com/ | Windows 应用商店开发者中心 |
+| Roblox | https://create.roblox.com/ | Roblox 创作者平台（UGC 游戏分发） |
+| UEFN（Fortnite 创作工具） | https://create.fortnite.com/ | 堡垒之夜创作者生态入口 |
 
 ### 6.2 国内发行平台与渠道
 
@@ -555,6 +653,8 @@
 | 应用宝 | https://sj.qq.com/ | 腾讯安卓分发渠道 |
 | 华为应用市场 | https://appgallery.huawei.com/ | 华为官方应用商店 |
 | 小米应用商店 | https://app.mi.com/ | 小米应用分发 |
+| 酷安 | https://www.coolapk.com/ | 安卓应用社区与分发（开发者友好） |
+| 华为 AppGallery | https://developer.huawei.com/consumer/cn/appgallery/ | 华为应用市场开发者入口 |
 
 > 小游戏渠道（微信/抖音/快手/OV 等）见 §1.2。
 
@@ -568,7 +668,7 @@
 | 爱发电 | https://afdian.com/ | 国内创作者赞助平台 |
 | Patreon | https://www.patreon.com/ | 国际持续赞助平台 |
 | BackerKit | https://www.backerkit.com/ | 众筹管理与履约工具 |
-| BackerKit | https://www.backerkit.com/ | 众筹管理与履约工具 |
+| Ko-fi | https://ko-fi.com/ | 创作者赞助与打赏平台 |
 
 ### 6.4 国际独立发行商（可投递）
 
@@ -582,6 +682,14 @@
 | No More Robots | https://nomorerobots.io/ | 英式独立发行（Yes, Your Grace 等） |
 | Chucklefish | https://chucklefish.org/ | 发行+开发（星露谷早期发行方） |
 | PLAYISM | https://playism.com/ | 日本独立发行（东方等） |
+| tinyBuild | https://tinybuild.com/ | 独立发行商（你好邻居等） |
+| Hooded Horse | https://hoodedhorse.com/ | 策略与模拟品类发行商（重点找策略游戏） |
+| 505 Games | https://505games.com/ | 中型发行商，主机与 PC 兼顾 |
+| Curve Games | https://www.curvegames.com/ | 独立发行商（人类一败涂地等） |
+| Finji | https://finji.co/ | 独立发行商（林中之夜等） |
+| Panic | https://panic.com/ | 发行与工具商（看火人、Playdate） |
+| Armor Games Studios | https://armorgamesstudios.com/ | 网页起家的独立发行商 |
+| Thunderful | https://thunderfulgames.com/ | 北欧发行集团（多工作室） |
 
 ### 6.5 国际资金与补助
 
@@ -592,6 +700,9 @@
 | Canada Media Fund | https://cmf-fmc.ca/ | 加拿大官方影视游戏基金 |
 | Screen Australia | https://www.screenaustralia.gov.au/ | 澳大利亚影视游戏资助 |
 | UK Games Fund | https://ukgamesfund.com/ | 英国游戏基金（原型与早期） |
+| CNC（法国） | https://www.cnc.fr/ | 法国国家电影与影像中心（含游戏资助） |
+| Creative Europe | https://culture.ec.europa.eu/creative-europe | 欧盟文化与创意产业资助计划 |
+| KOCCA（韩国） | https://www.kocca.kr/en/ | 韩国文化内容产业振兴院（游戏出海支持） |
 
 ---
 
@@ -616,8 +727,8 @@
 | Day of the Devs | https://dayofthedevs.com/ | 独立游戏展示活动（双精主持） |
 | Nordic Game | https://nordicgame.com/ | 北欧游戏大会 |
 | Taipei Game Show | https://tgs.tca.org.tw/ | 台北国际电玩展 |
-| Tokyo Game Show | https://tgs.nikkeibp.co.jp/ | 东京电玩展（日本最大） |
-| BitSummit | https://bitsummit.com/ | 日本独立游戏峰会 |
+| Indie MEGABOOTH | https://indiemegabooth.com/ | 独立游戏展会联合展台 |
+| Wholesome Direct | https://wholesomegames.com/ | 治愈系游戏线上发布会（Wholesome Games） |
 
 ### 7.2 国内展会与活动
 
@@ -637,6 +748,7 @@
 | 7DRL Challenge | https://7drl.com/ | Roguelike 开发周挑战 |
 | js13kGames | https://js13kgames.com/ | 13KB 内做 Web 游戏（代码极限挑战） |
 | itch.io Jam 广场 | https://itch.io/jams | 各类线上 Jam 汇总（含 GMTK、Godot 等主题 Jam） |
+| Alakajam! | https://alakajam.com/ | 定期举办的友好向 Game Jam |
 
 ---
 
@@ -661,6 +773,9 @@
 | Mirror | https://mirror-networking.com/ | Unity 开源网络库 |
 | 阿里云 | https://www.aliyun.com/ | 国内云服务（游戏行业方案） |
 | Unity Gaming Services | https://unity.com/solutions/gaming-services | Unity 官方后端套件 |
+| Edgegap | https://edgegap.com/ | 游戏服务器编排与分布部署 |
+| Hathora | https://hathora.dev/ | 多人游戏服务托管 |
+| Steamworks 联机（Steam Networking） | https://partner.steamgames.com/doc/features/multiplayer | Steam 官方联机与 P2P 文档 |
 
 ### 8.2 分析、统计与崩溃监控
 
@@ -677,6 +792,8 @@
 | 友盟+ | https://www.umeng.com/ | 阿里系移动统计 |
 | Amplitude | https://amplitude.com/ | 产品分析 |
 | Mixpanel | https://mixpanel.com/ | 产品分析 |
+| PostHog | https://posthog.com/ | 产品分析开源方案（可自托管） |
+| Google Analytics 4 | https://analytics.google.com/ | 通用数据分析（网页与营销侧） |
 
 ### 8.3 变现、买量与归因
 
@@ -690,6 +807,9 @@
 | Mintegral | https://www.mintegral.com/ | 汇量科技（国内出海买量） |
 | Adjust | https://www.adjust.com/ | 广告归因 |
 | AppsFlyer | https://www.appsflyer.com/ | 移动归因与营销分析 |
+| Tenjin | https://tenjin.com/ | 移动归因与买量分析 |
+| Singular | https://www.singular.net/ | 营销归因平台 |
+| Kochava | https://www.kochava.com/ | 归因与反作弊分析 |
 
 ### 8.4 安全、反作弊与加固
 
@@ -701,6 +821,8 @@
 | 网易易盾 | https://dun.163.com/ | 网易安全（内容审核/反外挂，国内） |
 | 360 加固保 | https://jiagu.360.cn/ | 移动应用加固（国内） |
 | 爱加密 | https://www.ijiami.cn/ | 移动安全加固（国内） |
+| Denuvo Anti-Cheat | https://irdeto.com/denuvo/ | Denuvo 反作弊方案（Irdeto） |
+| FairGuard | https://www.fair-guard.com/ | 手游加固与反外挂（国内） |
 
 ### 8.5 支付与内购
 
@@ -712,6 +834,7 @@
 | 支付宝开放平台 | https://open.alipay.com/ | 国内支付接入 |
 | PayPal | https://developer.paypal.com/ | 国际支付 |
 | Stripe | https://stripe.com/ | 国际支付（Web/订阅） |
+| Xsolla | https://xsolla.com/ | 游戏专用支付与全球分发方案 |
 
 ### 8.6 测试分发与推送
 
@@ -724,6 +847,8 @@
 | 极光推送 JPush | https://www.jiguang.cn/ | 国内推送服务 |
 | 个推 | https://www.getui.com/ | 国内推送服务 |
 | PlaytestCloud | https://www.playtestcloud.com/ | 游戏可用性测试（真人视频反馈） |
+| Diawi | https://www.diawi.com/ | iOS 应用快速分发测试 |
+| AWS Device Farm | https://aws.amazon.com/device-farm/ | 云端真机测试农场 |
 
 ### 8.7 本地化与翻译
 
@@ -736,6 +861,10 @@
 | 译马网 | https://www.jeemaa.com/ | 国内翻译协作平台 |
 | Keywords Studios | https://www.keywordsstudios.com/ | 全球最大游戏服务商（本地化/QA/美术） |
 | Alconost | https://alconost.com/ | 本地化与配音服务（含游戏案例） |
+| POEditor | https://poeditor.com/ | 轻量协作翻译平台 |
+| Smartcat | https://www.smartcat.com/ | 翻译协作与供应商平台 |
+| Phrase | https://phrase.com/ | 本地化管理平台（原 Memsource） |
+| DeepL | https://www.deepl.com/ | 高口碑机器翻译（译稿初稿与对照） |
 
 ---
 
@@ -749,6 +878,8 @@
 | 中国版权保护中心 | https://www.ccopyright.com.cn/ | 软件著作权登记 |
 | 中央网信办 | https://www.cac.gov.cn/ | 数据/个人信息保护监管 |
 | 文化和旅游部 | https://www.mct.gov.cn/ | 网络文化经营许可等 |
+| 工信部备案系统 | https://beian.miit.gov.cn/ | ICP/IP 备案（网站与联网服务必办） |
+| 中国音数协游戏工委 | https://www.cgigc.com.cn/ | 游戏出版与行业自律组织 |
 
 ### 9.2 国际平台政策与评级
 
@@ -761,6 +892,8 @@
 | PEGI | https://pegi.info/ | 欧洲年龄分级 |
 | IARC | https://www.globalratings.com/ | 国际年龄评级联盟（一键多地区评级） |
 | 美国版权局 | https://www.copyright.gov/ | 版权登记（含 AI 作品相关指引） |
+| CERO（日本） | https://www.cero.gr.jp/ | 日本游戏分级机构 |
+| USK（德国） | https://usk.de/ | 德国游戏分级机构 |
 
 ---
 
@@ -779,15 +912,19 @@
 | Hitmarker | https://hitmarker.net/ | 游戏行业招聘板（国际） |
 | Work With Indies | https://www.workwithindies.com/ | 独立工作室招聘板 |
 | GameJobs.co | https://gamejobs.co/ | 游戏岗位聚合 |
+| Freelancer.com | https://www.freelancer.com/ | 综合自由职业平台（美术外包备选） |
+| Behance | https://www.behance.net/ | 设计与作品集社区（找人/被找入口） |
+| Dribbble | https://dribbble.com/ | 设计作品社区（UI/视觉向） |
 
 ---
 
 ## 11. 链接核查报告（2026-10-04）
 
 **方法**：配套脚本 `check_links.py` 对全部链接做双通道核查（直连 → 代理回退；HEAD → GET 回退）。接受 2xx/3xx；403/405/429 记为「反爬保护（浏览器可访问）」；401/451 记为「需登录」。
-**规模**：521 条唯一链接（含《避坑大全》国际线增补 63 条）。
+**规模**：521 → 655 条唯一链接（含《避坑大全》国际线增补 63 条；2026-10-05 扩充见下）。
 **结果**：**398 条直连可访问 · 42 条反爬保护 · 2 条需登录（Apple/索尼开发者后台，正常）· 15 条异常（已全部处理）**。
 
+**2026-10-05 扩充核查**：新增约 130 条（AI 智能体与 Skill 资源、叙事与对话工具新栏目，及引擎/工具/学习/社区/素材/发行/服务/合规各线补充；另合并历史重复 3 条）。全量双通道复核（直连 → 代理回退）：绝大多数直接可达；少数为反爬保护、本地网络限制（Google / Adobe 类，浏览器可访问）或已移除失效项，明细在日志。
 **《避坑大全》增补核查（2026-10-04）**：新增国际线链接 63 条，全部可达（60 条直接可达 · 3 条反爬保护，浏览器可访问）；无失效条目（2 条候选因站点失效未收录）。
 
 异常处理明细（15 条）：
