@@ -4,7 +4,7 @@
 
 ---
 
-## Covered (v2.5)
+## Covered (v2.6)
 
 - Getting Started: 5 pages · Fundamentals: 7 handbooks · Genre Handbooks: 81 genres (four volumes) · Engine Tracks: 12 · Pipelines & Workflows: 6 + 2 deep-dive handbooks · Teams & Scale: 3 documents · AI Workflows: 1 handbook · Pitfalls & Postmortems: 2 handbooks · Publishing & Business: 6 handbooks.
 - Playbooks: 6 · Templates: 6 · catalog: five tables · Resources: 521 links · the examples roadmap.

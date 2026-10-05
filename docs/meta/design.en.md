@@ -1,6 +1,6 @@
 # Ludo Atlas · Game Development Panorama Handbook — Repository Skeleton Design Doc
 
-> Current status: v2.5 · Genre Handbooks: 81 genres · Reading site: Material for MkDocs (book edition; Simplified Chinese / English / Japanese)
+> Current status: v2.6 · Genre Handbooks: 81 genres · Reading site: Material for MkDocs (book edition; Simplified Chinese / English / Japanese)
 > Goal: build a long-term-maintainable open-source game development knowledge repository, integrating "genre-based development workflows" × "open-source project catalog" × "courses and learning resources" × "AI development workflows".
 
 ---
