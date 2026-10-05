@@ -229,4 +229,4 @@ flowchart LR
 - [《避坑大全》](../../pitfalls/README.md)：立项与内容生产相关坑位，与本页 §7 对照阅读。
 - [《案例研究集》](../../postmortems/README.md)：完整案例的四段拆解，选型与打法参考。
 - [《AI 工作流手册》](../../ai/README.md)：叙事管线的半自动生成与人工核对流程。
-- 引擎与工具条目：[catalog/](../../../catalog/README.md)（`engines.yml` / `tools.yml`）；引擎轨道 Ren'Py 篇在 [docs/engines/](../../engines/README.md) 建设中。
+- 引擎与工具条目：[《资源大全》](../../../resources/README.md)；引擎轨道 Ren'Py 篇在 [docs/engines/](../../engines/README.md) 建设中。

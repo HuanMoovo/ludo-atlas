@@ -100,4 +100,4 @@ One reminder: a Skill is leverage; judgment is the capital. Without enough capit
 
 ---
 
-> Companion reading: the main volume, the AI Workflows Handbook (prompt library and red lines); the topic page AI Agents (permissions, orchestration and cost); Resources §2.9 (tool and skill ecosystem entry points); design doc §14.
+> Companion reading: the main volume, the AI Workflows Handbook (prompt library and red lines); the topic page AI Agents (permissions, orchestration and cost); Resources §2.9 (tool and skill ecosystem entry points).

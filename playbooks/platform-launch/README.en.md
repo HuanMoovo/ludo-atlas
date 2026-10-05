@@ -52,7 +52,7 @@
 9. Release: check every language page, system requirements (including the Steam Deck compatibility rating) and refund-policy notices.
 10. After release: validate hotfixes on the beta branch → promote to default; use Steamworks data to watch conversion and regional performance.
 
-> Note: AI content disclosure happens in the Steamworks content survey (two categories: pre-generated and runtime-generated; see design doc §14.9); the sooner you get store-page asset specs and a "Coming Soon" page up, the better.
+> Note: AI content disclosure happens in the Steamworks content survey (two categories: pre-generated and runtime-generated; see the AI Workflows Handbook §8); the sooner you get store-page asset specs and a "Coming Soon" page up, the better.
 
 ### 3.2 Epic Games Store
 

@@ -229,4 +229,4 @@ Acceptance criteria: someone who has not read the design doc finishes the first 
 - [Pitfalls & Anti-patterns](../../pitfalls/README.md): pitfalls around kickoff and content production; read against §7 of this page.
 - [Case Studies](../../postmortems/README.md): four-part breakdowns of complete cases; a reference for selection and approach.
 - [AI Workflows](../../ai/README.md): the semi-automated generation and human verification flow for the narrative pipeline.
-- Engine and tool entries: [catalog/](../../../catalog/README.md) (`engines.yml` / `tools.yml`); the Ren'Py volume of the Engine Tracks is under construction in [docs/engines/](../../engines/README.md).
+- Engine and tool entries: [Resources](../../../resources/README.md); the Ren'Py volume of the Engine Tracks is under construction in [docs/engines/](../../engines/README.md).

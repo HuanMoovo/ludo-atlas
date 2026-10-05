@@ -1,6 +1,6 @@
 # Ludo Atlas · Documentation Index
 
-All handbooks are grouped by topic; for the repository layout and long-term plan, see the [design doc](meta/design.md).
+All handbooks are grouped by topic; for the repository layout and long-term plan, see the [About This Repo](meta/design.md).
 
 Start here: [Preface](preface.md) (why this project exists).
 

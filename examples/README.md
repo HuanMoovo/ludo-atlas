@@ -37,7 +37,7 @@ examples/
 
 ## 示例规划表
 
-下表是示例区的路线图：12 个示例覆盖 Godot、Unity、Web、raylib、Bevy、Ren'Py 六条引擎路线，其中五个标注为首批（对应[设计文档](../docs/meta/design.md) Phase 2 的示例名额），先在五条不同路线上打通克隆即跑链路，其余按认领顺序推进。目录名为规划占用名，实现前可在对应 Issue 里讨论调整。
+下表是示例区的路线图：12 个示例覆盖 Godot、Unity、Web、raylib、Bevy、Ren'Py 六条引擎路线，其中五个标注为首批（对应Phase 2 的示例名额），先在五条不同路线上打通克隆即跑链路，其余按认领顺序推进。目录名为规划占用名，实现前可在对应 Issue 里讨论调整。
 
 | 示例 | 引擎 | 难度 | 状态 | 覆盖知识点 | 对应手册 |
 | --- | --- | --- | --- | --- | --- |
@@ -121,7 +121,7 @@ examples/
 ## 相关
 
 - [引擎轨道](../docs/engines/README.md)：12 条引擎路线，示例的引擎口径与工程习惯以此为准。
-- [设计文档](../docs/meta/design.md)：示例区的定位原文与标准（第 10 节）。
+- [关于本库](../docs/meta/design.md)：仓库总览与规范。
 - [templates/](../templates/README.md)：文档模板，与示例说明页互补。
 - [CONTRIBUTING.md](../CONTRIBUTING.md)：提交约定与 CI（markdownlint、链接检查）。
-- [ROADMAP.md](../ROADMAP.md)：示例区所在的版本批次与阶段目标。
+- [内容路线图](../docs/meta/roadmap.md)：示例区所在的版本批次与阶段目标。

@@ -1,7 +1,7 @@
 # Ludo Atlas · Open Source Picks & Book Recommendations
 
 > Positioning: two handy lists: (1) curated GitHub projects (ordered by learning value; every repository's existence has been verified); (2) game development book recommendations (ordered by area, with free / Chinese-translation status noted).
-> Companions: Resources (the full tool list with official links) · Programming Handbook · Indie Developers & Companies · the design doc §17 (where each handbook lands in the repo).
+> Companions: Resources (the full tool list with official links) · Programming Handbook · Indie Developers & Companies · About This Repo (where each handbook lands in the repo).
 > Star counts change at any time; this list is ordered by learning value rather than popularity. All repository URLs have been verified (verification records in `link-check-results.json` / `repo-check-results.json`).
 
 ---

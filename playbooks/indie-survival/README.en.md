@@ -50,7 +50,7 @@
 - **Free development stack**: engines (Godot etc.), art (Krita/Blender/Pixelorama), audio (Audacity/LMMS), office tools (Feishu/Yuque); for the full list see Resources §1-§2.
 - **Free assets first**: use free assets throughout prototyping (Kenney etc., §5); replace only the assets that are "confirmed to stay".
 - **Outsourcing timing**: consider outsourcing when "your own quality/speed" becomes the bottleneck and asset volume exceeds 30 items (process in Production Handbook §4.3, Art & Audio Handbook §6).
-- **AI savings and red lines**: AI pays off most for concepts/placeholders/batch assistance; for AI disclosure and copyright red lines on shipped assets, see design doc §14.9 and Legal, Patents & Competition. **Cost-cutting must not cross red lines.**
+- **AI savings and red lines**: AI pays off most for concepts/placeholders/batch assistance; for AI disclosure and copyright red lines on shipped assets, see the AI Workflows Handbook §8 and Legal, Patents & Competition. **Cost-cutting must not cross red lines.**
 - **Time savings**: keep a fixed weekly "deliverable" cadence (Production Handbook §7) and bill yourself in "completion", not "hours worked".
 
 ## 4. The Path Ladder: From Jams to a Flagship Title
@@ -129,4 +129,4 @@
 
 ---
 
-All collected in this repository, evolving continuously along the design-doc structure.
+All collected in this repository, evolving with the roadmap.

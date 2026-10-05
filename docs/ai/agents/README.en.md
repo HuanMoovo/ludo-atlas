@@ -107,4 +107,4 @@ Signs it pays off: fast verification, high repetition, no contact with core game
 
 ---
 
-> Companion reading: the main volume, the AI Workflows Handbook (decision table, work loop, red lines); the topic page Skills for Game Development (skill pack checklist and setup); Resources §2.9 (tool and ecosystem entry points); design doc §14.3 (engine MCP).
+> Companion reading: the main volume, the AI Workflows Handbook (decision table, work loop, red lines); the topic page Skills for Game Development (skill pack checklist and setup); Resources §2.9 (tool and ecosystem entry points); the AI Workflows Handbook §3 (engine MCP).

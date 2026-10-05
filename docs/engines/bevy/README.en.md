@@ -216,4 +216,4 @@ Three steep climbs: ownership and borrowing, lifetime annotations, and generics 
 - [Engine Tracks Overview](../README.md): positioning comparison across the 12 tracks and this page's place among them.
 - Programming Handbook: §1 architecture choices, §2 core systems, §3 performance methodology — referenced throughout this page.
 - Indie Survival: the ledger that counts keeping up with versions and ecosystem gaps as long-term costs.
-- AI Workflows: review boundaries for generated Rust code — a passing compile is no substitute for reviewing logic; for the official resource index, see Resources and the repo's `catalog/`.
+- AI Workflows: review boundaries for generated Rust code — a passing compile is no substitute for reviewing logic; for the official resource index, see Resources.

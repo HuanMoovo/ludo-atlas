@@ -15,15 +15,15 @@ Every example directory uses the same skeleton, keeping only the files the engin
 
 ```text
 examples/
-├── README.md                       # this page: roadmap and contribution guide
-└── <engine>-<topic>/               # a single example directory; naming below
-    ├── README.md                   # the README page (required)
-    ├── <engine project files>      # e.g. project.godot, Assets/, package.json
-    ├── src/                        # code and scenes, organized per engine convention
-    ├── assets/
-    │   └── CREDITS.md              # asset list: source and license per item (required)
-    ├── LICENSE                     # license notes: code MIT, assets per CREDITS.md
-    └── .gitignore                  # ignore engine caches and build artifacts (required)
+├── README.md            # this page: roadmap and contribution guide
+└── <engine>-<topic>/        # a single example directory; naming below
+  ├── README.md          # the README page (required)
+  ├── <engine project files>   # e.g. project.godot, Assets/, package.json
+  ├── src/            # code and scenes, organized per engine convention
+  ├── assets/
+  │  └── CREDITS.md       # asset list: source and license per item (required)
+  ├── LICENSE           # license notes: code MIT, assets per CREDITS.md
+  └── .gitignore         # ignore engine caches and build artifacts (required)
 ```
 
 Rules:
@@ -37,7 +37,7 @@ Rules:
 
 ## Example roadmap
 
-The table below is the roadmap for the examples section: 12 examples covering six engine tracks — Godot, Unity, Web, raylib, Bevy and Ren'Py; five are marked as the first batch (matching the example slots of Phase 2 in the [Design Doc](../docs/meta/design.md)), proving the clone-and-run chain across five different tracks first, with the rest proceeding in claim order. Directory names are planned claims; discuss and adjust them in the corresponding Issue before implementation.
+The table below is the roadmap for the examples section: 12 examples covering six engine tracks — Godot, Unity, Web, raylib, Bevy and Ren'Py; five are marked as the first batch (matching the example slots of Phase 2 in the repository plan), proving the clone-and-run chain across five different tracks first, with the rest proceeding in claim order. Directory names are planned claims; discuss and adjust them in the corresponding Issue before implementation.
 
 | Example | Engine | Difficulty | Status | Topics covered | Corresponding handbook |
 | --- | --- | --- | --- | --- | --- |
@@ -121,7 +121,7 @@ Check every item before merging; contributors are advised to go through it thems
 ## Related
 
 - [Engine Tracks](../docs/engines/README.md): the 12 engine tracks — the authority for engine naming and engineering practices in examples.
-- [Design Doc](../docs/meta/design.md): the source text for the examples section's positioning and standards (§10).
+- [About This Repo](../docs/meta/design.md): overview and conventions.
 - [templates/](../templates/README.md): document templates, complementary to the example README pages.
 - [CONTRIBUTING.md](../CONTRIBUTING.md): submission conventions and CI (markdownlint, link checking).
-- [ROADMAP.md](../ROADMAP.md): the release batch and stage goals the examples section belongs to.
+- [Content Roadmap](../docs/meta/roadmap.md): the release batch and stage goals the examples section belongs to.

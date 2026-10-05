@@ -124,10 +124,7 @@ def build_nav(base):
     if _have('docs/pitfalls/index.md') and _have('docs/postmortems/index.md'):
         nav.append({'避坑与复盘': [_node(base, 'docs/pitfalls'), _node(base, 'docs/postmortems')]})
     if _have('resources/index.md'):
-        res = _section(base, 'resources', '资源大全')
-        if _have('catalog/index.md'):
-            res['资源大全'].append(_node(base, 'catalog'))
-        nav.append(res)
+        nav.append(_section(base, 'resources', '资源大全'))
     if _have('playbooks/index.md'):
         nav.append(_section(base, 'playbooks', '实践手册'))
     if _have('doc-templates/index.md') and _have('examples/index.md'):
@@ -135,8 +132,7 @@ def build_nav(base):
     about = []
     if _have('docs/meta/index.md'):
         about += list(_node(base, 'docs/meta').values())[0]
-    for f in ['GLOSSARY.md', 'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'GOVERNANCE.md',
-              'ROADMAP.md', 'CHANGELOG.md']:
+    for f in ['GLOSSARY.md', 'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'GOVERNANCE.md', 'CHANGELOG.md']:
         if _have(f):
             about.append({_label(base, f): f})
     if about:

@@ -92,7 +92,7 @@
 | --- | --- | --- | --- |
 | A core member leaves/gets sick | Medium | High | Document critical systems; no single point of knowledge |
 | Optimistic scheduling (the most common risk) | High | High | Buffer + a feature-cut contingency ready to go |
-| Engine/platform technical pitfalls (e.g. a platform export fails) | Medium | Medium | Early technical validation (spikes; see the design doc §19 plan) |
+| Engine/platform technical pitfalls (e.g. a platform export fails) | Medium | Medium | Early technical validation (spikes) |
 | Approval/game license delays (mainland China) | Medium | High | Plan 6–12 months ahead; keep an overseas release as a backup |
 | Running out of money (full-time development) | Medium | Very high | Set aside 6–12 months of living expenses; bridge with outsourcing/part-time work |
 | A competitor launches first or copies you | Low | Medium | Speed + community + differentiation (Legal, Patents & Competition §7.5) |

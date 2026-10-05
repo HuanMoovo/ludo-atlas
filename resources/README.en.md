@@ -1,6 +1,6 @@
 # Ludo Atlas · Game Dev Resources
 
-> Companion to the Ludo Atlas design doc. Coverage: engines & tools / learning & communities / assets / publishing, competitions & outsourcing / services, compliance & addenda / international segment (learning, communities, media, publishers, funding, events). All links have been verified in bulk (see the Link Verification Report at the end of this document).
+> Companion to About This Repo. Coverage: engines & tools / learning & communities / assets / publishing, competitions & outsourcing / services, compliance & addenda / international segment (learning, communities, media, publishers, funding, events). All links have been verified in bulk (see the Link Verification Report at the end of this document).
 > Inclusion criteria: only official sites that are still reachable and genuinely valuable for game development; for the same kind of resource, only the single most commonly used entry, to avoid duplication.
 > Access note: YouTube, Reddit, Discord and some Google services require self-provided network tools in mainland China (not marked item by item in this list).
 

@@ -1,6 +1,6 @@
 # Ludo Atlas · AI Workflows
 
-> The fully built-out version of design doc §14: turning "how AI participates in game development" from an outline into an executable workflow set.
+> Turning "how AI participates in game development" from an outline into an executable workflow set.
 > The snapshot is October 2026. Tools like these change fast, so this page focuses on methods, checkpoints and red lines; for specific tool names and versions, go by the official sites (entry points in Resources §2.9).
 > One premise up front: AI improves speed; judgment remains your responsibility. Whether output is usable, whether it needs disclosure, who is accountable when something goes wrong — none of those answers live with the model.
 > This handbook also has two companion pages: **[AI Agents](agents/README.md)** (forms, orchestration, and rollout) and **[Skills for Game Development](skills/README.md)** (the skill checklist and how to set them up).
@@ -160,7 +160,7 @@ Character bible plus retrieval (RAG) is the mainstream approach: retrieve charac
 
 - **Steam disclosure** (per the January 2026 revision; check the latest official docs before acting): internal tools used purely for efficiency don't need disclosure; content players can see or hear does, in two categories, pre-generated and runtime-generated; runtime generation requires describing your guardrails; false disclosure is a breach of contract, and copyright liability falls entirely on the developer.
 - **Copyright**: the training sources of generative models are complicated; before output enters official assets, apply substantial human processing and keep complete records.
-- **Team policy**: write down clearly where use is allowed, where it is forbidden, who checks, and how it is described externally. Key template points in design doc §14.9.
+- **Team policy**: write down clearly where use is allowed, where it is forbidden, who checks, and how it is described externally. Key template points in the AI Workflows Handbook §8.
 - **The ledger**: tool, model, date, degree of modification, license link. This table is a lifesaver in platform reviews and copyright disputes alike.
 
 ## 9. Eight End-to-End Workflows
@@ -182,7 +182,7 @@ Once a workflow has run end to end, write it into the team documentation. A proc
 
 A prompt worth including has a fixed structure: purpose, applicable tools, template (variables as placeholders), example input, caveats, and review date.
 
-Three maintenance principles: include only what you've used; delete what stops working — no souvenirs; when the tools move to a new generation, re-review old prompts so the library doesn't become a source of hallucination. In this repository it lands at `docs/ai/prompt-library/` (directory design in design doc §14.1).
+Three maintenance principles: include only what you've used; delete what stops working — no souvenirs; when the tools move to a new generation, re-review old prompts so the library doesn't become a source of hallucination. In this repository it lands at `docs/ai/prompt-library/` (planned).
 
 ## 11. Common Mistakes
 
@@ -199,4 +199,4 @@ Three maintenance principles: include only what you've used; delete what stops w
 
 ---
 
-> Companion reading: compliance details in design doc §14.9; official tool sites in Resources §2.9; related open-source projects in Open Source Picks & Book Recommendations §6; how this lands inside engines in Programming Handbook §6.
+> Companion reading: compliance details in the AI Workflows Handbook §8; official tool sites in Resources §2.9; related open-source projects in Open Source Picks & Book Recommendations §6; how this lands inside engines in Programming Handbook §6.

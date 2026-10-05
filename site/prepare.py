@@ -4,7 +4,7 @@
 流程：python site/prepare.py → mkdocs build（配置见仓库根 mkdocs.yml）。
 
 规则：
-- 拷贝 docs/ resources/ playbooks/ templates/ examples/ catalog/ 的 Markdown。
+- 拷贝 docs/ resources/ playbooks/ templates/ examples/ 的 Markdown。
 - README.md 重命名为 index.md（目录首页），正文中 .../README.md 链接改写为目录链接。
 - 拷贝根文件（术语表、贡献指南、路线图、更新日志、许可）与品牌 logo。
 - 由 site/home.md 生成首页 index.md，并注入当前文档统计。
@@ -17,9 +17,9 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(REPO, 'site')
 OUT = os.path.join(SITE, 'build')
 
-COPY_DIRS = ['docs', 'resources', 'playbooks', 'templates', 'examples', 'catalog']
+COPY_DIRS = ['docs', 'resources', 'playbooks', 'templates', 'examples']
 COPY_FILES = ['GLOSSARY.md', 'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'GOVERNANCE.md',
-              'ROADMAP.md', 'CHANGELOG.md', 'LICENSE', 'LICENSE-CODE']
+              'CHANGELOG.md', 'LICENSE', 'LICENSE-CODE']
 COUNT_DIRS = ['docs', 'resources', 'playbooks', 'templates']
 
 
@@ -110,22 +110,15 @@ def main():
         else:
             shutil.copyfile(s, dst)
 
-    # 2.5) catalog 数据文件（供 catalog 页内的相对链接引用）
-    os.makedirs(os.path.join(OUT, 'catalog'), exist_ok=True)
-    for fn in os.listdir(os.path.join(REPO, 'catalog')):
-        if fn.endswith(('.yml', '.json')):
-            shutil.copyfile(os.path.join(REPO, 'catalog', fn), os.path.join(OUT, 'catalog', fn))
-
     # 3) 资产：logo 与自定义样式
     shutil.copyfile(os.path.join(REPO, 'assets', 'logo.svg'), os.path.join(OUT, 'logo.svg'))
     shutil.copyfile(os.path.join(SITE, 'styles', 'extra.css'), os.path.join(OUT, 'extra.css'))
 
-    # 4) 首页（注入统计；支持 site/home.en.md、site/home.ja.md 多语言版）
+    # 4) 首页（注入统计；支持 site/home.en.md 英文版）
     n, w, g, e = _stats()
     stats_by_locale = {
         '': f'{n} 份中文文档 · 约 {w} 万字 · {g} 类类型手册 · {e} 条引擎轨道',
         '.en': f'{n} documents · ~{round(w * 10)}k characters · {g} genre handbooks · {e} engine tracks',
-        '.ja': f'{n} 冊のドキュメント · 約 {w} 万字 · {g} ジャンル · {e} エンジントラック',
     }
     for loc, stats in stats_by_locale.items():
         src = os.path.join(SITE, 'home%s.md' % loc)

@@ -120,7 +120,7 @@
 
 | Pitfall (symptom) | Why it's fatal | How to avoid it | Rating |
 | --- | --- | --- | --- |
-| AI content not disclosed as platforms require (Steam and others) | Breaches the platform agreement, risking takedown; a player-trust crisis | Follow the Steam content survey: distinguish "pre-generated/runtime-generated" disclosures; internal-tool exemptions still need records (see design doc §14.9) | 🔴 |
+| AI content not disclosed as platforms require (Steam and others) | Breaches the platform agreement, risking takedown; a player-trust crisis | Follow the Steam content survey: distinguish "pre-generated/runtime-generated" disclosures; internal-tool exemptions still need records (see the AI Workflows Handbook §8) | 🔴 |
 | Letting an AI agent rewrite the project overnight (MCP write access wide open) | The project gets polluted, scenes break, nothing is traceable | Tier permissions (read/write/dangerous); commit before operations; isolate work branches | 🟠 |
 | Hallucinated APIs / no grasp of the engine lifecycle | Generated code that "compiles but won't run", or hides performance landmines | Generated code must pass a review checklist: lifecycle, performance, error handling; verify in small steps | 🟠 |
 | AI-generated assets drift in style; fixing them costs more than drawing | Output is unusable; time wasted | Fix style anchors and workflow templates; track batch pass rates | 🟡 |

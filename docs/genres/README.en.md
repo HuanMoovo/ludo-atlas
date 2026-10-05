@@ -1,6 +1,6 @@
 # genres/ — Genre Handbooks
 
-Progress follows the 18 families / 112 genres of the [design doc §11](../meta/design.md) (81 collected so far): one page per genre, all sharing a seven-section structure (positioning & core loop / experience goals & benchmark titles / design points / technical points / content scope & workload / getting started with a prototype / common pitfalls).
+Progress follows the 18-family / 112-genre framework (81 collected so far): one page per genre, all sharing a seven-section structure (positioning & core loop / experience goals & benchmark titles / design points / technical points / content scope & workload / getting started with a prototype / common pitfalls).
 
 ## Volume 1 (10 genres)
 

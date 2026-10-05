@@ -187,7 +187,7 @@ Arcade coins → cartridge buy-to-own (1980s) → PC boxed copies / shareware (1
 
 ### 4.8 Game AI and the Contemporary Frontier
 
-Scripted AI (pathfinding/state machines, from the 1980s) → behavior trees and GOAP (2000s) → machine-learning assistance (DDA, matchmaking, anti-cheat in the 2010s) → generative AI enters production (from 2022: images/audio/code/text) → AI NPCs and runtime generation (experimental) → coding agents and engine MCP (workflow-level impact). For compliance and disclosure, see the design doc §14.9.
+Scripted AI (pathfinding/state machines, from the 1980s) → behavior trees and GOAP (2000s) → machine-learning assistance (DDA, matchmaking, anti-cheat in the 2010s) → generative AI enters production (from 2022: images/audio/code/text) → AI NPCs and runtime generation (experimental) → coding agents and engine MCP (workflow-level impact). For compliance and disclosure, see the the AI Workflows Handbook §8.
 
 ## 5. Genre Evolution at a Glance
 
