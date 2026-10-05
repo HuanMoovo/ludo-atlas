@@ -292,7 +292,6 @@
 | 通义灵码 | https://lingma.aliyun.com/ | 阿里 AI 编码助手（国内主流） |
 | Model Context Protocol（MCP） | https://modelcontextprotocol.io/ | 智能体连接外部工具的标准协议（引擎/Blender 等 MCP 的基础） |
 | awesome-mcp-servers | https://github.com/punkpeye/awesome-mcp-servers | MCP 服务大清单（找工具的第一入口） |
-| Agent Skills（Anthropic 官方仓库） | https://github.com/anthropics/skills | 「技能包」机制的官方示例（SKILL.md 结构可参考） |
 | Serena | https://github.com/oraios/serena | 编码智能体的语义代码工具 MCP |
 | Context7 | https://github.com/upstash/context7 | 给智能体提供最新文档的 MCP |
 
@@ -305,6 +304,47 @@
 | Yarn Spinner | https://yarnspinner.dev/ | 面向游戏的对话脚本系统（Unity 生态常用） |
 | articy:draft | https://www.articy.com/ | 商业叙事设计与对话编辑器 |
 | Dialogic | https://github.com/dialogic-godot/dialogic | Godot 对话系统插件（开源） |
+
+### 2.11 开源 Agent 与桌面端客户端
+
+| 名称 | 官网 | 说明 |
+| --- | --- | --- |
+| Dify | https://github.com/langgenius/dify | 开源 LLM 应用与 Agent 平台（RAG、工作流、Agent 一体；国内团队） |
+| LangGraph | https://github.com/langchain-ai/langgraph | LangChain 官方 Agent 编排框架（图结构、可控性强） |
+| CrewAI | https://github.com/crewAIInc/crewAI | 多 Agent 角色协作框架（上手快） |
+| AutoGen | https://github.com/microsoft/autogen | 微软多 Agent 对话与协作框架 |
+| AutoGPT | https://github.com/Significant-Gravitas/AutoGPT | 自主 Agent 先驱项目（持续活跃） |
+| MetaGPT | https://github.com/geekan/MetaGPT | 多 Agent 协作框架（「软件公司」范式） |
+| Open Interpreter | https://github.com/OpenInterpreter/open-interpreter | 本地代码执行 Agent（用自然语言指挥电脑） |
+| smolagents | https://github.com/huggingface/smolagents | Hugging Face 轻量 Agent 框架（代码式动作） |
+| n8n | https://github.com/n8n-io/n8n | 开源工作流自动化（带 AI / Agent 节点） |
+| Flowise | https://github.com/FlowiseAI/Flowise | 低代码 LLM / Agent 编排 |
+| Langflow | https://github.com/langflow-ai/langflow | 可视化构建 Agent 与流程 |
+| awesome-ai-agents | https://github.com/e2b-dev/awesome-ai-agents | 自主 Agent 大清单（选型参考） |
+| Jan | https://github.com/janhq/jan | 开源本地模型桌面客户端（ChatGPT 替代） |
+| Cherry Studio | https://github.com/CherryHQ/cherry-studio | 多模型桌面客户端（国内社区热门） |
+| Chatbox | https://chatboxai.app/ | 跨平台多模型桌面聊天客户端 |
+| Lobe Chat | https://github.com/lobehub/lobe-chat | 开源聊天界面（可自托管，支持多模型） |
+| Open WebUI | https://github.com/open-webui/open-webui | 自托管 AI 界面（配 Ollama 的常用组合） |
+| AnythingLLM | https://github.com/Mintplex-Labs/anything-llm | 本地知识库 + 对话桌面应用（RAG 一体化） |
+| GPT4All | https://github.com/nomic-ai/gpt4all | 本地模型桌面套件（离线可用） |
+| Claude Desktop | https://claude.ai/download | Claude 官方桌面端（MCP 主要宿主之一） |
+| ChatGPT Desktop | https://chatgpt.com/download | OpenAI 官方桌面端 |
+
+### 2.12 游戏开发必备 Skill 仓库
+
+| 名称 | 官网 | 说明 |
+| --- | --- | --- |
+| Anthropic 官方 Agent Skills | https://github.com/anthropics/skills | 官方 Skill 示例仓库（SKILL.md 结构权威参考） |
+| awesome-claude-skills | https://github.com/ComposioHQ/awesome-claude-skills | Claude Skills 精选清单（社区维护） |
+| awesome-agent-skills | https://github.com/VoltAgent/awesome-agent-skills | Agent Skills 汇总（跨工具，持续更新） |
+| godot-mcp（Coding-Solo） | https://github.com/Coding-Solo/godot-mcp | Godot MCP 服务（社区最常用实现之一） |
+| Godot AI（hi-godot） | https://github.com/hi-godot/godot-ai | 面向生产的 Godot AI 工具链（MCP + 插件） |
+| unity-mcp（CoplayDev） | https://github.com/CoplayDev/unity-mcp | Unity 编辑器 MCP 桥（社区主流） |
+| ClawHub | https://clawhub.ai/ | OpenClaw 的 Skill 与插件注册中心（技能市场；仓库 openclaw/clawhub） |
+| agent-skills-hub | https://github.com/agent-skills-hub/agent-skills-hub | 社区技能集（内含 game-development 技能） |
+| gamedev-skills-zlc | https://github.com/zlc000190/gamedev-skills-zlc | 游戏开发 Agent 技能包合集 |
+| agent-skills（conorbronsdon） | https://github.com/conorbronsdon/agent-skills | 生产环境验证过的 Agent 技能集 |
 
 ---
 
@@ -925,6 +965,8 @@
 **结果**：**398 条直连可访问 · 42 条反爬保护 · 2 条需登录（Apple/索尼开发者后台，正常）· 15 条异常（已全部处理）**。
 
 **2026-10-05 扩充核查**：新增约 130 条（AI 智能体与 Skill 资源、叙事与对话工具新栏目，及引擎/工具/学习/社区/素材/发行/服务/合规各线补充；另合并历史重复 3 条）。全量双通道复核（直连 → 代理回退）：绝大多数直接可达；少数为反爬保护、本地网络限制（Google / Adobe 类，浏览器可访问）或已移除失效项，明细在日志。
+
+**2026-10-05 追加栏目**：新增「开源 Agent 与桌面端客户端」「游戏开发必备 Skill 仓库」两节，共 31 条（直接可达 29 · 反爬保护 2，无失效项）。
 
 **《避坑大全》增补核查（2026-10-04）**：新增国际线链接 63 条，全部可达（60 条直接可达 · 3 条反爬保护，浏览器可访问）；无失效条目（2 条候选因站点失效未收录）。
 

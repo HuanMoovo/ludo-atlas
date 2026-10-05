@@ -292,7 +292,6 @@
 | Tongyi Lingma | https://lingma.aliyun.com/ | Alibaba's AI coding assistant (mainstream in China) |
 | Model Context Protocol (MCP) | https://modelcontextprotocol.io/ | Standard protocol for connecting agents to tools (foundation of engine/Blender MCPs) |
 | awesome-mcp-servers | https://github.com/punkpeye/awesome-mcp-servers | The big MCP server list (first stop when looking for tools) |
-| Agent Skills (Anthropic official repo) | https://github.com/anthropics/skills | Official examples of the skill-pack mechanism (useful SKILL.md reference) |
 | Serena | https://github.com/oraios/serena | Semantic code toolkit MCP for coding agents |
 | Context7 | https://github.com/upstash/context7 | MCP that feeds up-to-date docs to agents |
 
@@ -305,6 +304,47 @@
 | Yarn Spinner | https://yarnspinner.dev/ | Dialogue scripting system for games (common in the Unity ecosystem) |
 | articy:draft | https://www.articy.com/ | Commercial narrative design and dialogue editor |
 | Dialogic | https://github.com/dialogic-godot/dialogic | Open-source dialogue system addon for Godot |
+
+### 2.11 Open-Source Agents & Desktop Clients
+
+| Name | Website | Notes |
+| --- | --- | --- |
+| Dify | https://github.com/langgenius/dify | Open-source LLM app and agent platform (RAG, workflows, agents in one; built in China) |
+| LangGraph | https://github.com/langchain-ai/langgraph | LangChain's official agent orchestration framework (graph-based, highly controllable) |
+| CrewAI | https://github.com/crewAIInc/crewAI | Multi-agent role-play collaboration framework (quick to pick up) |
+| AutoGen | https://github.com/microsoft/autogen | Microsoft's multi-agent conversation and collaboration framework |
+| AutoGPT | https://github.com/Significant-Gravitas/AutoGPT | The pioneering autonomous agent project (still active) |
+| MetaGPT | https://github.com/geekan/MetaGPT | Multi-agent collaboration framework (the "software company" paradigm) |
+| Open Interpreter | https://github.com/OpenInterpreter/open-interpreter | Local code-execution agent (drive your computer with natural language) |
+| smolagents | https://github.com/huggingface/smolagents | Hugging Face's lightweight agent framework (code-as-action) |
+| n8n | https://github.com/n8n-io/n8n | Open-source workflow automation (with AI/agent nodes) |
+| Flowise | https://github.com/FlowiseAI/Flowise | Low-code LLM/agent orchestration |
+| Langflow | https://github.com/langflow-ai/langflow | Visually build agents and flows |
+| awesome-ai-agents | https://github.com/e2b-dev/awesome-ai-agents | The big autonomous-agent list (a selection reference) |
+| Jan | https://github.com/janhq/jan | Open-source local-model desktop client (a ChatGPT alternative) |
+| Cherry Studio | https://github.com/CherryHQ/cherry-studio | Multi-model desktop client (popular in the Chinese community) |
+| Chatbox | https://chatboxai.app/ | Cross-platform multi-model desktop chat client |
+| Lobe Chat | https://github.com/lobehub/lobe-chat | Open-source chat UI (self-hostable, multi-model) |
+| Open WebUI | https://github.com/open-webui/open-webui | Self-hosted AI interface (a common pairing with Ollama) |
+| AnythingLLM | https://github.com/Mintplex-Labs/anything-llm | Local knowledge base + chat desktop app (RAG in one piece) |
+| GPT4All | https://github.com/nomic-ai/gpt4all | Local-model desktop suite (works offline) |
+| Claude Desktop | https://claude.ai/download | Claude's official desktop app (a primary MCP host) |
+| ChatGPT Desktop | https://chatgpt.com/download | OpenAI's official desktop app |
+
+### 2.12 Must-Have Game Dev Skill Repositories
+
+| Name | Website | Notes |
+| --- | --- | --- |
+| Anthropic Agent Skills (official) | https://github.com/anthropics/skills | Anthropic's official skill example repo (the authoritative SKILL.md reference) |
+| awesome-claude-skills | https://github.com/ComposioHQ/awesome-claude-skills | A curated list of Claude Skills (community-maintained) |
+| awesome-agent-skills | https://github.com/VoltAgent/awesome-agent-skills | Cross-tool agent skills collection, actively updated |
+| godot-mcp (Coding-Solo) | https://github.com/Coding-Solo/godot-mcp | Godot MCP server (one of the most-used community implementations) |
+| Godot AI (hi-godot) | https://github.com/hi-godot/godot-ai | Production-oriented Godot AI toolchain (MCP + addon) |
+| unity-mcp (CoplayDev) | https://github.com/CoplayDev/unity-mcp | Unity Editor MCP bridge (community mainstream) |
+| ClawHub | https://clawhub.ai/ | OpenClaw's skill and plugin registry (a skill marketplace; repo openclaw/clawhub) |
+| agent-skills-hub | https://github.com/agent-skills-hub/agent-skills-hub | Community skill collection (includes a game-development skill) |
+| gamedev-skills-zlc | https://github.com/zlc000190/gamedev-skills-zlc | A collection of game-development agent skill packs |
+| agent-skills (conorbronsdon) | https://github.com/conorbronsdon/agent-skills | Agent skills tested in production environments |
 
 ---
 
@@ -926,6 +966,7 @@
 
 **2026-10-05 expansion check**: ~130 links added (AI agents & skill resources, the new narrative & dialogue tools column, plus supplements across engines, tools, learning, communities, assets, publishing, services and compliance; 3 historical duplicate rows merged). Full dual-channel re-check (direct → proxy fallback): the large majority are directly reachable; a few are anti-scraping protection or local-network restrictions (Google / Adobe class, browser-accessible), or were removed as dead entries — details in the log.
 
+**2026-10-05 new columns**: added "Open-Source Agents & Desktop Clients" and "Must-Have Game Dev Skill Repositories" — 31 links (29 directly reachable · 2 anti-scraping protection; none dead).
 **Pitfalls & Anti-patterns supplement check (2026-10-04)**: 63 new international-segment links, all reachable (60 directly reachable · 3 anti-scraping protection, browser-accessible); no dead entries (2 candidates excluded because their sites were down).
 
 Anomaly handling details (15 items):
