@@ -40,7 +40,7 @@ Start here: [Preface](preface.md) (why this project exists).
 ## Publishing & Platforms (publishing/)
 
 - [Live-Ops & Growth Handbook](publishing/live-ops/README.md)
-- [Mini-Game Development Handbook](publishing/minigame/README.md)
+- [Mini-Game Development](publishing/minigame/README.md)
 - [Console Development Handbook](publishing/console/README.md)
 - [VR/AR Development Handbook](publishing/xr/README.md)
 - [Esports & Competitive Design Handbook](publishing/esports/README.md)

@@ -57,7 +57,7 @@ The library is Chinese-first; English editions are being added section by sectio
 
 - [Multi-platform Launch Playbook (incl. online-game specifics)](playbooks/platform-launch/README.md)
 - [Live-Ops & Growth Handbook](docs/publishing/live-ops/README.md)
-- [Mini-Game Development Handbook](docs/publishing/minigame/README.md) (WeChat / Douyin / hardware channels)
+- [Mini-Game Development](docs/publishing/minigame/README.md) (WeChat / Douyin / hardware channels)
 - [Console Development Handbook](docs/publishing/console/README.md) (ID@Xbox / PlayStation / Nintendo)
 - [VR/AR Development Handbook](docs/publishing/xr/README.md)
 - [Esports & Competitive Design Handbook](docs/publishing/esports/README.md)

@@ -118,4 +118,4 @@ A common multi-hat combo for small teams: the programming + art + design triangl
 
 - [Engine Selection Guide](engine-choice.md): once your craft is chosen, choose your tools.
 - [Learning Paths](learning-path.md): stage plans for three routes.
-- [Open Source & Book Picks](../../resources/books-and-repos.md): projects worth reading the source of, and book lists.
+- [Open Source Picks & Book Recommendations](../../resources/books-and-repos.md): projects worth reading the source of, and book lists.

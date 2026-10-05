@@ -170,7 +170,7 @@
 ## 10. Toolbox and Where to Go Next
 
 - **System modeling**: Machinations (https://machinations.io/, visual simulation of economies and loops).
-- **Templates**: one-pager / GDD / playtest plan → `templates/` (see Design Documents §9).
+- **Templates**: one-pager / GDD / playtest plan → `templates/` (see the design doc §9).
 - **Design essentials by genre**: `docs/genres/` (112 genres, each with its own `design.md`).
 - **Theory reading**: the MDA paper, flow theory, Jesse Schell's The Art of Game Design, Raph Koster's A Theory of Fun for Game Design. Full bibliography in Resources §3.
 - **Where to go next in design**: break down a game you love (write out its verb loop and economy diagram) → validate a new mechanic with a paper prototype → move on to the Production Handbook and build your first vertical slice.

@@ -55,7 +55,7 @@ Indie developers usually cover programming, design and some art on their own; sm
 | Subscription | Membership-based content services | A few products and platform services |
 | Crowdfunding / grants | Pre-orders or funding up front | The startup phase of indie projects |
 
-Differences between platforms and form factors (PC, console, mobile, mini-games, web) directly shape the business model and development budget; see the [Multi-platform Launch Playbook](../../playbooks/platform-launch/README.md) and the [Legal Handbook](../publishing/legal/README.md) for details.
+Differences between platforms and form factors (PC, console, mobile, mini-games, web) directly shape the business model and development budget; see the [Multi-platform Launch Playbook](../../playbooks/platform-launch/README.md) and the [Legal, Patents & Competition](../publishing/legal/README.md) for details.
 
 ## 4. Three Scales, Three Approaches
 
@@ -69,8 +69,8 @@ The larger the scale, the more it depends on process and documentation; the smal
 
 ## 5. Extra Things to Watch for in Mainland China and Going Overseas
 
-- Publishing in mainland China involves game licenses, anti-addiction rules, channel revenue splits and record-filing; see the [Legal Handbook](../publishing/legal/README.md) for details.
-- Mini-games are a distinct engineering form (build size, performance and platform rules all differ); see the [Mini-Game Development Handbook](../publishing/minigame/README.md).
+- Publishing in mainland China involves game licenses, anti-addiction rules, channel revenue splits and record-filing; see the [Legal, Patents & Competition](../publishing/legal/README.md) for details.
+- Mini-games are a distinct engineering form (build size, performance and platform rules all differ); see the [Mini-Game Development](../publishing/minigame/README.md).
 - Going overseas means Steam, consoles or overseas mobile stores, each with its own hurdles in testing, ratings and taxes; see the [Multi-platform Launch Playbook](../../playbooks/platform-launch/README.md).
 
 ## 6. Six Common Misconceptions
