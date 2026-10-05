@@ -323,7 +323,7 @@
 | awesome-ai-agents | https://github.com/e2b-dev/awesome-ai-agents | 自主 Agent 大清单（选型参考） |
 | Hermes（Nous Research） | https://github.com/NousResearch/hermes-agent | 开源 AI Agent（CLI / 桌面端；技能 + MCP 生态；官网 hermes-agent.nousresearch.com） |
 | OpenClaw | https://github.com/openclaw/openclaw | 开源个人 AI 助手 / Agent（全平台；技能生态见 ClawHub） |
-| Goose（Block） | https://github.com/block/goose | Block 开源的本地可扩展 AI Agent（支持 MCP） |
+| Goose | https://github.com/aaif-goose/goose | 开源的本地可扩展 AI Agent（支持 MCP；原 block/goose） |
 | Letta（MemGPT） | https://github.com/letta-ai/letta | 带长期记忆的有状态 Agent 平台（原 MemGPT） |
 | Agent Zero | https://github.com/agent0ai/agent-zero | 开源自治 Agent 框架（可自建、可扩展） |
 | LibreChat | https://github.com/danny-avila/LibreChat | 开源多模型聊天平台（可自部署的 ChatGPT 替代） |

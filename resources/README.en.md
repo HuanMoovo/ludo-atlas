@@ -323,7 +323,7 @@
 | awesome-ai-agents | https://github.com/e2b-dev/awesome-ai-agents | The big autonomous-agent list (a selection reference) |
 | Hermes (Nous Research) | https://github.com/NousResearch/hermes-agent | Open-source AI agent (CLI/desktop; skills + MCP ecosystem; site hermes-agent.nousresearch.com) |
 | OpenClaw | https://github.com/openclaw/openclaw | Open-source personal AI assistant/agent (cross-platform; skill ecosystem via ClawHub) |
-| Goose (Block) | https://github.com/block/goose | Block's open-source, extensible local AI agent (MCP support) |
+| Goose | https://github.com/aaif-goose/goose | Open-source extensible local AI agent (MCP support; formerly block/goose) |
 | Letta (MemGPT) | https://github.com/letta-ai/letta | Stateful agent platform with long-term memory (formerly MemGPT) |
 | Agent Zero | https://github.com/agent0ai/agent-zero | Open-source autonomous agent framework (self-hosted, extensible) |
 | LibreChat | https://github.com/danny-avila/LibreChat | Open-source multi-model chat platform (a self-hostable ChatGPT alternative) |
