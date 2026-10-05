@@ -3,6 +3,7 @@
 > The fully built-out version of design doc §14: turning "how AI participates in game development" from an outline into an executable workflow set.
 > The snapshot is October 2026. Tools like these change fast, so this page focuses on methods, checkpoints and red lines; for specific tool names and versions, go by the official sites (entry points in Resources §2.9).
 > One premise up front: AI improves speed; judgment remains your responsibility. Whether output is usable, whether it needs disclosure, who is accountable when something goes wrong — none of those answers live with the model.
+> This handbook also has two companion pages: **[AI Agents](agents/README.md)** (forms, orchestration, and rollout) and **[Skills for Game Development](skills/README.md)** (the skill checklist and how to set them up).
 
 ---
 

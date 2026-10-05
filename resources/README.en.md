@@ -45,6 +45,13 @@
 | O3DE | https://o3de.org/ | Amazon's open-source 3D engine |
 | Flax Engine | https://flaxengine.com/ | Open-source-leaning C#/C++ 3D engine |
 | CryEngine | https://www.cryengine.com/ | Free commercial engine with strong visuals |
+| Cocos2d-x | https://www.cocos2d-x.org/ | Open-source C++ 2D engine (classic Cocos lineage) |
+| Fyrox | https://fyrox.rs/ | Open-source Rust 3D engine with built-in editor |
+| OpenFL | https://www.openfl.org/ | Cross-platform Haxe 2D framework (Flash lineage) |
+| PICO-8 | https://www.lexaloffle.com/pico-8.php | Fantasy console, constraint-driven pixel dev environment |
+| Pyxel | https://github.com/kitao/pyxel | Python fantasy console (retro specs) |
+| Adventure Game Studio | https://www.adventuregamestudio.co.uk/ | Open-source toolkit for point-and-click adventures |
+| Unigine | https://unigine.com/ | Commercial 3D engine (simulation and high-fidelity) |
 
 ### 1.2 Chinese Engines, Platforms & the Mini-Game Ecosystem
 
@@ -83,6 +90,10 @@
 | Xcode | https://developer.apple.com/xcode/ | Essential for iOS/macOS development (requires macOS) |
 | Android Studio | https://developer.android.com/studio | Android packaging and debugging |
 | WeChat DevTools | https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html | Essential for debugging WeChat mini-games/mini programs |
+| Zed | https://zed.dev/ | High-performance collaborative editor (Rust) |
+| Sublime Text | https://www.sublimetext.com/ | Lightweight, fast editor with a long reputation |
+| Neovim | https://neovim.io/ | Modern Vim fork, a terminal-dweller favorite |
+| HBuilderX | https://www.dcloud.io/hbuilderx.html | By DCloud; common for uni-app and mini-game development |
 
 ### 2.2 2D Art, Pixel Art & UI Design
 
@@ -105,6 +116,11 @@
 | JiShi Design | https://js.design/ | Chinese online UI design tool |
 | MasterGo | https://mastergo.com/ | Chinese UI design collaboration platform |
 | Lanhu | https://lanhuapp.com/ | Chinese design handoff and collaboration platform |
+| Adobe Illustrator | https://www.adobe.com/products/illustrator.html | Industry standard for vector design (paid) |
+| FontForge | https://fontforge.org/ | Open-source font editor (handy for pixel/bitmap fonts) |
+| GraphicsGale | https://graphicsgale.com/us/ | Veteran pixel-art animation tool (free version available) |
+| Pyxel Edit | https://pyxeledit.com/ | Pixel tileset and animation editor (paid) |
+| Lospec | https://lospec.com/ | Hub for pixel palettes and tools, huge palette collection |
 
 ### 2.3 3D Modeling, Materials & Asset Creation
 
@@ -123,6 +139,9 @@
 | Blockbench | https://www.blockbench.net/ | Block/low-poly editor (common in the Minecraft ecosystem) |
 | MagicaVoxel | https://ephtracy.github.io/ | Voxel creation tool (free) |
 | Mixamo | https://www.mixamo.com/ | Adobe's free character animation library and auto-rigging |
+| SpeedTree | https://www.speedtree.com/ | Tree and vegetation generation, industry standard |
+| Gaea | https://quadspinner.com/ | Procedural terrain generation |
+| 3D-Coat | https://3dcoat.com/ | Sculpting and hand-painted texturing in one |
 
 ### 2.4 Animation & Rigging Tools
 
@@ -136,6 +155,9 @@
 | OpenToonz | https://opentoonz.github.io/ | Open-source 2D frame-by-frame animation (Ghibli lineage) |
 | EmberGen | https://jangafx.com/ | Real-time fire/smoke VFX generation |
 | Effekseer | https://effekseer.github.io/en/ | Open-source VFX editor |
+| Toon Boom Harmony | https://www.toonboom.com/products/harmony | 2D animation industry standard (film and games) |
+| Cartoon Animator | https://www.reallusion.com/cartoon-animator/ | Fast 2D character animation |
+| Moho | https://moho.lostmarble.com/ | 2D skeletal animation (formerly Anime Studio) |
 
 ### 2.5 Level, Map & Data Editing
 
@@ -144,6 +166,7 @@
 | Tiled | https://www.mapeditor.org/ | General-purpose 2D level/map editor (free, open source) |
 | LDtk | https://ldtk.io/ | Modern 2D level editor (free, open source) |
 | Ogmo Editor | https://ogmo-editor-3.github.io/ | Lightweight level editor (free, open source) |
+| RexPaint | https://www.gridsagegames.com/rexpaint/ | Roguelike ASCII map editor |
 
 ### 2.6 Audio Tools & Middleware
 
@@ -167,6 +190,10 @@
 | OpenMPT | https://openmpt.org/ | Module music (tracker) production |
 | SunVox | https://warmplace.ru/soft/sunvox/ | Modular music creation |
 | ACE Studio | https://acestudio.ai/ | AI singing voice synthesis (strong on Chinese vocals) |
+| Bfxr | https://www.bfxr.net/ | Web-based 8-bit sound generator (sfxr lineage) |
+| LabChirp | https://labchirp.com/ | Free chiptune SFX generator |
+| Cakewalk | https://www.bandlab.com/cakewalk | Free professional Windows DAW (by BandLab) |
+| iZotope RX | https://www.izotope.com/en/products/rx.html | Standard tool for audio repair and cleanup (paid) |
 
 ### 2.7 Version Control, Collaboration & Project Management
 
@@ -188,6 +215,11 @@
 | Obsidian | https://obsidian.md/ | Local knowledge base (great for writing GDDs and design bibles) |
 | HacknPlan | https://hacknplan.com/ | Purpose-built for game project management (kanban + design models) |
 | Codecks | https://www.codecks.io/ | Game project management (card metaphor) |
+| Unity Version Control | https://unity.com/solutions/version-control | Formerly Plastic SCM; friendly to large game files |
+| Jira | https://www.atlassian.com/software/jira | Industry standard for issue and task tracking |
+| Trello | https://trello.com/ | Lightweight kanban task management |
+| Linear | https://linear.app/ | Modern agile issue tracking |
+| Anchorpoint | https://www.anchorpoint.app/ | Version control for game assets (art workflows) |
 
 ### 2.8 Build, Debugging, Performance & Testing
 
@@ -209,8 +241,13 @@
 | GUT | https://github.com/bitwes/Gut | Godot testing framework (the veteran one) |
 | AltTester | https://alttester.com/ | Unity automated testing (mind the license terms) |
 | Airtest | https://airtest.netease.com/ | NetEase's open-source UI automation (common in game testing) |
+| Incredibuild | https://www.incredibuild.com/ | Distributed build acceleration (common in big C++ projects) |
+| FASTBuild | https://www.fastbuild.org/ | Open-source distributed build tool |
+| Superluminal | https://superluminal.eu/ | Windows performance profiler (common in game teams) |
+| Docker | https://www.docker.com/ | Containers for builds and CI environments |
+| steamcmd | https://developer.valvesoftware.com/wiki/SteamCMD | Steam's command-line upload tool (an alternative to butler) |
 
-### 2.9 AI Development Tools (Official Sites)
+### 2.9 AI Development Tools, Agents & Skill Resources (Official Sites)
 
 | Name | Website | Notes |
 | --- | --- | --- |
@@ -249,6 +286,25 @@
 | godot-mcp (mkdevkit) | https://github.com/mkdevkit/godot-mcp | Godot MCP (173 commands) |
 | Unity AI MCP Guide | https://unity.com/blog/unity-ai-mcp-how-to-get-started | Unity's official MCP integration guide |
 | Blender MCP | https://github.com/ahujasid/blender-mcp | Blender MCP service |
+| Windsurf | https://windsurf.com/ | AI editor (one of the editor-agent representatives) |
+| OpenHands | https://github.com/All-Hands-AI/OpenHands | Open-source autonomous coding agent |
+| Trae | https://www.trae.ai/ | ByteDance AI editor (with a Chinese ecosystem) |
+| Tongyi Lingma | https://lingma.aliyun.com/ | Alibaba's AI coding assistant (mainstream in China) |
+| Model Context Protocol (MCP) | https://modelcontextprotocol.io/ | Standard protocol for connecting agents to tools (foundation of engine/Blender MCPs) |
+| awesome-mcp-servers | https://github.com/punkpeye/awesome-mcp-servers | The big MCP server list (first stop when looking for tools) |
+| Agent Skills (Anthropic official repo) | https://github.com/anthropics/skills | Official examples of the skill-pack mechanism (useful SKILL.md reference) |
+| Serena | https://github.com/oraios/serena | Semantic code toolkit MCP for coding agents |
+| Context7 | https://github.com/upstash/context7 | MCP that feeds up-to-date docs to agents |
+
+### 2.10 Narrative & Dialogue Tools
+
+| Name | Website | Notes |
+| --- | --- | --- |
+| Twine | https://twinery.org/ | Open-source interactive narrative tool, the de facto hypertext branching standard |
+| ink | https://www.inklestudios.com/ink/ | inkle's open-source narrative scripting language (as used in 80 Days) |
+| Yarn Spinner | https://yarnspinner.dev/ | Dialogue scripting system for games (common in the Unity ecosystem) |
+| articy:draft | https://www.articy.com/ | Commercial narrative design and dialogue editor |
+| Dialogic | https://github.com/dialogic-godot/dialogic | Open-source dialogue system addon for Godot |
 
 ---
 
@@ -285,9 +341,12 @@
 | GameDiscoverCo | https://gamediscover.co/ | Platform data and publishing trends newsletter |
 | Handmade Network | https://handmade.network/ | Handmade software community (the Handmade ecosystem) |
 | How to Market a Game | https://howtomarketagame.com/ | Indie game marketing methods (Chris Zukowski) |
-| GameDiscoverCo | https://gamediscover.co/ | Platform data and publishing trends newsletter |
-| How to Market a Game | https://howtomarketagame.com/ | Indie game marketing methods (Chris Zukowski) |
 | Brackeys (archive channel) | https://www.youtube.com/@Brackeys | The classic Unity introduction (no longer updated; high archival value) |
+| Coding Math | https://www.youtube.com/user/codingmath | Video course on the math game dev actually needs |
+| Pikuma | https://pikuma.com/ | Game engine and graphics courses (well regarded) |
+| RogueBasin | http://www.roguebasin.com/ | Roguelike development wiki (tutorials and source index) |
+| Game AI Pro | https://www.gameaipro.com/ | Full Game AI Pro volumes, free to read online |
+| Nature of Code | https://natureofcode.com/ | Understanding natural systems through code (simulation and generative art) |
 
 ### 3.2 Chinese Learning Platforms & Tutorials
 
@@ -307,6 +366,8 @@
 | Juejin | https://juejin.cn/ | Chinese developer community |
 | SegmentFault | https://segmentfault.com/ | Chinese developer Q&A |
 | WeChat Open Community | https://developers.weixin.qq.com/community/ | The official developer community for the WeChat ecosystem |
+| Siki Academy | https://www.sikiedu.com/ | Video courses for Unity, Cocos and more |
+| GGAC | https://www.ggac.net/ | Game art community and competition platform (China) |
 
 ### 3.3 Documentation, Knowledge Bases & Online Books
 
@@ -324,6 +385,9 @@
 | Learn C++ | https://www.learncpp.com/ | The systematic C++ tutorial best suited to beginners |
 | Riot Games Tech Blog | https://technology.riotgames.com/ | Architecture and engineering practice of large online games |
 | GDC Official Channel | https://www.youtube.com/@GDC | Free collection of GDC talks |
+| Ray Tracing Gems | https://www.realtimerendering.com/raytracinggems/ | Practical real-time ray tracing volumes (NVIDIA, free online) |
+| GPU Gems | https://developer.nvidia.com/gpugems/gpugems/contributors | The classic GPU technique volumes, full text online |
+| Learn Wgpu | https://sotrh.github.io/learn-wgpu/ | Rust WebGPU graphics tutorial |
 
 ---
 
@@ -350,6 +414,9 @@
 | IGDA | https://igda.org/ | International Game Developers Association |
 | Godot Community Page | https://godotengine.org/community | Official community entry points (incl. Discord) |
 | r/IndieDev | https://www.reddit.com/r/IndieDev/ | Indie developer subreddit |
+| r/gameenginedevs | https://www.reddit.com/r/gameenginedevs/ | Engine development subreddit (low-level tech talk) |
+| r/incremental_games | https://www.reddit.com/r/incremental_games/ | Idle/incremental games community (the niche audience) |
+| r/IndieGaming | https://www.reddit.com/r/IndieGaming/ | Indie showcase and discussion subreddit |
 
 ### 4.2 Chinese Communities & Organizations
 
@@ -361,6 +428,8 @@
 | Cowlevel | https://cowlevel.net/ | Chinese gamers/developers community |
 | GCORES | https://www.gcores.com/ | Chinese games culture community (developer interviews/podcasts) |
 | TapTap Developer Center | https://developer.taptap.cn/ | TapTap developer community and services (see §6) |
+| GameRes | https://www.gameres.com/ | Veteran Chinese game dev news and resource site |
+| Unity China Developer Community | https://developer.unity.cn/ | Unity China's official developer community |
 
 ### 4.3 International Industry Media & Data
 
@@ -390,6 +459,9 @@
 | Splattercatgaming (YouTube) | https://www.youtube.com/@Splattercatgaming | Indie game coverage channel (promotional reach) |
 | Wanderbots (YouTube) | https://www.youtube.com/@Wanderbots | Indie game let's-play channel |
 | Retromation (YouTube) | https://www.youtube.com/@Retromation | Roguelite coverage channel |
+| NAAVIK | https://naavik.co/ | In-depth games industry analysis and research |
+| Deconstructor of Fun | https://www.deconstructoroffun.com/ | Mobile and monetization teardown blog |
+| PocketGamer.biz | https://www.pocketgamer.biz/ | Mobile games industry news and charts |
 
 > Note: GDC talk material is under §3.1 "GDC Vault"; the conference site is in §7.1.
 
@@ -407,6 +479,8 @@
 | Diandian Data | https://www.diandian.com/ | Mobile app/game data platform |
 | DataEye | https://www.dataeye.com/ | User acquisition and market data |
 | Chandashi | https://www.chandashi.com/ | ASO optimization and chart data |
+| Jinghooo | https://www.jinghooo.com/ | Chinese games industry in-depth reporting |
+| Sykong | https://www.sykong.com/ | Chinese mobile games news and user-acquisition watch |
 
 ---
 
@@ -424,6 +498,7 @@
 | The Base Mesh | https://www.thebasemesh.com/ | Clean base meshes (CC0) |
 | Smithsonian Open Access | https://www.si.edu/openaccess | Smithsonian museum open resources (CC0) |
 | NASA 3D Resources | https://nasa3d.arc.nasa.gov/ | NASA official 3D models |
+| KayKit | https://kaylousberg.itch.io/ | CC0 low-poly 3D asset packs (Kay Lousberg) |
 
 ### 5.2 General Asset Sites (China)
 
@@ -444,6 +519,9 @@
 | Modown | https://www.modown.cn/ | C4D/3D resources (domestic) |
 | ZCOOL | https://www.zcool.com.cn/ | Designer community (works/assets/commissions; see §10) |
 | Huaban | https://huaban.com/ | Inspiration collection and asset curation |
+| UI China | https://www.ui.cn/ | Chinese designer asset and portfolio community |
+| 616pic | https://616pic.com/ | Free PNG assets and design elements |
+| Gaoding Design | https://www.gaoding.com/ | Online design templates and assets |
 
 ### 5.3 2D, UI, Icons & Vectors
 
@@ -461,6 +539,12 @@
 | Pixabay | https://pixabay.com/ | Free stock photos/video/audio |
 | Openclipart | https://openclipart.org/ | Public-domain vector clip art |
 | UISDC | https://www.uisdc.com/ | Designer learning and resource site (China) |
+| Streamline | https://www.streamlinehq.com/ | Complete UI icon sets (free tier included) |
+| Noun Project | https://thenounproject.com/ | Icon library (large free tier; check licenses) |
+| Iconscout | https://iconscout.com/ | Icons, illustrations and small 3D assets |
+| SVG Repo | https://www.svgrepo.com/ | Huge collection of open SVG icons and vectors |
+| LottieFiles | https://lottiefiles.com/ | Lottie animation assets and player (common for UI motion) |
+| Material Icons | https://fonts.google.com/icons | Google's official icon set (free for commercial use) |
 
 ### 5.4 3D Models, Textures & Environments
 
@@ -472,6 +556,9 @@
 | Sketchfab | https://sketchfab.com/ | 3D model browsing and trading (plenty free) |
 | TurboSquid | https://www.turbosquid.com/ | Large commercial model marketplace |
 | CGTrader | https://www.cgtrader.com/ | 3D model marketplace (incl. a free section) |
+| Quixel Megascans | https://quixel.com/megascans | Scanned materials and environments (now part of the Fab ecosystem) |
+| BlenderKit | https://www.blenderkit.com/ | Asset library inside Blender (models/materials/brushes) |
+| 3D Warehouse | https://3dwarehouse.sketchup.com/ | SketchUp model library (scene dressing) |
 
 > Note: Epic's unified asset marketplace Fab (incl. the free Megascans section) is in §5.7.
 
@@ -488,6 +575,8 @@
 | Free Music Archive | https://freemusicarchive.org/ | Free music library |
 | toSound | https://www.tosound.com/ | Chinese sound asset aggregation platform |
 | ear0 | https://www.ear0.com/ | Chinese sound sharing community (field recordings) |
+| Bensound | https://www.bensound.com/ | Free background music (mind the license tiers) |
+| Mixkit | https://mixkit.co/ | Free music, sound effects and video assets |
 
 ### 5.6 Fonts (incl. Open-Source Chinese Fonts)
 
@@ -506,6 +595,10 @@
 | LXGW WenKai | https://github.com/lxgw/LxgwWenKai | Open-source Chinese kai-style typeface (literary feel) |
 | Sarasa Gothic | https://github.com/be5invis/Sarasa-Gothic | Open-source Chinese sans-serif (programming-friendly) |
 | Fontshare | https://www.fontshare.com/ | Free commercial-use font library (ITF) |
+| Adobe Fonts | https://fonts.adobe.com/ | Adobe's font library (plenty of commercial licenses included) |
+| Smiley Sans | https://github.com/atelier-anchor/smiley-sans | Free-for-commercial-use Chinese display font (oblique condensed style) |
+| Glow Sans | https://github.com/welai/glow-sans | Free-for-commercial-use Chinese font family (rounded, multiple weights) |
+| HarmonyOS Sans | https://developer.harmonyos.com/cn/design/resource | HarmonyOS system font, free for commercial use |
 
 ### 5.7 Asset Stores
 
@@ -516,6 +609,8 @@
 | Godot Asset Library | https://godotengine.org/asset-library/ | Godot's official plugin/asset library |
 | Cocos Store | https://store.cocos.com/ | Cocos's official plugin/asset store |
 | Gumroad | https://gumroad.com/ | Indie creators selling directly (assets/tools) |
+| CraftPix | https://craftpix.net/ | 2D game asset store (with a free section) |
+| GameDev Market | https://www.gamedevmarket.net/ | Asset marketplace for indie developers |
 
 ---
 
@@ -540,6 +635,9 @@
 | Green Man Gaming | https://www.greenmangaming.com/ | Digital retail (key distribution) |
 | Humble Bundle | https://www.humblebundle.com/ | Bundles and store (publishing partnerships) |
 | Fanatical | https://www.fanatical.com/ | Digital retail and bundles |
+| Microsoft Store | https://partner.microsoft.com/ | Windows Store developer center |
+| Roblox | https://create.roblox.com/ | Roblox creator platform (UGC game distribution) |
+| UEFN (Fortnite creator tool) | https://create.fortnite.com/ | Entry point for the Fortnite creator ecosystem |
 
 ### 6.2 Chinese Publishing Platforms & Channels
 
@@ -555,6 +653,8 @@
 | MyApp | https://sj.qq.com/ | Tencent's Android distribution channel |
 | Huawei AppGallery | https://appgallery.huawei.com/ | Huawei's official app store |
 | Xiaomi App Store | https://app.mi.com/ | Xiaomi app distribution |
+| Coolapk | https://www.coolapk.com/ | Android app community and distribution (developer-friendly) |
+| Huawei AppGallery | https://developer.huawei.com/consumer/cn/appgallery/ | Developer entry for Huawei's app store |
 
 > For mini-game channels (WeChat/Douyin/Kuaishou/OPPO/vivo, etc.) see §1.2.
 
@@ -568,7 +668,7 @@
 | Afdian | https://afdian.com/ | Chinese creator sponsorship platform |
 | Patreon | https://www.patreon.com/ | International recurring sponsorship platform |
 | BackerKit | https://www.backerkit.com/ | Crowdfunding management and fulfillment tool |
-| BackerKit | https://www.backerkit.com/ | Crowdfunding management and fulfillment tool |
+| Ko-fi | https://ko-fi.com/ | Creator sponsorship and tipping platform |
 
 ### 6.4 International Indie Publishers (Open to Pitches)
 
@@ -582,6 +682,14 @@
 | No More Robots | https://nomorerobots.io/ | British indie publisher (Yes, Your Grace and others) |
 | Chucklefish | https://chucklefish.org/ | Publisher + developer (Stardew Valley's early publisher) |
 | PLAYISM | https://playism.com/ | Japanese indie publisher (Touhou and others) |
+| tinyBuild | https://tinybuild.com/ | Indie publisher (Hello Neighbor and more) |
+| Hooded Horse | https://hoodedhorse.com/ | Publisher focused on strategy and simulation |
+| 505 Games | https://505games.com/ | Mid-size publisher across console and PC |
+| Curve Games | https://www.curvegames.com/ | Indie publisher (Human: Fall Flat and more) |
+| Finji | https://finji.co/ | Indie publisher (Night in the Woods and more) |
+| Panic | https://panic.com/ | Publisher and toolmaker (Firewatch, Playdate) |
+| Armor Games Studios | https://armorgamesstudios.com/ | Indie publisher with web-game roots |
+| Thunderful | https://thunderfulgames.com/ | Nordic games group (multiple studios) |
 
 ### 6.5 International Funding & Grants
 
@@ -592,6 +700,9 @@
 | Canada Media Fund | https://cmf-fmc.ca/ | Canada's official film/TV and games fund |
 | Screen Australia | https://www.screenaustralia.gov.au/ | Australian film/TV and games funding |
 | UK Games Fund | https://ukgamesfund.com/ | UK games fund (prototypes and early stage) |
+| CNC (France) | https://www.cnc.fr/ | French national center for cinema and moving image (includes game funding) |
+| Creative Europe | https://culture.ec.europa.eu/creative-europe | EU funding program for culture and creative sectors |
+| KOCCA (Korea) | https://www.kocca.kr/en/ | Korea Creative Content Agency (games export support) |
 
 ---
 
@@ -616,8 +727,8 @@
 | Day of the Devs | https://dayofthedevs.com/ | Indie game showcase event (hosted by Double Fine) |
 | Nordic Game | https://nordicgame.com/ | Nordic games conference |
 | Taipei Game Show | https://tgs.tca.org.tw/ | Taipei Game Show |
-| Tokyo Game Show | https://tgs.nikkeibp.co.jp/ | Tokyo Game Show (the largest in Japan) |
-| BitSummit | https://bitsummit.com/ | Japanese indie game summit |
+| Indie MEGABOOTH | https://indiemegabooth.com/ | Joint indie booth at major shows |
+| Wholesome Direct | https://wholesomegames.com/ | Cozy-game online showcase (Wholesome Games) |
 
 ### 7.2 Chinese Expos & Events
 
@@ -637,6 +748,7 @@
 | 7DRL Challenge | https://7drl.com/ | The roguelike development week challenge |
 | js13kGames | https://js13kgames.com/ | Build a web game in 13KB (an extreme coding challenge) |
 | itch.io Jams | https://itch.io/jams | A roundup of online jams of all kinds (incl. themed jams like GMTK and Godot) |
+| Alakajam! | https://alakajam.com/ | Friendly regular game jam |
 
 ---
 
@@ -661,6 +773,9 @@
 | Mirror | https://mirror-networking.com/ | Open-source networking library for Unity |
 | Alibaba Cloud | https://www.aliyun.com/ | Cloud services (games industry solutions; China) |
 | Unity Gaming Services | https://unity.com/solutions/gaming-services | Unity's official backend suite |
+| Edgegap | https://edgegap.com/ | Game server orchestration and distributed deployment |
+| Hathora | https://hathora.dev/ | Multiplayer game hosting |
+| Steamworks Networking | https://partner.steamgames.com/doc/features/multiplayer | Steam's official networking and P2P docs |
 
 ### 8.2 Analytics, Statistics & Crash Monitoring
 
@@ -677,6 +792,8 @@
 | Umeng | https://www.umeng.com/ | Alibaba's mobile analytics |
 | Amplitude | https://amplitude.com/ | Product analytics |
 | Mixpanel | https://mixpanel.com/ | Product analytics |
+| PostHog | https://posthog.com/ | Open-source product analytics (self-hostable) |
+| Google Analytics 4 | https://analytics.google.com/ | General analytics (web and marketing side) |
 
 ### 8.3 Monetization, Paid Acquisition & Attribution
 
@@ -690,6 +807,9 @@
 | Mintegral | https://www.mintegral.com/ | Mobvista (user acquisition for overseas expansion) |
 | Adjust | https://www.adjust.com/ | Ad attribution |
 | AppsFlyer | https://www.appsflyer.com/ | Mobile attribution and marketing analytics |
+| Tenjin | https://tenjin.com/ | Mobile attribution and UA analytics |
+| Singular | https://www.singular.net/ | Marketing attribution platform |
+| Kochava | https://www.kochava.com/ | Attribution and anti-fraud analytics |
 
 ### 8.4 Security, Anti-Cheat & App Hardening
 
@@ -701,6 +821,8 @@
 | NetEase Yidun | https://dun.163.com/ | NetEase security (content moderation/anti-cheat, domestic) |
 | 360 Jiagu | https://jiagu.360.cn/ | Mobile app hardening (domestic) |
 | iJiami | https://www.ijiami.cn/ | Mobile security hardening (domestic) |
+| Denuvo Anti-Cheat | https://irdeto.com/denuvo/ | Denuvo's anti-cheat solution (Irdeto) |
+| FairGuard | https://www.fair-guard.com/ | Mobile app hardening and anti-cheat (China) |
 
 ### 8.5 Payments & In-App Purchases
 
@@ -712,6 +834,7 @@
 | Alipay Open Platform | https://open.alipay.com/ | Payment integration in China |
 | PayPal | https://developer.paypal.com/ | International payments |
 | Stripe | https://stripe.com/ | International payments (web/subscriptions) |
+| Xsolla | https://xsolla.com/ | Payments and global distribution built for games |
 
 ### 8.6 Test Distribution & Push Notifications
 
@@ -724,6 +847,8 @@
 | JPush | https://www.jiguang.cn/ | Chinese push notification service |
 | Getui | https://www.getui.com/ | Chinese push notification service |
 | PlaytestCloud | https://www.playtestcloud.com/ | Game usability testing (real-player video feedback) |
+| Diawi | https://www.diawi.com/ | Quick iOS app distribution for testing |
+| AWS Device Farm | https://aws.amazon.com/device-farm/ | Cloud device testing farm |
 
 ### 8.7 Localization & Translation
 
@@ -736,6 +861,10 @@
 | Jeemaa | https://www.jeemaa.com/ | Chinese translation collaboration platform |
 | Keywords Studios | https://www.keywordsstudios.com/ | The world's largest games service provider (localization/QA/art) |
 | Alconost | https://alconost.com/ | Localization and voice-over services (incl. game case studies) |
+| POEditor | https://poeditor.com/ | Lightweight collaborative translation platform |
+| Smartcat | https://www.smartcat.com/ | Translation collaboration and vendor platform |
+| Phrase | https://phrase.com/ | Localization management platform (formerly Memsource) |
+| DeepL | https://www.deepl.com/ | High-quality machine translation (first drafts and cross-checks) |
 
 ---
 
@@ -749,6 +878,8 @@
 | Copyright Protection Center of China | https://www.ccopyright.com.cn/ | Software copyright registration |
 | Cyberspace Administration of China | https://www.cac.gov.cn/ | Data and personal information protection regulator |
 | Ministry of Culture and Tourism | https://www.mct.gov.cn/ | Online culture operating licenses, etc. |
+| MIIT Filing System | https://beian.miit.gov.cn/ | ICP/IP filing (required for websites and online services) |
+| Game Publishing Committee (CADPA) | https://www.cgigc.com.cn/ | Game publishing and industry self-regulation body |
 
 ### 9.2 International Platform Policies & Ratings
 
@@ -761,6 +892,8 @@
 | PEGI | https://pegi.info/ | European age ratings |
 | IARC | https://www.globalratings.com/ | International Age Rating Coalition (one-click multi-region ratings) |
 | U.S. Copyright Office | https://www.copyright.gov/ | Copyright registration (incl. guidance on AI works) |
+| CERO (Japan) | https://www.cero.gr.jp/ | Japanese games rating board |
+| USK (Germany) | https://usk.de/ | German games rating board |
 
 ---
 
@@ -779,14 +912,19 @@
 | Hitmarker | https://hitmarker.net/ | Games industry job board (international) |
 | Work With Indies | https://www.workwithindies.com/ | Indie studio job board |
 | GameJobs.co | https://gamejobs.co/ | Games job aggregator |
+| Freelancer.com | https://www.freelancer.com/ | General freelance platform (art outsourcing fallback) |
+| Behance | https://www.behance.net/ | Design portfolio community (a place to find and be found) |
+| Dribbble | https://dribbble.com/ | Design community (UI and visual work) |
 
 ---
 
 ## 11. Link Verification Report (2026-10-04)
 
 **Method**: the companion script `check_links.py` runs a dual-channel check over all links (direct → proxy fallback; HEAD → GET fallback). 2xx/3xx accepted; 403/405/429 recorded as "anti-scraping protection (browser-accessible)"; 401/451 as "login required".
-**Scale**: 521 unique links (including 63 added for the international segment of Pitfalls & Anti-patterns).
+**Scale**: 521 → 651 unique links (including 63 added for the international segment of Pitfalls & Anti-patterns; see the 2026-10-05 expansion below).
 **Result**: **398 directly reachable · 42 anti-scraping protection · 2 login required (Apple/Sony developer portals, expected) · 15 anomalies (all handled)**.
+
+**2026-10-05 expansion check**: ~130 links added (AI agents & skill resources, the new narrative & dialogue tools column, plus supplements across engines, tools, learning, communities, assets, publishing, services and compliance; 3 historical duplicate rows merged). Full dual-channel re-check (direct → proxy fallback): the large majority are directly reachable; a few are anti-scraping protection or local-network restrictions (Google / Adobe class, browser-accessible), or were removed as dead entries — details in the log.
 
 **Pitfalls & Anti-patterns supplement check (2026-10-04)**: 63 new international-segment links, all reachable (60 directly reachable · 3 anti-scraping protection, browser-accessible); no dead entries (2 candidates excluded because their sites were down).
 
