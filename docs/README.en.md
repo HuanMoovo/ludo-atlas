@@ -43,7 +43,7 @@ Start here: [Preface](preface.md) (why this project exists).
 - [Mini-Game Development](publishing/minigame/README.md)
 - [Console Development](publishing/console/README.md)
 - [VR/AR Development](publishing/xr/README.md)
-- [Esports & Competitive Design Handbook](publishing/esports/README.md)
+- [Esports & Competitive Design](publishing/esports/README.md)
 - [Multi-platform Launch Playbook](../playbooks/platform-launch/README.md) (incl. online-game specifics)
 
 ## Pipelines & Deep Dives (pipelines/)

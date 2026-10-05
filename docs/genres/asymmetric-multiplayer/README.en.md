@@ -1,7 +1,7 @@
 # Ludo Atlas · Genre Handbooks · Asymmetric Multiplayer
 
 > **Genre Handbooks · Volume 4**. Positioning: a competitive multiplayer genre that turns "the two sides play by different rules" into the core selling point. Player count, abilities, information and win conditions are unequal in at least one respect; 1v4 is the dominant structure, and balance and matchmaking are the genre's two long-term accounts.
-> Companions: Game Design Handbook (core loop and balance) · Programming Handbook (architecture and networking) · Multiplayer & Backend (matchmaking, anti-cheat and cost) · Esports & Competitive Design Handbook (balance and spectating).
+> Companions: Game Design Handbook (core loop and balance) · Programming Handbook (architecture and networking) · Multiplayer & Backend (matchmaking, anti-cheat and cost) · Esports & Competitive Design (balance and spectating).
 > This page carries no external links; benchmark entries are limited to widely known works, and figures are common magnitudes — calibrate against your own project's measured values.
 
 ---
@@ -193,7 +193,7 @@ Not during prototyping: multiple characters, matchmaking, ranked, seasons, skins
 - Game Design Handbook: core loops, numbers and validation methods — the source draft for §1 and §3.
 - Programming Handbook: architecture, networking and performance — the companion to §4.
 - Multiplayer & Backend: sync, matchmaking, anti-cheat and cost; §3.4 and §4 execute along its lines.
-- Esports & Competitive Design Handbook: balance methodology and spectator provision — the full elaboration of §3.2.
+- Esports & Competitive Design: balance methodology and spectator provision — the full elaboration of §3.2.
 - Indie Survival and Pitfalls & Anti-patterns: scope, scheduling and high-frequency pitfalls, complementing §5 and §7.
 - Genre Handbooks · Social Deduction (Volume 3): boundaries in §1.
 - Homework: pull four friends into a custom asymmetric match, play one round on each side, and afterwards have everyone answer two questions: "which decision did the winning side win on" and "would you switch sides and play again". The people who answer "no" to the second question are exactly the players your design has to convince.
