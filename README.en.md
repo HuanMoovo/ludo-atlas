@@ -59,7 +59,7 @@ The library is Chinese-first; English editions are being added section by sectio
 - [Live-Ops & Growth](docs/publishing/live-ops/README.md)
 - [Mini-Game Development](docs/publishing/minigame/README.md) (WeChat / Douyin / hardware channels)
 - [Console Development](docs/publishing/console/README.md) (ID@Xbox / PlayStation / Nintendo)
-- [VR/AR Development Handbook](docs/publishing/xr/README.md)
+- [VR/AR Development](docs/publishing/xr/README.md)
 - [Esports & Competitive Design Handbook](docs/publishing/esports/README.md)
 
 ### Pipelines & deep dives (docs/pipelines/)
