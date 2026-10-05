@@ -8,7 +8,7 @@
 
 ## 1. Positioning and Core Loop
 
-Hidden object (with spot-the-difference and interactive hidden-object as its two close relatives) is a pillar genre of casual games. Its ancestor is the seek-and-find game in picture books and magazines (the Where's Wally branch); in the PC era, Big Fish's Mystery Case Files series (from 2005) carried the industry, and the mobile era brought it to a much larger audience with Zhao Ni Mei (Zhao Ni Mei, 2012) and June's Journey (2017). If you can see, you can play — there is almost no prerequisite barrier.
+Hidden object (with spot-the-difference and interactive hidden-object as its two close relatives) is a pillar genre of casual games. Its ancestor is the seek-and-find game in picture books and magazines (the Where's Wally branch); in the PC era, Big Fish's Mystery Case Files series (from 2005) carried the industry, and the mobile era brought it to a much larger audience with Zhao Ni Mei (2012) and June's Journey (2017). If you can see, you can play — there is almost no prerequisite barrier.
 
 One-line positioning: hidden object is the genre that **makes "seeing it for yourself" the first pleasure**. The targets are laid out right there in the picture; the answer is not in logic but in eyes and attention; and the design work revolves around one thing: making "discovery" frequent, loud and cheap.
 
