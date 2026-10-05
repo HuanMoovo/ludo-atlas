@@ -69,4 +69,4 @@ Start here: [Preface](preface.md) (why this project exists).
 
 ## In Progress
 
-- Genre handbooks have reached 81 genres; the English edition is being translated, and external links are re-checked weekly by CI.
+- Genre handbooks have reached 81 genres; the English edition covers the whole library, and external links are re-checked weekly by CI.

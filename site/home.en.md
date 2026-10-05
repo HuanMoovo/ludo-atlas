@@ -23,7 +23,7 @@ hide:
 
 Ludo Atlas is a Chinese-first, open-source knowledge base for game development: it breaks "making games" into parallel tracks — from getting started and the core disciplines, to per-genre workflows, engine tracks, production pipelines, publishing and business, and pitfalls and postmortems. Every external link is verified one by one, and policy, pricing and platform-rule content carries the date it was last checked.
 
-The story and organizing principles behind the project are in the [Preface](docs/preface.md). This English edition is being translated section by section; pages not translated yet fall back to the Chinese original.
+The story and organizing principles behind the project are in the [Preface](docs/preface.md). The English edition covers the whole library; newly added pages fall back to the Chinese original until translated.
 
 ## Recommended paths
 

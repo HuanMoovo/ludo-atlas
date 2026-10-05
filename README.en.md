@@ -32,7 +32,7 @@ An open-source handbook set covering the full game development lifecycle:
 - **Every external link is verified one by one** (each verified before release, plus automated weekly re-checks in CI), with a full process for handling dead links.
 - **Structured by design**: 139 documents, each with a single job, cross-referencing instead of repeating. See [About This Repo](docs/meta/design.md) for the layout and long-term plan.
 
-The library is Chinese-first; English editions are being added section by section — this README, the site home and the Preface are the first to land.
+The library is Chinese-first; the full English edition is now available.
 
 ## Content map
 
