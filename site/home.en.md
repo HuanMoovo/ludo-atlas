@@ -28,7 +28,7 @@ The story and organizing principles behind the project are in the [Preface](docs
 ## Recommended paths
 
 - **Starting from zero**: [Resources](resources/index.md) → [Game Design Handbook](docs/fundamentals/game-design/index.md) → [Programming Handbook](docs/fundamentals/programming/index.md) → [AI Workflows](docs/ai/index.md)
-- **Building your first release**: [Production Handbook](docs/fundamentals/production/index.md) → [Pitfalls](docs/pitfalls/index.md) → [Indie Survival Playbook](playbooks/indie-survival/index.md) → [Multi-platform Launch Playbook](playbooks/platform-launch/index.md)
+- **Building your first release**: [Production Handbook](docs/fundamentals/production/index.md) → [Pitfalls](docs/pitfalls/index.md) → [Indie Survival](playbooks/indie-survival/index.md) → [Multi-platform Launch Playbook](playbooks/platform-launch/index.md)
 - **Going deeper**: [Engine Internals Path](docs/fundamentals/engine-internals/index.md) → [Renderer from Scratch](docs/fundamentals/graphics/index.md) → [Multiplayer & Backend](docs/pipelines/multiplayer-backend/index.md)
 
 ## Sections

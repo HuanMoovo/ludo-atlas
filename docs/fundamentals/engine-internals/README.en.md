@@ -1,7 +1,7 @@
 # Ludo Atlas · Engine Internals Path
 
 > How to read engine source code: methodology, three routes (Godot / Bevy / small-engine starter), a reading list, and weekly plans.
-> Companions: Programming Handbook · Open Source Picks & Book Recommendations · AI Workflows Handbook (having AI read the source code with you).
+> Companions: Programming Handbook · Open Source Picks & Book Recommendations · AI Workflows (having AI read the source code with you).
 > Who it's for: developers who have written one or two games and want to move toward engine / tools / technical art / graphics roles.
 
 ---
@@ -72,7 +72,7 @@ Goal: within 8 weeks, complete full-chain notes on "from entry point to drawing 
 - **Debugger**: conditional breakpoints, call stacks, memory inspection. When reading source, code is the documentation and the debugger is the microscope.
 - **Build first**: get the project compiling before reading code. Reading source with a broken build halves your efficiency.
 - **Notes repo**: record each stage in your own notes repo (structure diagrams, confusions, answers) — this is future interview material.
-- **The right way to use AI assistance** (see the AI Workflows Handbook): have coding agents explain code, draw flowcharts, and pose comprehension questions; but their answers must be verified against the source — models will fabricate call relationships with a straight face. Recommended game: have the AI quiz you, you answer, it grades.
+- **The right way to use AI assistance** (see the AI Workflows): have coding agents explain code, draw flowcharts, and pose comprehension questions; but their answers must be verified against the source — models will fabricate call relationships with a straight face. Recommended game: have the AI quiz you, you answer, it grades.
 - **Performance tools**: learn the profiler while reading rendering code; the two reinforce each other.
 
 ## 7. Reading List (pick one main line, don't be greedy)

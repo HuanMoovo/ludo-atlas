@@ -71,7 +71,7 @@
 
 ## 5. Testing and QA
 
-- **Playtest organization** (progressive): self-test → internal cross-testing → targeted external (5–10 target players) → public demo (Demo/Next Fest, Live-Ops & Growth Handbook).
+- **Playtest organization** (progressive): self-test → internal cross-testing → targeted external (5–10 target players) → public demo (Demo/Next Fest, Live-Ops & Growth).
 - **Minimum QA plan**: verify the feature list item by item + destructive testing (unplugging/sleep/full memory/rapid clicks) + regression list (retest old bugs) + device matrix (Multi-platform Launch Playbook/Programming Handbook).
 - **Bug severities**:
 
@@ -129,4 +129,4 @@
 | Every milestone | Tick off each acceptance criterion + postmortem + re-estimate the remaining schedule |
 | Every release | Walk the release checklist (Multi-platform Launch Playbook §10) item by item |
 
-> In one sentence: **a believable scope × a visible cadence × decisive cuts = a project that lives to be finished.** After that, hand it to the Live-Ops & Growth Handbook to turn it into a business.
+> In one sentence: **a believable scope × a visible cadence × decisive cuts = a project that lives to be finished.** After that, hand it to the Live-Ops & Growth to turn it into a business.

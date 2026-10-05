@@ -33,7 +33,7 @@
 | Preparation (1-3 months) | Finish 2-3 small projects; identify the limits of your ability and your style preferences | [Your First Game](first-game.md) | Can finish a small game independently and publish it |
 | Skill building (3-12 months) | Fill key gaps for your chosen genre (level design / balance / audio / publishing) | [Genre Handbooks](../genres/README.md) · [Art & Audio Handbook](../fundamentals/art-audio/README.md) | 1-2 complete works, including a store page and marketing materials |
 | First commercial title (1-3 years) | One-page kickoff → prototype → vertical slice → release | [Production Handbook](../fundamentals/production/README.md) · [Multi-platform Launch Playbook](../../playbooks/platform-launch/README.md) | Launched, with data collected (sales, wishlists, reviews) |
-| Long term | Postmortems, iteration, cash-flow control | [Indie Survival Playbook](../../playbooks/indie-survival/README.md) | Can keep developing a second and third title |
+| Long term | Postmortems, iteration, cash-flow control | [Indie Survival](../../playbooks/indie-survival/README.md) | Can keep developing a second and third title |
 
 Risk warning: the indie route has a high failure rate; survival strategy (savings, part-time work, scope control) matters as much as development skill.
 

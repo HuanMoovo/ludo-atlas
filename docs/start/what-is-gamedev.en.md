@@ -25,7 +25,7 @@ The details of each step are spread across the handbooks in this repository; thi
 | Art and audio production | [Art & Audio Handbook](../fundamentals/art-audio/README.md) |
 | Scheduling and scope control | [Production Handbook](../fundamentals/production/README.md) |
 | Levels | [Level Design Handbook](../fundamentals/level-design/README.md) |
-| After launch | [Live-Ops Handbook](../publishing/live-ops/README.md) |
+| After launch | [Live-Ops & Growth](../publishing/live-ops/README.md) |
 
 ## 2. Who's on the Team
 
@@ -89,7 +89,7 @@ The larger the scale, the more it depends on process and documentation; the smal
 | Wanting clarity on the industry and roles | [Roles & Skills Map](role-map.md) |
 | Ready to start making something | [Engine Selection Guide](engine-choice.md) → [Your First Game](first-game.md) |
 | Committing long term, planning years ahead | [Learning Paths](learning-path.md) |
-| A project in hand, wanting to avoid pitfalls | [Pitfalls & Anti-patterns](../pitfalls/README.md) · [Indie Survival Playbook](../../playbooks/indie-survival/README.md) |
+| A project in hand, wanting to avoid pitfalls | [Pitfalls & Anti-patterns](../pitfalls/README.md) · [Indie Survival](../../playbooks/indie-survival/README.md) |
 
 ## Further Reading
 

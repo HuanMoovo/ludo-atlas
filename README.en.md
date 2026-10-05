@@ -56,16 +56,16 @@ The library is Chinese-first; English editions are being added section by sectio
 ### Publishing & platforms (docs/publishing/)
 
 - [Multi-platform Launch Playbook (incl. online-game specifics)](playbooks/platform-launch/README.md)
-- [Live-Ops & Growth Handbook](docs/publishing/live-ops/README.md)
+- [Live-Ops & Growth](docs/publishing/live-ops/README.md)
 - [Mini-Game Development](docs/publishing/minigame/README.md) (WeChat / Douyin / hardware channels)
-- [Console Development Handbook](docs/publishing/console/README.md) (ID@Xbox / PlayStation / Nintendo)
+- [Console Development](docs/publishing/console/README.md) (ID@Xbox / PlayStation / Nintendo)
 - [VR/AR Development Handbook](docs/publishing/xr/README.md)
 - [Esports & Competitive Design Handbook](docs/publishing/esports/README.md)
 
 ### Pipelines & deep dives (docs/pipelines/)
 
-- [Modding & UGC Handbook](docs/pipelines/modding/README.md)
-- [Multiplayer & Backend Deep Dive](docs/pipelines/multiplayer-backend/README.md)
+- [Modding & UGC](docs/pipelines/modding/README.md)
+- [Multiplayer & Backend](docs/pipelines/multiplayer-backend/README.md)
 
 ### AI & case studies
 
@@ -81,14 +81,14 @@ The library is Chinese-first; English editions are being added section by sectio
 
 ### Practice & resources
 
-- [Indie Survival Playbook](playbooks/indie-survival/README.md)
+- [Indie Survival](playbooks/indie-survival/README.md)
 - [Game Development Resources](resources/README.md) (521 links)
 - [Open Source Picks & Book Recommendations](resources/books-and-repos.md) (103 GitHub projects + 60+ books)
 
 ## Three recommended reading paths
 
 - **Starting from zero**: [Resources](resources/README.md) → [Game Design Handbook](docs/fundamentals/game-design/README.md) → [Programming Handbook](docs/fundamentals/programming/README.md) → [AI Workflows](docs/ai/README.md)
-- **Building your first release**: [One-page GDD](templates/gdd-mini.md) → [Production Handbook](docs/fundamentals/production/README.md) → [Pitfalls](docs/pitfalls/README.md) → [Indie Survival Playbook](playbooks/indie-survival/README.md) → [Multi-platform Launch Playbook](playbooks/platform-launch/README.md)
+- **Building your first release**: [One-page GDD](templates/gdd-mini.md) → [Production Handbook](docs/fundamentals/production/README.md) → [Pitfalls](docs/pitfalls/README.md) → [Indie Survival](playbooks/indie-survival/README.md) → [Multi-platform Launch Playbook](playbooks/platform-launch/README.md)
 - **Going deeper**: [Engine Internals Path](docs/fundamentals/engine-internals/README.md) → [Renderer from Scratch](docs/fundamentals/graphics/README.md) → [Multiplayer & Backend](docs/pipelines/multiplayer-backend/README.md)
 
 ## Repository layout

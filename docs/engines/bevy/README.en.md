@@ -1,7 +1,7 @@
 # Ludo Atlas · Engine Tracks · Bevy (Rust)
 
 > **Engine Tracks**. Positioning: a data-driven ECS engine written in Rust; one of the best samples for learning modern architecture, with production readiness still growing.
-> Companion handbooks: Programming Handbook (architecture choices and performance methodology) · Production Handbook (scope and scheduling) · Indie Survival Playbook (long-term technical investment) · AI Workflows Handbook (review boundaries for generated code).
+> Companion handbooks: Programming Handbook (architecture choices and performance methodology) · Production Handbook (scope and scheduling) · Indie Survival (long-term technical investment) · AI Workflows (review boundaries for generated code).
 > Principle: no code and no version numbers on this page; interfaces and configuration details change fast — defer to the official documentation, migration guides and your profiler.
 
 ---
@@ -215,5 +215,5 @@ Three steep climbs: ownership and borrowing, lifetime annotations, and generics 
 - [Engine Internals Path](../../fundamentals/engine-internals/README.md): Route B is Bevy, connecting to §6.3 here.
 - [Engine Tracks Overview](../README.md): positioning comparison across the 12 tracks and this page's place among them.
 - Programming Handbook: §1 architecture choices, §2 core systems, §3 performance methodology — referenced throughout this page.
-- Indie Survival Playbook: the ledger that counts keeping up with versions and ecosystem gaps as long-term costs.
-- AI Workflows Handbook: review boundaries for generated Rust code — a passing compile is no substitute for reviewing logic; for the official resource index, see Resources and the repo's `catalog/`.
+- Indie Survival: the ledger that counts keeping up with versions and ecosystem gaps as long-term costs.
+- AI Workflows: review boundaries for generated Rust code — a passing compile is no substitute for reviewing logic; for the official resource index, see Resources and the repo's `catalog/`.

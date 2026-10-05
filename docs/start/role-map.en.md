@@ -93,7 +93,7 @@ For indie developers, "publishing" is something you do yourself: see the [Multi-
 | Data analysis | Retention, conversion, spending analysis | SQL, metric systems, experiment design |
 | Monetization | In-app purchase and event design | Psychological pricing, economy systems |
 
-See the [Live-Ops Handbook](../publishing/live-ops/README.md).
+See the [Live-Ops & Growth](../publishing/live-ops/README.md).
 
 ## 9. How to Choose, How to Practice
 
@@ -112,7 +112,7 @@ The matching ways to practice:
 | Breakdown and empathy | Design / QA | Break down three games' full loops into documents |
 | Organizing and driving | Production / publishing | Organize a game dev event or a release |
 
-A common multi-hat combo for small teams: the programming + art + design triangle; sound and testing are often outsourced. For related experience, see [Indie Developer Profiles](../meta/people/indie/README.md) and the [Indie Survival Playbook](../../playbooks/indie-survival/README.md).
+A common multi-hat combo for small teams: the programming + art + design triangle; sound and testing are often outsourced. For related experience, see [Indie Developer Profiles](../meta/people/indie/README.md) and the [Indie Survival](../../playbooks/indie-survival/README.md).
 
 ## Further Reading
 
