@@ -1,4 +1,4 @@
-# Ludo Atlas · Developers & Companies
+# Ludo Atlas · Indie Developers & Companies
 
 > Positioning: meet "the people and companies behind these games": indie developers (international and Chinese), industry legends, and company rosters (platform holders / Japanese companies / Western majors / indie publishers / legendary studios / Chinese companies), plus methods for "learning from people".
 > Selection criteria: public influence and representativeness; one line per person, with no ranking and no endorsement implied; facts follow public sources.

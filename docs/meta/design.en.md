@@ -435,6 +435,7 @@ In-depth handbooks: [Modding & UGC](../pipelines/modding/README.md), [Multiplaye
 - `publishing/`: six volumes — Live-Ops & Growth, Mini-Game Development, Console, VR/AR, Esports and Legal — plus an index, covering publishing, compliance and monetization.
 - `postmortems/`: one file per postmortem; the README maintains a filterable index (by genre / scale / success or failure). Submissions are preferred, and permission is required.
 
+
 ---
 
 ## 6. `catalog/` in Detail (Open-Source Project Catalog)
@@ -1088,7 +1089,7 @@ The seed content assembled during the design phase has been merged into the Reso
 | Production Handbook | `docs/fundamentals/production/` |
 | Live-Ops & Growth | `docs/publishing/live-ops/` |
 | Game History | `docs/meta/history/` |
-| Developers & Companies | `docs/meta/people/` |
+| Indie Developers & Companies | `docs/meta/people/` |
 | Open Source Picks & Book Recommendations | `resources/books-and-repos.md` |
 | Indie Developer Profiles | `docs/meta/people/indie/` |
 | Indie Survival | `playbooks/indie-survival/` |
