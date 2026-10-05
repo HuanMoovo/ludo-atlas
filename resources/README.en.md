@@ -321,6 +321,12 @@
 | Flowise | https://github.com/FlowiseAI/Flowise | Low-code LLM/agent orchestration |
 | Langflow | https://github.com/langflow-ai/langflow | Visually build agents and flows |
 | awesome-ai-agents | https://github.com/e2b-dev/awesome-ai-agents | The big autonomous-agent list (a selection reference) |
+| Hermes (Nous Research) | https://github.com/NousResearch/hermes-agent | Open-source AI agent (CLI/desktop; skills + MCP ecosystem; site hermes-agent.nousresearch.com) |
+| OpenClaw | https://github.com/openclaw/openclaw | Open-source personal AI assistant/agent (cross-platform; skill ecosystem via ClawHub) |
+| Goose (Block) | https://github.com/block/goose | Block's open-source, extensible local AI agent (MCP support) |
+| Letta (MemGPT) | https://github.com/letta-ai/letta | Stateful agent platform with long-term memory (formerly MemGPT) |
+| Agent Zero | https://github.com/agent0ai/agent-zero | Open-source autonomous agent framework (self-hosted, extensible) |
+| LibreChat | https://github.com/danny-avila/LibreChat | Open-source multi-model chat platform (a self-hostable ChatGPT alternative) |
 | Jan | https://github.com/janhq/jan | Open-source local-model desktop client (a ChatGPT alternative) |
 | Cherry Studio | https://github.com/CherryHQ/cherry-studio | Multi-model desktop client (popular in the Chinese community) |
 | Chatbox | https://chatboxai.app/ | Cross-platform multi-model desktop chat client |
@@ -966,7 +972,7 @@
 
 **2026-10-05 expansion check**: ~130 links added (AI agents & skill resources, the new narrative & dialogue tools column, plus supplements across engines, tools, learning, communities, assets, publishing, services and compliance; 3 historical duplicate rows merged). Full dual-channel re-check (direct → proxy fallback): the large majority are directly reachable; a few are anti-scraping protection or local-network restrictions (Google / Adobe class, browser-accessible), or were removed as dead entries — details in the log.
 
-**2026-10-05 new columns**: added "Open-Source Agents & Desktop Clients" and "Must-Have Game Dev Skill Repositories" — 31 links (29 directly reachable · 2 anti-scraping protection; none dead).
+**2026-10-05 new columns**: added "Open-Source Agents & Desktop Clients" and "Must-Have Game Dev Skill Repositories" — 37 links (35 directly reachable · 2 anti-scraping protection; none dead).
 
 **Pitfalls & Anti-patterns supplement check (2026-10-04)**: 63 new international-segment links, all reachable (60 directly reachable · 3 anti-scraping protection, browser-accessible); no dead entries (2 candidates excluded because their sites were down).
 

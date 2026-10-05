@@ -321,6 +321,12 @@
 | Flowise | https://github.com/FlowiseAI/Flowise | 低代码 LLM / Agent 编排 |
 | Langflow | https://github.com/langflow-ai/langflow | 可视化构建 Agent 与流程 |
 | awesome-ai-agents | https://github.com/e2b-dev/awesome-ai-agents | 自主 Agent 大清单（选型参考） |
+| Hermes（Nous Research） | https://github.com/NousResearch/hermes-agent | 开源 AI Agent（CLI / 桌面端；技能 + MCP 生态；官网 hermes-agent.nousresearch.com） |
+| OpenClaw | https://github.com/openclaw/openclaw | 开源个人 AI 助手 / Agent（全平台；技能生态见 ClawHub） |
+| Goose（Block） | https://github.com/block/goose | Block 开源的本地可扩展 AI Agent（支持 MCP） |
+| Letta（MemGPT） | https://github.com/letta-ai/letta | 带长期记忆的有状态 Agent 平台（原 MemGPT） |
+| Agent Zero | https://github.com/agent0ai/agent-zero | 开源自治 Agent 框架（可自建、可扩展） |
+| LibreChat | https://github.com/danny-avila/LibreChat | 开源多模型聊天平台（可自部署的 ChatGPT 替代） |
 | Jan | https://github.com/janhq/jan | 开源本地模型桌面客户端（ChatGPT 替代） |
 | Cherry Studio | https://github.com/CherryHQ/cherry-studio | 多模型桌面客户端（国内社区热门） |
 | Chatbox | https://chatboxai.app/ | 跨平台多模型桌面聊天客户端 |
@@ -966,7 +972,7 @@
 
 **2026-10-05 扩充核查**：新增约 130 条（AI 智能体与 Skill 资源、叙事与对话工具新栏目，及引擎/工具/学习/社区/素材/发行/服务/合规各线补充；另合并历史重复 3 条）。全量双通道复核（直连 → 代理回退）：绝大多数直接可达；少数为反爬保护、本地网络限制（Google / Adobe 类，浏览器可访问）或已移除失效项，明细在日志。
 
-**2026-10-05 追加栏目**：新增「开源 Agent 与桌面端客户端」「游戏开发必备 Skill 仓库」两节，共 31 条（直接可达 29 · 反爬保护 2，无失效项）。
+**2026-10-05 追加栏目**：新增「开源 Agent 与桌面端客户端」「游戏开发必备 Skill 仓库」两节，共 37 条（直接可达 35 · 反爬保护 2，无失效项）。
 
 **《避坑大全》增补核查（2026-10-04）**：新增国际线链接 63 条，全部可达（60 条直接可达 · 3 条反爬保护，浏览器可访问）；无失效条目（2 条候选因站点失效未收录）。
 
